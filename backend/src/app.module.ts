@@ -1,23 +1,34 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { ConfigModule } from '@nestjs/config';
+import { UsersModule } from './users/users.module';
+import { AuthModule } from './auth/auth.module';
+import { PatientsModule } from './patients/patients.module';
+import { SessionsModule } from './sessions/sessions.module';
+import { SessionAnalysisModule } from './session-analysis/session-analysis.module';
+import * as dotenv from 'dotenv';
+
+dotenv.config();
 
 @Module({
   imports: [
-    ConfigModule.forRoot({ isGlobal: true }),
     TypeOrmModule.forRoot({
       type: 'postgres',
       host: process.env.DB_HOST,
       port: Number(process.env.DB_PORT),
       username: process.env.DB_USER,
-      password: process.env.DB_PASS,
+      password: process.env.DB_PASSWORD,
       database: process.env.DB_NAME,
-      entities: [],
-      synchronize: false, // for now false because we are not going to use migrations
+      autoLoadEntities: true,
+      synchronize: false, 
       ssl: {
-        rejectUnauthorized: false,
+        rejectUnauthorized: false, // necesario para Render Postgres
       },
     }),
+    UsersModule,
+    AuthModule,
+    PatientsModule,
+    SessionsModule,
+    SessionAnalysisModule,
   ],
 })
 export class AppModule {}
