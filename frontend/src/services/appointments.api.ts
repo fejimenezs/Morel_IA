@@ -1,6 +1,6 @@
-import { api } from "./api";
+import api from "./axios";
 
 export const getAppointments = async () => {
-  const res = await api.get("/appointments");
-  return res.data;
+  const { data } = await api.get("/appointments");
+  return data;
 };
