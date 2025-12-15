@@ -1,39 +1,19 @@
-import axios from "axios";
-
-/* =========================
-   CONFIG
-========================= */
-
-const API = axios.create({
-  baseURL: "/api",
-});
-
-API.interceptors.request.use((config) => {
-  const token = localStorage.getItem("token");
-  if (token) {
-    config.headers.Authorization = `Bearer ${token}`;
-  }
-  return config;
-});
-
-/* =========================
-   PATIENTS API
-========================= */
+import api from "./axios";
 
 // GET /api/patients
 export const getPatients = async () => {
-  const res = await API.get("/patients");
+  const res = await api.get("/patients");
   return res.data;
 };
 
 // GET /api/patients/:id
 export const getPatientById = async (id: string) => {
-  const res = await API.get(`/patients/${id}`);
+  const res = await api.get(`/patients/${id}`);
   return res.data;
 };
 
 // POST /api/patients
 export const createPatient = async (data: any) => {
-  const res = await API.post("/patients", data);
+  const res = await api.post("/patients", data);
   return res.data;
 };
