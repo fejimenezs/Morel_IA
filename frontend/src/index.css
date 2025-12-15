@@ -1,0 +1,534 @@
+/* ===============================
+   Base global
+   =============================== */
+body {
+  margin: 0;
+  background-color: #f8fafc;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  color: #0f172a;
+}
+
+/* ===============================
+   Navbar
+   =============================== */
+.navbar {
+  background: #ffffff;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.nav-link {
+  color: #475569;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: #2563eb;
+}
+
+/* ===============================
+   Hero (Home / Headers grandes)
+   =============================== */
+.hero {
+  padding: 120px 16px 80px;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.hero-highlight {
+  background: linear-gradient(90deg, #2563eb, #38bdf8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-text {
+  max-width: 640px;
+  margin: 24px auto;
+  font-size: 1.1rem;
+  color: #475569;
+}
+
+/* ===============================
+   Section headers (Features / Plans / Security)
+   =============================== */
+.page-header {
+  padding: 100px 16px 60px;
+  text-align: center;
+}
+
+.page-header h1 {
+  font-weight: 800;
+}
+
+.page-header p {
+  color: #64748b;
+  max-width: 720px;
+  margin: 16px auto 0;
+}
+
+/* ===============================
+   Botones
+   =============================== */
+.btn-main {
+  background: #2563eb;
+  border: none;
+  color: #ffffff;
+}
+
+.btn-main:hover {
+  background: #1e40af;
+}
+
+/* ===============================
+   Badge confianza
+   =============================== */
+.badge-soft {
+  background: #eef2ff;
+  color: #3730a3;
+  border-radius: 999px;
+  padding: 10px 16px;
+  font-size: 0.9rem;
+}
+
+/* ===============================
+   Stats (Home)
+   =============================== */
+.stats {
+  padding: 40px 0 80px;
+}
+
+.stats h4 {
+  font-weight: 800;
+}
+
+.stats p {
+  color: #64748b;
+  margin: 0;
+}
+
+/* ===============================
+   Cards base (Features / Plans / Security)
+   =============================== */
+.card-soft {
+  border-radius: 16px;
+  padding: 32px;
+  background: #ffffff;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+  height: 100%;
+}
+
+/* ===============================
+   Features
+   =============================== */
+.features {
+  padding: 80px 0;
+}
+
+.feature-card {
+  border-radius: 16px;
+  padding: 32px;
+  background: #ffffff;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+  height: 100%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
+}
+
+.feature-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: #eef2ff;
+  color: #2563eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.feature-title {
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.feature-text {
+  color: #475569;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* ===============================
+   Plans
+   =============================== */
+.plan-card {
+  border-radius: 16px;
+  padding: 32px;
+  background: #ffffff;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+  text-align: center;
+  height: 100%;
+}
+
+.plan-card.popular {
+  border: 2px solid #2563eb;
+}
+
+.plan-price {
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin: 16px 0;
+}
+
+.plan-list {
+  text-align: left;
+  color: #475569;
+}
+
+/* ===============================
+   Security
+   =============================== */
+.security-card {
+  border-radius: 16px;
+  padding: 28px;
+  background: #ffffff;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+}
+
+.security-card h6 {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.security-card p {
+  color: #64748b;
+  font-size: 0.95rem;
+}
+
+/* ===============================
+   Footer
+   =============================== */
+footer {
+  background: #020617;
+}
+
+footer span {
+  font-size: 0.9rem;
+}
+
+/* ===============================
+   Login
+   =============================== */
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(
+    circle at top right,
+    #eef2ff,
+    #f8fafc 60%
+  );
+}
+
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.login-card .form-control {
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.login-link {
+  color: #2563eb;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+/* ===============================
+   Utilities
+   =============================== */
+.text-soft {
+  color: #64748b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.public-section.dark h2 {
+  color: #ffffff;
+}
+
+.public-section.dark p {
+  color: #94a3b8;
+}
+
+.public-page {
+  padding: 160px 0 80px;
+}
+
+.public-section {
+  padding: 80px 0;
+}
+
+.public-section.dark {
+  background: linear-gradient(180deg, #020617, #020617);
+  color: #fff;
+}
+
+.page-description {
+  margin-top: 16px;
+  color: #64748b;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.public-page {
+  padding: 160px 0 80px;
+}
+
+.public-section {
+  padding: 80px 0;
+}
+
+.public-section.dark {
+  background: linear-gradient(180deg, #020617, #020617);
+  color: #ffffff;
+}
+
+.page-description {
+  margin-top: 16px;
+  color: #64748b;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-outline-secondary {
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 0.85rem;
+}
+
+
+
+.sidebar-link {
+  display: block;
+  padding: 10px 14px;
+  border-radius: 10px;
+  color: #cbd5f5;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.sidebar-link:hover {
+  background: rgba(59, 130, 246, 0.15);
+  color: #ffffff;
+}
+
+.sidebar-link.active {
+  background: linear-gradient(
+    90deg,
+    rgba(59, 130, 246, 0.25),
+    rgba(14, 165, 233, 0.15)
+  );
+  color: #ffffff;
+  box-shadow: inset 3px 0 0 #38bdf8;
+}
+
+.sidebar-link.disabled {
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+
+
+
+
+
+/* =====================================================
+   GLOBAL DARK MODE
+===================================================== */
+
+body.dark {
+  background: radial-gradient(
+    ellipse at top,
+    #020617 0%,
+    #010314 60%
+  );
+  color: #e5e7eb;
+}
+
+body.dark main {
+  background: transparent !important;
+}
+
+/* =====================================================
+   HEADERS & TEXT
+===================================================== */
+
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark h5,
+body.dark h6 {
+  color: #f8fafc;
+}
+
+body.dark p,
+body.dark span,
+body.dark small {
+  color: #cbd5f5;
+}
+
+body.dark .text-muted {
+  color: #94a3b8 !important;
+}
+
+/* =====================================================
+   CARDS (DASHBOARD, PATIENTS, ETC)
+===================================================== */
+
+body.dark .feature-card,
+body.dark .card {
+  background: linear-gradient(180deg, #020617, #020617);
+  border: 1px solid #1e293b;
+  border-radius: 14px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.6);
+  color: #e5e7eb;
+}
+
+body.dark .feature-card h3 {
+  color: #f8fafc;
+}
+
+body.dark .feature-card h6 {
+  color: #94a3b8;
+}
+
+/* =====================================================
+   LISTAS (PACIENTES, SESIONES)
+===================================================== */
+
+body.dark .list-group {
+  background: transparent;
+}
+
+body.dark .list-group-item {
+  background: transparent;
+  color: #e5e7eb;
+  border-color: #1e293b;
+}
+
+body.dark .list-group-item:hover {
+  background-color: rgba(255, 255, 255, 0.04);
+}
+
+/* =====================================================
+   INPUTS & SEARCH
+===================================================== */
+
+body.dark input,
+body.dark select,
+body.dark textarea {
+  background-color: #020617;
+  color: #f8fafc;
+  border: 1px solid #1e293b;
+}
+
+body.dark input::placeholder {
+  color: #64748b;
+}
+
+/* =====================================================
+   BUTTONS
+===================================================== */
+
+body.dark .btn-primary {
+  background-color: #2563eb;
+  border-color: #2563eb;
+}
+
+body.dark .btn-outline-secondary {
+  color: #e5e7eb;
+  border-color: #334155;
+}
+
+body.dark .btn-outline-secondary:hover {
+  background-color: rgba(255,255,255,0.06);
+}
+
+/* =====================================================
+   BADGES
+===================================================== */
+
+body.dark .badge {
+  background-color: #020617;
+  border: 1px solid #1e293b;
+  color: #e5e7eb;
+}
+
+/* =====================================================
+   SETTINGS PAGE FIX
+===================================================== */
+
+body.dark .settings-card {
+  background: linear-gradient(180deg, #020617, #020617);
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+/* =====================================================
+   SCROLLBAR (BONUS)
+===================================================== */
+
+body.dark ::-webkit-scrollbar {
+  width: 8px;
+}
+
+body.dark ::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
