@@ -1,4 +1,4 @@
-import { api } from "./api";
+import api from "./axios";
 
 // Obtener sesiones de un paciente
 export const getSessionsByPatient = async (patientId: string) => {
