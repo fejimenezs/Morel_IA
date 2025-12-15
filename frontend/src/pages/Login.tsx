@@ -43,7 +43,7 @@ export default function Login() {
         {/* LOGO + HEADER */}
         <div className="text-center mb-4">
           <img
-            src="/src/assets/logo-full.png"
+            src="/logo.png"
             alt="Morel-IA"
             style={{
               width: 64,
