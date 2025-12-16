@@ -1,141 +1,156 @@
-Morel IA
+# 🧠 Morel IA: Plataforma de Gestión de Pacientes con Análisis de IA
 
-Morel IA es una aplicación de gestión de pacientes que utiliza inteligencia artificial para realizar análisis de sesiones, con un backend en NestJS y un frontend en React.
+Morel IA es una aplicación completa diseñada para la **gestión de pacientes** y el **análisis de sesiones** utilizando la **Inteligencia Artificial (IA)**. Proporciona una interfaz web para profesionales de la salud, permitiendo un manejo eficiente de la información clínica y la generación de informes detallados basados en datos de las sesiones.
 
-Descripción
+## 📝 Descripción del Proyecto
 
-Este proyecto tiene como objetivo crear una plataforma para gestionar información de pacientes, sesiones y análisis mediante una interfaz web, con la capacidad de interactuar con un backend basado en NestJS y un frontend en React. Los análisis de sesiones se realizan con inteligencia artificial, utilizando datos de pacientes para generar informes sobre su estado.
+El objetivo principal de Morel IA es ofrecer una plataforma robusta y escalable para la administración de datos de pacientes y sesiones. La característica clave es la capacidad de realizar **análisis automatizados de sesiones** mediante IA, lo que facilita a los médicos y profesionales la obtención de *insights* sobre el estado y el progreso de sus pacientes.
 
-Características
+La aplicación consta de un **backend** potente desarrollado con **NestJS** y un **frontend** moderno e intuitivo creado con **React**.
 
-Gestión de pacientes: Crear, editar, listar y eliminar pacientes.
+## ✨ Características Principales
 
-Gestión de sesiones: Crear, ver y actualizar el estado de las sesiones de los pacientes.
+* **Gestión de Pacientes:** Funcionalidades CRUD completas (Crear, Editar, Listar, Eliminar) para administrar la información de los pacientes.
+* **Gestión de Sesiones:** Registro, visualización y actualización del estado de las sesiones terapéuticas de cada paciente.
+* **Análisis IA:** Generación de informes y análisis detallados de las sesiones utilizando algoritmos de Inteligencia Artificial.
+* **Autenticación Segura:** Implementación de inicio de sesión para médicos y profesionales utilizando **JWT (JSON Web Tokens)**.
+* **Interfaz de Usuario:** Interfaz de usuario (**UI**) moderna, responsiva e intuitiva desarrollada con React y Bootstrap.
 
-Análisis IA: Generación de análisis de sesiones usando IA.
+## 🛠️ Tecnologías Utilizadas
 
-Autenticación: Inicio de sesión para médicos y profesionales con JWT.
+### Backend (NestJS)
 
-Interfaz de usuario: Interfaz intuitiva y moderna hecha con React.
+| Tecnología | Descripción |
+| :--- | :--- |
+| **NestJS** | Framework progresivo de Node.js para construir aplicaciones empresariales y escalables. |
+| **TypeORM** | ORM (Object-Relational Mapper) utilizado para gestionar la base de datos de manera eficiente. |
+| **PostgreSQL** | Sistema de gestión de bases de datos relacional robusto y de código abierto. |
+| **JWT** | Estándar para la autenticación y el intercambio seguro de información. |
 
-Tecnologías
-Backend
+### Frontend (React)
 
-NestJS: Framework para Node.js que ayuda a construir aplicaciones escalables y mantenibles.
+| Tecnología | Descripción |
+| :--- | :--- |
+| **React** | Librería de JavaScript para la construcción de interfaces de usuario. |
+| **Axios** | Cliente HTTP basado en promesas para realizar peticiones al backend. |
+| **Bootstrap** | Framework CSS para un diseño *responsive* rápido y estandarizado. |
+| **Vite** | Herramienta de construcción moderna y rápida para proyectos de React. |
 
-TypeORM: ORM para TypeScript y JavaScript, utilizado para gestionar la base de datos.
+## ⚙️ Requisitos
 
-PostgreSQL: Sistema de gestión de bases de datos relacional.
+Asegúrate de tener instalados los siguientes requisitos en tu entorno de desarrollo:
 
-JWT: Autenticación mediante tokens.
+### Backend y Frontend
+* **Node.js** (versión v16 o superior)
 
-Frontend
+### Backend
+* **PostgreSQL** (Servidor de base de datos en ejecución)
 
-React: Librería para construir interfaces de usuario.
+### Frontend
+* **Vite**
 
-Axios: Librería para hacer peticiones HTTP desde el frontend.
+## 🚀 Instalación y Configuración
 
-Bootstrap: Framework CSS para diseño responsivo.
+Sigue estos pasos para poner en marcha el proyecto:
 
-Vite: Herramienta de construcción para React.
+### 1. Clonar el Repositorio
 
-Requisitos
-Backend
+```bash
+git clone [https://github.com/fejimenezs/Morel_IA.git](https://github.com/fejimenezs/Morel_IA.git)
+2. Configuración del Backend
+Bash
 
-Node.js (v16 o superior)
-
-PostgreSQL
-
-Frontend
-
-Node.js (v16 o superior)
-
-Vite
-
-Instalación
-Backend
-
-Clona el repositorio:
-
-git clone https://github.com/fejimenezs/Morel_IA.git
-cd backend
-
-Instala las dependencias:
-
+cd Morel_IA/backend
 npm install
+⚠️ Configuración de la Base de Datos
 
-Configura la base de datos en src/config/database.config.ts con los datos correctos de tu base de datos de PostgreSQL.
+Configura las credenciales de tu base de datos PostgreSQL en el archivo src/config/database.config.ts.
 
-Ejecuta las migraciones (si es necesario):
+Asegúrate de que tu servidor PostgreSQL esté corriendo.
 
+Bash
+
+# Opcional: Ejecutar migraciones (si tienes definidas)
 npm run build
 
-Inicia el servidor:
-
+# Iniciar el servidor en modo producción (o usa 'npm run start:dev' para desarrollo)
 npm run start:prod
+El backend se ejecutará por defecto en http://localhost:3000.
 
-Frontend
+3. Configuración del Frontend
+Bash
 
-Clona el repositorio:
-
-git clone https://github.com/fejimenezs/Morel_IA.git
-cd frontend
-
-Instala las dependencias:
-
+cd ../frontend
 npm install
+⚠️ Configuración de la API
 
-Configura la URL base de la API en el archivo src/api.ts o src/axios.ts dependiendo de tu configuración:
+Configura la URL base de tu backend en el archivo de configuración de la API (generalmente src/api.ts o src/axios.ts):
+
+JavaScript
 
 const api = axios.create({
-  baseURL: "http://localhost:3000/api", // Cambia a la URL de tu backend en producción
+  baseURL: "http://localhost:3000/api", // Ajusta si tu backend se ejecuta en otro puerto o dominio
 });
+Bash
 
-Inicia el servidor de desarrollo:
-
+# Iniciar el servidor de desarrollo del frontend
 npm run dev
-
 Abre la aplicación en tu navegador en http://localhost:5173.
 
-Uso
+💻 Uso de la Aplicación
+Autenticación: Accede a la plataforma utilizando tus credenciales de médico/profesional.
 
-Autenticación: Inicia sesión con las credenciales proporcionadas para acceder a la plataforma.
+Gestión de Pacientes: Utiliza la interfaz para añadir nuevos pacientes, editar su historial o visualizar su información.
 
-Gestión de pacientes: Añade, edita y visualiza la información de los pacientes.
+Sesiones: Registra cada sesión realizada y actualiza su estado.
 
-Sesiones de pacientes: Registra y actualiza las sesiones realizadas con los pacientes.
+Análisis IA: Accede a la funcionalidad de análisis de sesión para generar informes potenciados por inteligencia artificial.
 
-Análisis IA: Genera análisis de sesiones utilizando la inteligencia artificial.
+☁️ Despliegue en Producción
+Backend (NestJS)
+Se recomienda utilizar plataformas PaaS (Platform as a Service) que soporten Node.js y bases de datos PostgreSQL, tales como:
 
-Despliegue en Producción
+Render
 
-Backend: Utiliza un servicio de hosting como Render o Heroku para desplegar el backend de NestJS.
+Heroku
 
-Frontend: Puedes desplegar el frontend utilizando servicios como Vercel, Netlify, o en la misma plataforma que el backend.
+AWS Elastic Beanstalk
 
-Estructura de Directorios
-/backend
-  /src
-    /appointments
-    /auth
-    /patients
-    /sessions
-    /session-analysis
-    /users
-    /config
-    main.ts
-  package.json
-  tsconfig.json
-/frontend
-  /public
-  /src
-    /assets
-    /components
-    /pages
-    /services
-    /App.tsx
-    index.tsx
-  package.json
-  vite.config.ts
+Frontend (React)
+El frontend estático puede ser desplegado fácilmente en servicios como:
 
-Contribuciones
+Vercel
+
+Netlify
+
+GitHub Pages
+
+En el mismo servidor que el backend, si se configura correctamente (ej. sirviendo los archivos estáticos desde NestJS).
+
+📂 Estructura de Directorios
+Una visión general de la organización del proyecto:
+
+Morel_IA/
+├── backend/
+│   ├── src/
+│   │   ├── appointments/        # Lógica para citas/turnos
+│   │   ├── auth/                 # Lógica de autenticación (JWT)
+│   │   ├── patients/             # Módulo de gestión de pacientes
+│   │   ├── sessions/             # Módulo de gestión de sesiones
+│   │   ├── session-analysis/     # Módulo para el análisis con IA
+│   │   ├── users/                # Módulo de usuarios (médicos/profesionales)
+│   │   ├── config/               # Archivos de configuración (DB, JWT, etc.)
+│   │   └── main.ts               # Punto de entrada de la aplicación NestJS
+│   ├── package.json
+│   └── tsconfig.json
+└── frontend/
+    ├── public/
+    ├── src/
+    │   ├── assets/               # Imágenes, íconos, etc.
+    │   ├── components/           # Componentes reutilizables de React
+    │   ├── pages/                # Vistas principales de la aplicación
+    │   ├── services/             # Funciones para llamadas a la API (Axios)
+    │   ├── App.tsx               # Componente principal de la aplicación
+    │   └── index.tsx             # Punto de entrada de React
+    ├── package.json
+    └── vite.config.ts
