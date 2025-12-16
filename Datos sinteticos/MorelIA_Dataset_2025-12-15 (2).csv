@@ -1,0 +1,4 @@
+﻿ID_Paciente,Nombre_Paciente,Edad,Ocupacion,Estado_Paciente,ID_Sesion,Fecha_Sesion,Foco_Clinico,Puntaje_Sentimiento,Etiqueta_Sentimiento,Emociones_Detectadas,Cantidad_Riesgos,Detalle_Riesgos,Resumen_Sesion
+"1","Ana García","32","Diseñadora Gráfica","Active","s1","2023-10-15","Stress Management","40","Anxious","Stress | Overwhelm","1","Burnout","Patient reports high stress due to deadlines."
+"1","Ana García","32","Diseñadora Gráfica","Active","s2","2023-10-25","Stress Management","60","Neutral","Relief | Tired","0","","Patient feels slightly better after setting boundaries."
+"2","Carlos Mendoza","45","Gerente de Ventas","Active","s3","2023-10-28","Executive Coaching","55","Anxious","Doubt | Ambition","0","","Discussion about leadership challenges and imposter syndrome."

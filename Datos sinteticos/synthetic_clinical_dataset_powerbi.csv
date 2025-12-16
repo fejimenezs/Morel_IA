@@ -1,0 +1,1001 @@
+Patient_ID,Patient_Name,Age,Occupation,Patient_Status,Session_ID,Session_Date,Clinical_Focus,Sentiment_Score,Sentiment_Label,Detected_Emotions,Risk_Count,Risk_Detail,Session_Summary
+32,Pedro Castillo,63,Graphic Designer,Active,S1,2023-03-24,Burnout Prevention,41,Anxious,Anxiety,1,Chronic Anxiety,Signs of fatigue with positive engagement.
+69,Laura Perez,33,Psychologist,Active,S2,2023-11-02,Executive Coaching,37,Anxious,Overwhelm | Stress,1,Chronic Anxiety,Signs of fatigue with positive engagement.
+72,Pedro Castillo,51,Psychologist,Active,S3,2023-05-30,Leadership Development,87,Positive,Overwhelm,1,,Discussion about leadership challenges.
+240,Sofia Ramirez,31,Engineer,Active,S4,2023-12-11,Burnout Prevention,75,Positive,Fatigue,2,,Discussion about leadership challenges.
+138,Carlos Mendoza,42,Engineer,Active,S5,2023-06-03,Emotional Regulation,45,Neutral,Fatigue | Doubt,1,,Session focused on emotional regulation strategies.
+234,Sofia Ramirez,39,Entrepreneur,Active,S6,2023-02-20,Executive Coaching,38,Anxious,Stress | Overwhelm,1,Chronic Anxiety,Signs of fatigue with positive engagement.
+58,Laura Perez,60,Sales Manager,Active,S7,2023-02-10,Executive Coaching,65,Neutral,Fatigue | Anxiety,1,,Signs of fatigue with positive engagement.
+102,Carlos Mendoza,52,Entrepreneur,Active,S8,2023-06-16,Leadership Development,38,Anxious,Stress,2,Burnout,Discussion about leadership challenges.
+26,Carlos Mendoza,28,Sales Manager,Active,S9,2023-07-04,Emotional Regulation,81,Positive,Overwhelm | Stress,2,Burnout,Session focused on emotional regulation strategies.
+33,Juan Rodriguez,31,Teacher,Active,S10,2023-03-24,Leadership Development,66,Neutral,Ambition,2,Burnout,Session focused on emotional regulation strategies.
+117,Andres Torres,47,Teacher,Active,S11,2023-07-26,Leadership Development,39,Anxious,Overwhelm | Stress,0,,Discussion about leadership challenges.
+160,Maria Lopez,60,Data Analyst,Active,S12,2023-12-26,Executive Coaching,24,Anxious,Ambition,1,Chronic Anxiety,Signs of fatigue with positive engagement.
+19,Sofia Ramirez,44,Graphic Designer,Active,S13,2023-01-05,Leadership Development,22,Anxious,Overwhelm,1,Burnout,Signs of fatigue with positive engagement.
+59,Carlos Mendoza,47,Graphic Designer,Active,S14,2023-05-31,Burnout Prevention,37,Anxious,Overwhelm,1,,Patient shows improvement after behavioral changes.
+216,Juan Rodriguez,50,Teacher,Active,S15,2023-10-09,Stress Management,58,Neutral,Motivation,1,Burnout,Discussion about leadership challenges.
+68,Pedro Castillo,23,Sales Manager,Active,S16,2023-09-01,Stress Management,26,Anxious,Stress | Motivation,2,Mild Depression,Discussion about leadership challenges.
+75,Laura Perez,65,Entrepreneur,Active,S17,2023-08-31,Executive Coaching,59,Neutral,Relief | Fatigue,2,,Patient reports high stress due to workload.
+49,Sofia Ramirez,34,Entrepreneur,Active,S18,2023-12-30,Burnout Prevention,79,Positive,Relief,1,,Session focused on emotional regulation strategies.
+20,Andres Torres,61,Sales Manager,Active,S19,2023-04-06,Executive Coaching,25,Anxious,Ambition,1,,Patient shows improvement after behavioral changes.
+81,Maria Lopez,49,Graphic Designer,Active,S20,2023-10-22,Emotional Regulation,45,Neutral,Stress,0,,Session focused on emotional regulation strategies.
+245,Carlos Mendoza,37,Sales Manager,Active,S21,2023-10-05,Leadership Development,54,Neutral,Motivation,1,Mild Depression,Discussion about leadership challenges.
+74,Ana Garcia,22,Engineer,Active,S22,2023-11-07,Emotional Regulation,46,Neutral,Relief | Anxiety,1,Chronic Anxiety,Session focused on emotional regulation strategies.
+90,Pedro Castillo,53,Teacher,Active,S23,2023-05-08,Stress Management,32,Anxious,Doubt,0,,Discussion about leadership challenges.
+66,Juan Rodriguez,37,Engineer,Active,S24,2023-12-13,Leadership Development,88,Positive,Ambition,0,,Discussion about leadership challenges.
+211,Laura Perez,55,Entrepreneur,Active,S25,2023-01-13,Emotional Regulation,40,Anxious,Stress,2,Mild Depression,Session focused on emotional regulation strategies.
+250,Ana Garcia,59,Sales Manager,Active,S26,2023-11-23,Emotional Regulation,32,Anxious,Stress,2,Mild Depression,Discussion about leadership challenges.
+43,Carlos Mendoza,38,Graphic Designer,Active,S27,2023-09-08,Burnout Prevention,90,Positive,Doubt,2,Burnout,Discussion about leadership challenges.
+109,Laura Perez,37,Psychologist,Active,S28,2023-06-17,Stress Management,44,Anxious,Stress,1,,Patient reports high stress due to workload.
+249,Andres Torres,34,Sales Manager,Active,S29,2023-06-07,Emotional Regulation,90,Positive,Fatigue,0,,Patient reports high stress due to workload.
+61,Laura Perez,31,Graphic Designer,Active,S30,2023-04-14,Leadership Development,80,Positive,Stress,0,,Patient reports high stress due to workload.
+135,Pedro Castillo,50,Sales Manager,Active,S31,2023-10-30,Executive Coaching,43,Anxious,Fatigue | Stress,2,Mild Depression,Patient shows improvement after behavioral changes.
+129,Sofia Ramirez,43,Engineer,Active,S32,2023-10-26,Emotional Regulation,47,Neutral,Doubt,1,Mild Depression,Signs of fatigue with positive engagement.
+46,Laura Perez,22,Engineer,Active,S33,2023-03-17,Stress Management,78,Positive,Stress | Anxiety,0,,Discussion about leadership challenges.
+110,Ana Garcia,55,Teacher,Active,S34,2023-09-29,Emotional Regulation,28,Anxious,Overwhelm,2,Burnout,Discussion about leadership challenges.
+55,Carlos Mendoza,47,Data Analyst,Active,S35,2023-12-29,Stress Management,82,Positive,Fatigue,2,Chronic Anxiety,Session focused on emotional regulation strategies.
+71,Carlos Mendoza,29,Entrepreneur,Active,S36,2023-03-08,Executive Coaching,73,Positive,Ambition,1,Chronic Anxiety,Patient shows improvement after behavioral changes.
+74,Juan Rodriguez,42,Sales Manager,Active,S37,2023-08-30,Executive Coaching,44,Anxious,Fatigue | Overwhelm,2,Mild Depression,Session focused on emotional regulation strategies.
+121,Andres Torres,34,Sales Manager,Active,S38,2023-02-23,Burnout Prevention,82,Positive,Anxiety,0,,Signs of fatigue with positive engagement.
+44,Laura Perez,38,Entrepreneur,Active,S39,2023-02-07,Burnout Prevention,71,Positive,Motivation | Relief,0,,Signs of fatigue with positive engagement.
+27,Carlos Mendoza,60,Engineer,Active,S40,2023-07-28,Leadership Development,24,Anxious,Anxiety | Ambition,1,Burnout,Patient shows improvement after behavioral changes.
+181,Sofia Ramirez,46,Psychologist,Active,S41,2023-05-24,Leadership Development,59,Neutral,Overwhelm | Motivation,2,Chronic Anxiety,Signs of fatigue with positive engagement.
+24,Andres Torres,38,Teacher,Active,S42,2023-11-06,Stress Management,42,Anxious,Overwhelm | Stress,0,,Session focused on emotional regulation strategies.
+247,Laura Perez,64,Sales Manager,Active,S43,2023-02-07,Executive Coaching,64,Neutral,Ambition | Fatigue,0,,Patient shows improvement after behavioral changes.
+123,Juan Rodriguez,44,Psychologist,Active,S44,2023-10-09,Executive Coaching,46,Neutral,Anxiety | Doubt,0,,Patient reports high stress due to workload.
+182,Juan Rodriguez,35,Graphic Designer,Active,S45,2023-03-22,Executive Coaching,67,Neutral,Ambition,2,,Patient shows improvement after behavioral changes.
+73,Ana Garcia,30,Graphic Designer,Active,S46,2023-03-19,Burnout Prevention,25,Anxious,Fatigue,0,,Patient reports high stress due to workload.
+137,Sofia Ramirez,59,Engineer,Active,S47,2023-11-26,Stress Management,47,Neutral,Motivation,0,,Signs of fatigue with positive engagement.
+94,Juan Rodriguez,48,Engineer,Active,S48,2023-01-06,Executive Coaching,70,Positive,Overwhelm | Motivation,1,Burnout,Patient shows improvement after behavioral changes.
+127,Ana Garcia,47,Engineer,Active,S49,2023-10-02,Burnout Prevention,80,Positive,Motivation,1,Chronic Anxiety,Signs of fatigue with positive engagement.
+195,Ana Garcia,64,Teacher,Active,S50,2023-12-22,Stress Management,86,Positive,Relief | Ambition,0,,Session focused on emotional regulation strategies.
+141,Sofia Ramirez,33,Teacher,Active,S51,2023-04-30,Executive Coaching,74,Positive,Doubt,2,Mild Depression,Patient shows improvement after behavioral changes.
+150,Andres Torres,42,Teacher,Active,S52,2023-06-05,Emotional Regulation,32,Anxious,Ambition | Relief,1,Mild Depression,Patient reports high stress due to workload.
+144,Sofia Ramirez,62,Teacher,Active,S53,2023-10-04,Leadership Development,37,Anxious,Stress | Doubt,1,Mild Depression,Session focused on emotional regulation strategies.
+88,Laura Perez,62,Teacher,Active,S54,2023-05-13,Emotional Regulation,24,Anxious,Motivation,1,Burnout,Signs of fatigue with positive engagement.
+185,Carlos Mendoza,34,Sales Manager,Active,S55,2023-03-10,Burnout Prevention,90,Positive,Stress,1,,Patient shows improvement after behavioral changes.
+197,Pedro Castillo,44,Entrepreneur,Active,S56,2023-04-25,Emotional Regulation,85,Positive,Fatigue,1,Chronic Anxiety,Patient shows improvement after behavioral changes.
+173,Ana Garcia,23,Sales Manager,Active,S57,2023-08-16,Executive Coaching,64,Neutral,Anxiety,2,Burnout,Session focused on emotional regulation strategies.
+37,Carlos Mendoza,63,Engineer,Active,S58,2023-04-23,Leadership Development,50,Neutral,Overwhelm,1,,Patient shows improvement after behavioral changes.
+104,Andres Torres,37,Psychologist,Active,S59,2023-03-09,Burnout Prevention,39,Anxious,Overwhelm,0,,Patient reports high stress due to workload.
+114,Maria Lopez,23,Graphic Designer,Active,S60,2023-03-19,Leadership Development,64,Neutral,Stress | Anxiety,0,,Patient shows improvement after behavioral changes.
+180,Ana Garcia,41,Entrepreneur,Active,S61,2023-12-18,Emotional Regulation,89,Positive,Doubt,1,Burnout,Signs of fatigue with positive engagement.
+108,Ana Garcia,58,Entrepreneur,Active,S62,2023-09-23,Leadership Development,23,Anxious,Motivation,1,Mild Depression,Signs of fatigue with positive engagement.
+55,Andres Torres,35,Sales Manager,Active,S63,2023-06-28,Executive Coaching,90,Positive,Fatigue | Ambition,0,,Patient shows improvement after behavioral changes.
+46,Juan Rodriguez,34,Engineer,Active,S64,2023-04-18,Leadership Development,47,Neutral,Ambition | Motivation,2,Chronic Anxiety,Patient reports high stress due to workload.
+190,Sofia Ramirez,33,Engineer,Active,S65,2023-08-29,Executive Coaching,64,Neutral,Stress,2,,Discussion about leadership challenges.
+108,Sofia Ramirez,36,Data Analyst,Active,S66,2023-04-04,Burnout Prevention,72,Positive,Motivation,0,,Patient shows improvement after behavioral changes.
+3,Carlos Mendoza,28,Engineer,Active,S67,2023-02-12,Burnout Prevention,57,Neutral,Overwhelm | Motivation,1,Mild Depression,Signs of fatigue with positive engagement.
+113,Juan Rodriguez,48,Entrepreneur,Active,S68,2023-12-08,Executive Coaching,46,Neutral,Motivation,1,Mild Depression,Session focused on emotional regulation strategies.
+182,Pedro Castillo,56,Entrepreneur,Active,S69,2023-12-25,Emotional Regulation,51,Neutral,Ambition,0,,Signs of fatigue with positive engagement.
+164,Andres Torres,58,Graphic Designer,Active,S70,2023-10-18,Emotional Regulation,24,Anxious,Ambition,1,Burnout,Session focused on emotional regulation strategies.
+221,Laura Perez,60,Engineer,Active,S71,2023-02-09,Emotional Regulation,20,Anxious,Overwhelm,1,,Patient shows improvement after behavioral changes.
+85,Andres Torres,53,Data Analyst,Active,S72,2023-03-27,Leadership Development,77,Positive,Overwhelm,1,Burnout,Patient shows improvement after behavioral changes.
+101,Sofia Ramirez,29,Teacher,Active,S73,2023-02-09,Stress Management,48,Neutral,Fatigue | Overwhelm,1,Burnout,Patient shows improvement after behavioral changes.
+206,Carlos Mendoza,42,Psychologist,Active,S74,2023-09-06,Executive Coaching,39,Anxious,Stress,2,,Discussion about leadership challenges.
+242,Juan Rodriguez,65,Sales Manager,Active,S75,2023-05-08,Emotional Regulation,57,Neutral,Motivation,1,,Session focused on emotional regulation strategies.
+160,Sofia Ramirez,30,Data Analyst,Active,S76,2023-05-28,Burnout Prevention,33,Anxious,Anxiety | Overwhelm,2,Mild Depression,Patient reports high stress due to workload.
+93,Maria Lopez,54,Graphic Designer,Active,S77,2023-09-03,Stress Management,66,Neutral,Anxiety,0,,Discussion about leadership challenges.
+135,Laura Perez,39,Teacher,Active,S78,2023-09-06,Leadership Development,75,Positive,Overwhelm,1,Mild Depression,Signs of fatigue with positive engagement.
+6,Pedro Castillo,37,Data Analyst,Active,S79,2023-06-09,Emotional Regulation,88,Positive,Ambition,1,Mild Depression,Signs of fatigue with positive engagement.
+70,Carlos Mendoza,29,Data Analyst,Active,S80,2023-03-22,Emotional Regulation,90,Positive,Anxiety | Relief,1,,Session focused on emotional regulation strategies.
+31,Ana Garcia,31,Engineer,Active,S81,2023-12-07,Emotional Regulation,35,Anxious,Stress,1,Burnout,Patient reports high stress due to workload.
+47,Sofia Ramirez,56,Entrepreneur,Active,S82,2023-06-24,Emotional Regulation,51,Neutral,Relief,1,,Session focused on emotional regulation strategies.
+201,Sofia Ramirez,36,Graphic Designer,Active,S83,2023-08-17,Stress Management,48,Neutral,Ambition | Doubt,1,Burnout,Session focused on emotional regulation strategies.
+131,Maria Lopez,64,Teacher,Active,S84,2023-06-26,Leadership Development,56,Neutral,Doubt,1,,Patient reports high stress due to workload.
+224,Juan Rodriguez,33,Sales Manager,Active,S85,2023-12-14,Emotional Regulation,52,Neutral,Ambition | Anxiety,2,Burnout,Discussion about leadership challenges.
+12,Ana Garcia,27,Data Analyst,Active,S86,2023-03-01,Executive Coaching,74,Positive,Motivation,2,Chronic Anxiety,Patient reports high stress due to workload.
+100,Juan Rodriguez,42,Teacher,Active,S87,2023-10-21,Burnout Prevention,30,Anxious,Ambition,1,Mild Depression,Patient shows improvement after behavioral changes.
+185,Juan Rodriguez,22,Graphic Designer,Active,S88,2023-08-10,Stress Management,59,Neutral,Stress,2,,Signs of fatigue with positive engagement.
+163,Pedro Castillo,42,Graphic Designer,Active,S89,2023-09-03,Leadership Development,68,Neutral,Overwhelm,2,Chronic Anxiety,Signs of fatigue with positive engagement.
+241,Maria Lopez,44,Psychologist,Active,S90,2023-04-11,Leadership Development,49,Neutral,Overwhelm,1,Chronic Anxiety,Session focused on emotional regulation strategies.
+102,Maria Lopez,25,Sales Manager,Active,S91,2023-05-10,Stress Management,32,Anxious,Motivation | Stress,0,,Session focused on emotional regulation strategies.
+64,Carlos Mendoza,45,Teacher,Active,S92,2023-06-09,Stress Management,58,Neutral,Fatigue,0,,Discussion about leadership challenges.
+126,Andres Torres,35,Entrepreneur,Active,S93,2023-12-12,Leadership Development,56,Neutral,Overwhelm,0,,Patient reports high stress due to workload.
+210,Andres Torres,61,Graphic Designer,Active,S94,2023-01-27,Leadership Development,66,Neutral,Fatigue,0,,Signs of fatigue with positive engagement.
+38,Ana Garcia,53,Psychologist,Active,S95,2023-12-11,Stress Management,34,Anxious,Relief | Motivation,1,Chronic Anxiety,Patient reports high stress due to workload.
+182,Ana Garcia,23,Teacher,Active,S96,2023-05-13,Leadership Development,62,Neutral,Overwhelm,2,Mild Depression,Session focused on emotional regulation strategies.
+205,Ana Garcia,29,Psychologist,Active,S97,2023-05-05,Burnout Prevention,48,Neutral,Ambition,1,Chronic Anxiety,Session focused on emotional regulation strategies.
+175,Laura Perez,35,Graphic Designer,Active,S98,2023-03-02,Executive Coaching,48,Neutral,Stress,2,,Session focused on emotional regulation strategies.
+157,Sofia Ramirez,57,Entrepreneur,Active,S99,2023-02-13,Stress Management,21,Anxious,Overwhelm,2,,Patient reports high stress due to workload.
+144,Maria Lopez,48,Engineer,Active,S100,2023-12-08,Executive Coaching,56,Neutral,Overwhelm | Stress,0,,Patient reports high stress due to workload.
+142,Sofia Ramirez,62,Graphic Designer,Active,S101,2023-01-08,Executive Coaching,76,Positive,Motivation,1,Mild Depression,Session focused on emotional regulation strategies.
+145,Carlos Mendoza,45,Engineer,Active,S102,2023-06-27,Leadership Development,41,Anxious,Stress | Doubt,2,Mild Depression,Patient shows improvement after behavioral changes.
+9,Andres Torres,25,Teacher,Active,S103,2023-03-30,Burnout Prevention,46,Neutral,Overwhelm | Doubt,1,Chronic Anxiety,Patient reports high stress due to workload.
+234,Pedro Castillo,47,Graphic Designer,Active,S104,2023-01-05,Emotional Regulation,60,Neutral,Stress | Motivation,2,,Patient shows improvement after behavioral changes.
+201,Juan Rodriguez,27,Engineer,Active,S105,2023-08-12,Emotional Regulation,22,Anxious,Doubt,2,Chronic Anxiety,Discussion about leadership challenges.
+68,Andres Torres,40,Engineer,Active,S106,2023-09-23,Emotional Regulation,32,Anxious,Overwhelm | Ambition,0,,Patient reports high stress due to workload.
+160,Maria Lopez,56,Graphic Designer,Active,S107,2023-08-03,Stress Management,31,Anxious,Ambition | Overwhelm,1,Mild Depression,Patient shows improvement after behavioral changes.
+157,Ana Garcia,42,Engineer,Active,S108,2023-04-22,Stress Management,28,Anxious,Motivation,0,,Patient reports high stress due to workload.
+14,Juan Rodriguez,63,Data Analyst,Active,S109,2023-06-29,Burnout Prevention,87,Positive,Ambition | Doubt,1,,Discussion about leadership challenges.
+146,Ana Garcia,63,Data Analyst,Active,S110,2023-06-22,Burnout Prevention,67,Neutral,Ambition,1,,Signs of fatigue with positive engagement.
+149,Pedro Castillo,39,Teacher,Active,S111,2023-10-18,Burnout Prevention,40,Anxious,Anxiety | Overwhelm,1,,Patient reports high stress due to workload.
+97,Laura Perez,29,Teacher,Active,S112,2023-04-10,Executive Coaching,63,Neutral,Anxiety,2,Chronic Anxiety,Discussion about leadership challenges.
+205,Maria Lopez,25,Psychologist,Active,S113,2023-08-03,Executive Coaching,81,Positive,Stress,2,Burnout,Patient shows improvement after behavioral changes.
+110,Juan Rodriguez,43,Teacher,Active,S114,2023-03-19,Leadership Development,59,Neutral,Motivation | Overwhelm,2,,Session focused on emotional regulation strategies.
+146,Pedro Castillo,56,Engineer,Active,S115,2023-04-11,Executive Coaching,70,Positive,Motivation | Stress,0,,Session focused on emotional regulation strategies.
+207,Ana Garcia,62,Sales Manager,Active,S116,2023-03-29,Burnout Prevention,89,Positive,Relief | Fatigue,0,,Discussion about leadership challenges.
+211,Juan Rodriguez,49,Psychologist,Active,S117,2023-02-13,Stress Management,76,Positive,Fatigue | Relief,2,,Patient shows improvement after behavioral changes.
+246,Carlos Mendoza,56,Graphic Designer,Active,S118,2023-11-14,Burnout Prevention,82,Positive,Stress | Motivation,2,Chronic Anxiety,Session focused on emotional regulation strategies.
+110,Ana Garcia,44,Graphic Designer,Active,S119,2023-02-17,Leadership Development,53,Neutral,Relief | Fatigue,1,Chronic Anxiety,Patient reports high stress due to workload.
+219,Andres Torres,41,Entrepreneur,Active,S120,2023-01-17,Leadership Development,78,Positive,Motivation,1,Mild Depression,Patient reports high stress due to workload.
+144,Carlos Mendoza,51,Entrepreneur,Active,S121,2023-12-20,Burnout Prevention,47,Neutral,Fatigue,0,,Patient reports high stress due to workload.
+173,Maria Lopez,53,Entrepreneur,Active,S122,2023-09-20,Leadership Development,59,Neutral,Overwhelm,0,,Patient shows improvement after behavioral changes.
+172,Carlos Mendoza,36,Teacher,Active,S123,2023-04-21,Emotional Regulation,45,Neutral,Motivation | Relief,2,Chronic Anxiety,Session focused on emotional regulation strategies.
+202,Juan Rodriguez,25,Engineer,Active,S124,2023-06-26,Stress Management,57,Neutral,Motivation | Anxiety,0,,Patient reports high stress due to workload.
+119,Juan Rodriguez,35,Psychologist,Active,S125,2023-02-12,Executive Coaching,30,Anxious,Overwhelm,0,,Signs of fatigue with positive engagement.
+3,Juan Rodriguez,50,Data Analyst,Active,S126,2023-08-11,Leadership Development,68,Neutral,Fatigue,0,,Session focused on emotional regulation strategies.
+82,Ana Garcia,51,Teacher,Active,S127,2023-09-24,Executive Coaching,90,Positive,Fatigue,2,Burnout,Patient reports high stress due to workload.
+228,Juan Rodriguez,56,Graphic Designer,Active,S128,2023-07-31,Leadership Development,28,Anxious,Stress,1,,Discussion about leadership challenges.
+183,Juan Rodriguez,44,Engineer,Active,S129,2023-01-21,Executive Coaching,81,Positive,Relief,2,,Signs of fatigue with positive engagement.
+50,Andres Torres,32,Psychologist,Active,S130,2023-08-11,Executive Coaching,41,Anxious,Anxiety,1,Chronic Anxiety,Patient reports high stress due to workload.
+210,Sofia Ramirez,45,Graphic Designer,Active,S131,2023-03-16,Leadership Development,62,Neutral,Ambition | Fatigue,0,,Session focused on emotional regulation strategies.
+166,Pedro Castillo,28,Sales Manager,Active,S132,2023-08-05,Executive Coaching,36,Anxious,Fatigue | Relief,0,,Discussion about leadership challenges.
+147,Pedro Castillo,47,Teacher,Active,S133,2023-10-06,Burnout Prevention,81,Positive,Relief,1,Burnout,Patient reports high stress due to workload.
+221,Maria Lopez,55,Sales Manager,Active,S134,2023-04-24,Emotional Regulation,69,Neutral,Ambition,1,,Patient reports high stress due to workload.
+194,Maria Lopez,53,Entrepreneur,Active,S135,2023-05-31,Leadership Development,60,Neutral,Motivation | Stress,2,Burnout,Patient reports high stress due to workload.
+91,Ana Garcia,52,Graphic Designer,Active,S136,2023-06-22,Burnout Prevention,33,Anxious,Fatigue | Doubt,2,Mild Depression,Session focused on emotional regulation strategies.
+120,Juan Rodriguez,51,Entrepreneur,Active,S137,2023-07-06,Stress Management,26,Anxious,Overwhelm | Ambition,0,,Session focused on emotional regulation strategies.
+61,Ana Garcia,49,Data Analyst,Active,S138,2023-10-15,Emotional Regulation,57,Neutral,Ambition | Stress,2,Mild Depression,Patient shows improvement after behavioral changes.
+225,Juan Rodriguez,23,Engineer,Active,S139,2023-12-16,Emotional Regulation,20,Anxious,Ambition | Relief,2,Chronic Anxiety,Signs of fatigue with positive engagement.
+158,Maria Lopez,65,Teacher,Active,S140,2023-09-06,Emotional Regulation,73,Positive,Relief,2,,Session focused on emotional regulation strategies.
+201,Andres Torres,51,Data Analyst,Active,S141,2023-12-02,Emotional Regulation,38,Anxious,Anxiety,0,,Patient shows improvement after behavioral changes.
+75,Ana Garcia,65,Entrepreneur,Active,S142,2023-04-23,Leadership Development,24,Anxious,Motivation | Ambition,0,,Discussion about leadership challenges.
+236,Carlos Mendoza,46,Sales Manager,Active,S143,2023-09-19,Emotional Regulation,55,Neutral,Motivation | Overwhelm,0,,Discussion about leadership challenges.
+140,Andres Torres,24,Engineer,Active,S144,2023-02-15,Stress Management,36,Anxious,Anxiety,0,,Discussion about leadership challenges.
+141,Sofia Ramirez,39,Engineer,Active,S145,2023-09-07,Stress Management,76,Positive,Ambition,0,,Signs of fatigue with positive engagement.
+48,Laura Perez,65,Sales Manager,Active,S146,2023-02-06,Leadership Development,58,Neutral,Ambition | Relief,1,Burnout,Session focused on emotional regulation strategies.
+177,Ana Garcia,55,Sales Manager,Active,S147,2023-08-01,Leadership Development,90,Positive,Anxiety,2,Mild Depression,Session focused on emotional regulation strategies.
+173,Pedro Castillo,51,Psychologist,Active,S148,2023-08-06,Stress Management,22,Anxious,Overwhelm | Relief,1,Mild Depression,Patient reports high stress due to workload.
+130,Carlos Mendoza,62,Teacher,Active,S149,2023-07-01,Burnout Prevention,83,Positive,Fatigue,2,Chronic Anxiety,Patient shows improvement after behavioral changes.
+31,Maria Lopez,23,Graphic Designer,Active,S150,2023-09-15,Stress Management,27,Anxious,Doubt,0,,Session focused on emotional regulation strategies.
+132,Ana Garcia,50,Psychologist,Active,S151,2023-03-07,Stress Management,25,Anxious,Overwhelm,1,Chronic Anxiety,Session focused on emotional regulation strategies.
+220,Laura Perez,22,Engineer,Active,S152,2023-05-20,Leadership Development,55,Neutral,Relief,2,Chronic Anxiety,Discussion about leadership challenges.
+19,Andres Torres,34,Data Analyst,Active,S153,2023-01-18,Executive Coaching,75,Positive,Anxiety,1,Mild Depression,Patient reports high stress due to workload.
+237,Laura Perez,44,Teacher,Active,S154,2023-03-05,Stress Management,49,Neutral,Ambition | Anxiety,2,,Discussion about leadership challenges.
+30,Juan Rodriguez,25,Data Analyst,Active,S155,2023-01-03,Emotional Regulation,47,Neutral,Overwhelm | Anxiety,1,Mild Depression,Discussion about leadership challenges.
+200,Carlos Mendoza,27,Teacher,Active,S156,2023-12-09,Burnout Prevention,54,Neutral,Fatigue,2,Chronic Anxiety,Patient shows improvement after behavioral changes.
+89,Pedro Castillo,42,Psychologist,Active,S157,2023-08-08,Emotional Regulation,22,Anxious,Anxiety | Stress,1,Burnout,Signs of fatigue with positive engagement.
+129,Maria Lopez,45,Graphic Designer,Active,S158,2023-03-19,Executive Coaching,50,Neutral,Anxiety,2,Burnout,Patient shows improvement after behavioral changes.
+70,Pedro Castillo,46,Entrepreneur,Active,S159,2023-05-12,Emotional Regulation,45,Neutral,Ambition,2,Burnout,Patient shows improvement after behavioral changes.
+72,Sofia Ramirez,44,Graphic Designer,Active,S160,2023-04-30,Stress Management,54,Neutral,Doubt | Ambition,0,,Session focused on emotional regulation strategies.
+92,Pedro Castillo,56,Engineer,Active,S161,2023-08-28,Stress Management,41,Anxious,Anxiety | Stress,0,,Discussion about leadership challenges.
+171,Juan Rodriguez,42,Entrepreneur,Active,S162,2023-01-13,Burnout Prevention,42,Anxious,Doubt,0,,Signs of fatigue with positive engagement.
+250,Maria Lopez,25,Sales Manager,Active,S163,2023-08-10,Executive Coaching,72,Positive,Doubt | Ambition,1,Mild Depression,Session focused on emotional regulation strategies.
+200,Maria Lopez,45,Teacher,Active,S164,2023-07-01,Burnout Prevention,87,Positive,Motivation,0,,Session focused on emotional regulation strategies.
+238,Laura Perez,38,Graphic Designer,Active,S165,2023-05-20,Emotional Regulation,45,Neutral,Fatigue | Stress,1,Burnout,Signs of fatigue with positive engagement.
+229,Ana Garcia,24,Sales Manager,Active,S166,2023-11-15,Emotional Regulation,83,Positive,Relief,2,Mild Depression,Signs of fatigue with positive engagement.
+105,Laura Perez,41,Engineer,Active,S167,2023-02-07,Emotional Regulation,73,Positive,Relief | Stress,0,,Patient reports high stress due to workload.
+222,Ana Garcia,26,Graphic Designer,Active,S168,2023-10-07,Burnout Prevention,30,Anxious,Anxiety,2,Burnout,Session focused on emotional regulation strategies.
+42,Pedro Castillo,36,Data Analyst,Active,S169,2023-01-04,Emotional Regulation,70,Positive,Overwhelm,0,,Patient shows improvement after behavioral changes.
+223,Juan Rodriguez,36,Psychologist,Active,S170,2023-04-29,Stress Management,62,Neutral,Motivation | Ambition,2,,Patient reports high stress due to workload.
+4,Pedro Castillo,60,Psychologist,Active,S171,2023-12-25,Stress Management,81,Positive,Motivation,2,Mild Depression,Signs of fatigue with positive engagement.
+47,Carlos Mendoza,65,Entrepreneur,Active,S172,2023-10-25,Executive Coaching,33,Anxious,Relief,2,,Signs of fatigue with positive engagement.
+84,Pedro Castillo,47,Engineer,Active,S173,2023-04-03,Leadership Development,34,Anxious,Overwhelm | Motivation,0,,Session focused on emotional regulation strategies.
+236,Laura Perez,28,Teacher,Active,S174,2023-09-29,Leadership Development,44,Anxious,Anxiety,1,,Patient shows improvement after behavioral changes.
+188,Pedro Castillo,24,Psychologist,Active,S175,2023-06-21,Emotional Regulation,78,Positive,Anxiety | Doubt,0,,Patient shows improvement after behavioral changes.
+79,Maria Lopez,28,Entrepreneur,Active,S176,2023-02-08,Leadership Development,36,Anxious,Overwhelm,2,,Discussion about leadership challenges.
+100,Sofia Ramirez,35,Sales Manager,Active,S177,2023-01-21,Emotional Regulation,44,Anxious,Stress | Motivation,2,,Signs of fatigue with positive engagement.
+80,Juan Rodriguez,22,Data Analyst,Active,S178,2023-06-20,Executive Coaching,57,Neutral,Doubt,0,,Patient reports high stress due to workload.
+90,Juan Rodriguez,61,Sales Manager,Active,S179,2023-03-24,Emotional Regulation,85,Positive,Anxiety,1,Chronic Anxiety,Patient reports high stress due to workload.
+217,Sofia Ramirez,62,Graphic Designer,Active,S180,2023-10-04,Stress Management,39,Anxious,Doubt | Ambition,1,Burnout,Discussion about leadership challenges.
+93,Ana Garcia,58,Data Analyst,Active,S181,2023-05-30,Emotional Regulation,75,Positive,Anxiety,2,Mild Depression,Discussion about leadership challenges.
+203,Pedro Castillo,27,Graphic Designer,Active,S182,2023-01-29,Stress Management,31,Anxious,Ambition,1,Mild Depression,Patient reports high stress due to workload.
+241,Carlos Mendoza,35,Entrepreneur,Active,S183,2023-06-09,Leadership Development,67,Neutral,Fatigue | Stress,2,Burnout,Patient shows improvement after behavioral changes.
+208,Pedro Castillo,28,Engineer,Active,S184,2023-11-24,Burnout Prevention,63,Neutral,Relief | Overwhelm,1,Chronic Anxiety,Session focused on emotional regulation strategies.
+166,Laura Perez,31,Engineer,Active,S185,2023-06-06,Emotional Regulation,59,Neutral,Fatigue,1,Chronic Anxiety,Patient shows improvement after behavioral changes.
+193,Laura Perez,32,Sales Manager,Active,S186,2023-03-12,Executive Coaching,41,Anxious,Relief,0,,Discussion about leadership challenges.
+213,Juan Rodriguez,55,Data Analyst,Active,S187,2023-10-16,Executive Coaching,85,Positive,Anxiety | Motivation,1,,Patient reports high stress due to workload.
+16,Sofia Ramirez,25,Entrepreneur,Active,S188,2023-03-02,Burnout Prevention,25,Anxious,Doubt,0,,Patient shows improvement after behavioral changes.
+51,Pedro Castillo,55,Teacher,Active,S189,2023-07-09,Executive Coaching,29,Anxious,Doubt | Fatigue,0,,Signs of fatigue with positive engagement.
+202,Maria Lopez,37,Psychologist,Active,S190,2023-06-17,Emotional Regulation,77,Positive,Relief | Motivation,1,Mild Depression,Patient shows improvement after behavioral changes.
+157,Juan Rodriguez,58,Teacher,Active,S191,2023-11-10,Burnout Prevention,27,Anxious,Anxiety,2,Mild Depression,Signs of fatigue with positive engagement.
+181,Carlos Mendoza,48,Data Analyst,Active,S192,2023-03-13,Leadership Development,48,Neutral,Fatigue,1,Chronic Anxiety,Session focused on emotional regulation strategies.
+232,Carlos Mendoza,54,Engineer,Active,S193,2023-09-10,Leadership Development,80,Positive,Motivation | Ambition,2,,Patient reports high stress due to workload.
+248,Sofia Ramirez,24,Graphic Designer,Active,S194,2023-05-12,Stress Management,58,Neutral,Fatigue,0,,Discussion about leadership challenges.
+61,Juan Rodriguez,35,Psychologist,Active,S195,2023-03-06,Stress Management,71,Positive,Fatigue | Doubt,0,,Signs of fatigue with positive engagement.
+217,Sofia Ramirez,32,Data Analyst,Active,S196,2023-05-10,Executive Coaching,76,Positive,Ambition,2,Chronic Anxiety,Session focused on emotional regulation strategies.
+6,Pedro Castillo,36,Graphic Designer,Active,S197,2023-05-18,Leadership Development,62,Neutral,Fatigue,2,,Session focused on emotional regulation strategies.
+196,Andres Torres,59,Entrepreneur,Active,S198,2023-07-30,Burnout Prevention,39,Anxious,Fatigue | Overwhelm,0,,Discussion about leadership challenges.
+46,Andres Torres,58,Psychologist,Active,S199,2023-08-02,Executive Coaching,40,Anxious,Overwhelm,2,Chronic Anxiety,Discussion about leadership challenges.
+239,Sofia Ramirez,44,Teacher,Active,S200,2023-11-17,Emotional Regulation,68,Neutral,Overwhelm,0,,Patient shows improvement after behavioral changes.
+141,Andres Torres,60,Entrepreneur,Active,S201,2023-05-15,Burnout Prevention,84,Positive,Overwhelm,1,Chronic Anxiety,Patient shows improvement after behavioral changes.
+187,Sofia Ramirez,50,Engineer,Active,S202,2023-03-10,Executive Coaching,52,Neutral,Ambition | Relief,0,,Patient reports high stress due to workload.
+73,Andres Torres,45,Engineer,Active,S203,2023-10-18,Burnout Prevention,36,Anxious,Anxiety | Relief,2,Chronic Anxiety,Session focused on emotional regulation strategies.
+50,Juan Rodriguez,64,Entrepreneur,Active,S204,2023-08-05,Executive Coaching,82,Positive,Ambition | Relief,0,,Signs of fatigue with positive engagement.
+231,Juan Rodriguez,65,Data Analyst,Active,S205,2023-07-29,Burnout Prevention,58,Neutral,Fatigue,1,Burnout,Session focused on emotional regulation strategies.
+45,Laura Perez,44,Teacher,Active,S206,2023-12-09,Executive Coaching,28,Anxious,Fatigue,0,,Session focused on emotional regulation strategies.
+121,Pedro Castillo,45,Engineer,Active,S207,2023-08-25,Stress Management,24,Anxious,Overwhelm,2,,Signs of fatigue with positive engagement.
+1,Ana Garcia,61,Sales Manager,Active,S208,2023-09-01,Leadership Development,33,Anxious,Anxiety,1,Mild Depression,Patient reports high stress due to workload.
+182,Laura Perez,50,Sales Manager,Active,S209,2023-10-20,Executive Coaching,77,Positive,Motivation,1,Chronic Anxiety,Patient reports high stress due to workload.
+242,Ana Garcia,25,Entrepreneur,Active,S210,2023-08-07,Executive Coaching,73,Positive,Relief | Motivation,2,Burnout,Patient shows improvement after behavioral changes.
+90,Ana Garcia,31,Psychologist,Active,S211,2023-03-24,Stress Management,32,Anxious,Doubt | Overwhelm,1,Mild Depression,Patient shows improvement after behavioral changes.
+27,Maria Lopez,38,Entrepreneur,Active,S212,2023-06-11,Leadership Development,41,Anxious,Anxiety,0,,Patient shows improvement after behavioral changes.
+230,Carlos Mendoza,30,Entrepreneur,Active,S213,2023-06-02,Emotional Regulation,28,Anxious,Anxiety,0,,Patient shows improvement after behavioral changes.
+8,Andres Torres,38,Teacher,Active,S214,2023-01-18,Leadership Development,65,Neutral,Ambition,0,,Discussion about leadership challenges.
+81,Pedro Castillo,29,Teacher,Active,S215,2023-11-30,Executive Coaching,58,Neutral,Overwhelm,0,,Patient reports high stress due to workload.
+60,Pedro Castillo,53,Psychologist,Active,S216,2023-12-17,Executive Coaching,53,Neutral,Stress,2,Burnout,Patient reports high stress due to workload.
+75,Pedro Castillo,43,Entrepreneur,Active,S217,2023-04-05,Emotional Regulation,54,Neutral,Overwhelm,1,Burnout,Discussion about leadership challenges.
+13,Sofia Ramirez,54,Engineer,Active,S218,2023-08-28,Stress Management,52,Neutral,Relief | Fatigue,1,Burnout,Signs of fatigue with positive engagement.
+214,Juan Rodriguez,64,Psychologist,Active,S219,2023-02-22,Stress Management,45,Neutral,Relief,1,Chronic Anxiety,Signs of fatigue with positive engagement.
+66,Andres Torres,60,Teacher,Active,S220,2023-01-12,Executive Coaching,24,Anxious,Ambition,1,Chronic Anxiety,Discussion about leadership challenges.
+143,Maria Lopez,63,Psychologist,Active,S221,2023-03-20,Executive Coaching,78,Positive,Relief,2,Mild Depression,Patient shows improvement after behavioral changes.
+240,Carlos Mendoza,23,Psychologist,Active,S222,2023-12-02,Stress Management,59,Neutral,Stress,0,,Session focused on emotional regulation strategies.
+191,Andres Torres,61,Graphic Designer,Active,S223,2023-04-23,Stress Management,42,Anxious,Doubt,2,Chronic Anxiety,Session focused on emotional regulation strategies.
+1,Laura Perez,38,Teacher,Active,S224,2023-11-30,Stress Management,61,Neutral,Motivation,0,,Session focused on emotional regulation strategies.
+45,Laura Perez,22,Graphic Designer,Active,S225,2023-09-25,Leadership Development,39,Anxious,Stress,1,Mild Depression,Patient reports high stress due to workload.
+175,Juan Rodriguez,28,Psychologist,Active,S226,2023-12-04,Burnout Prevention,35,Anxious,Overwhelm | Stress,2,Burnout,Signs of fatigue with positive engagement.
+195,Maria Lopez,62,Graphic Designer,Active,S227,2023-06-15,Executive Coaching,74,Positive,Motivation | Fatigue,1,Burnout,Patient shows improvement after behavioral changes.
+194,Ana Garcia,43,Psychologist,Active,S228,2023-01-14,Leadership Development,60,Neutral,Overwhelm | Stress,0,,Session focused on emotional regulation strategies.
+159,Pedro Castillo,57,Entrepreneur,Active,S229,2023-01-07,Stress Management,39,Anxious,Anxiety | Fatigue,1,Chronic Anxiety,Patient shows improvement after behavioral changes.
+237,Maria Lopez,36,Sales Manager,Active,S230,2023-01-17,Leadership Development,46,Neutral,Motivation,1,Burnout,Patient reports high stress due to workload.
+40,Laura Perez,22,Graphic Designer,Active,S231,2023-08-25,Burnout Prevention,56,Neutral,Relief,2,Chronic Anxiety,Session focused on emotional regulation strategies.
+22,Carlos Mendoza,27,Engineer,Active,S232,2023-08-28,Executive Coaching,54,Neutral,Fatigue | Overwhelm,1,Chronic Anxiety,Signs of fatigue with positive engagement.
+176,Maria Lopez,37,Engineer,Active,S233,2023-01-10,Emotional Regulation,63,Neutral,Anxiety,2,Mild Depression,Discussion about leadership challenges.
+102,Pedro Castillo,38,Data Analyst,Active,S234,2023-07-15,Executive Coaching,27,Anxious,Motivation,0,,Discussion about leadership challenges.
+9,Sofia Ramirez,30,Graphic Designer,Active,S235,2023-05-05,Stress Management,33,Anxious,Anxiety,0,,Session focused on emotional regulation strategies.
+124,Carlos Mendoza,43,Psychologist,Active,S236,2023-07-10,Executive Coaching,73,Positive,Ambition | Overwhelm,1,Mild Depression,Signs of fatigue with positive engagement.
+1,Juan Rodriguez,65,Entrepreneur,Active,S237,2023-05-14,Burnout Prevention,39,Anxious,Motivation,0,,Patient shows improvement after behavioral changes.
+50,Andres Torres,61,Psychologist,Active,S238,2023-11-03,Leadership Development,70,Positive,Relief | Doubt,1,,Patient reports high stress due to workload.
+15,Pedro Castillo,32,Sales Manager,Active,S239,2023-09-01,Burnout Prevention,66,Neutral,Overwhelm | Anxiety,2,Burnout,Session focused on emotional regulation strategies.
+222,Maria Lopez,65,Sales Manager,Active,S240,2023-07-29,Stress Management,62,Neutral,Motivation,0,,Patient shows improvement after behavioral changes.
+146,Juan Rodriguez,52,Graphic Designer,Active,S241,2023-06-24,Leadership Development,48,Neutral,Fatigue | Stress,0,,Signs of fatigue with positive engagement.
+61,Carlos Mendoza,65,Entrepreneur,Active,S242,2023-05-21,Stress Management,20,Anxious,Anxiety,0,,Patient shows improvement after behavioral changes.
+40,Laura Perez,35,Teacher,Active,S243,2023-02-17,Emotional Regulation,29,Anxious,Fatigue,0,,Patient shows improvement after behavioral changes.
+170,Juan Rodriguez,23,Teacher,Active,S244,2023-03-18,Stress Management,52,Neutral,Anxiety | Overwhelm,1,Burnout,Signs of fatigue with positive engagement.
+9,Sofia Ramirez,52,Teacher,Active,S245,2023-12-06,Leadership Development,34,Anxious,Anxiety,1,Burnout,Discussion about leadership challenges.
+93,Maria Lopez,27,Psychologist,Active,S246,2023-04-04,Executive Coaching,71,Positive,Anxiety | Relief,2,Chronic Anxiety,Patient reports high stress due to workload.
+241,Juan Rodriguez,38,Teacher,Active,S247,2023-04-17,Burnout Prevention,71,Positive,Doubt,2,Burnout,Discussion about leadership challenges.
+124,Maria Lopez,53,Engineer,Active,S248,2023-07-03,Leadership Development,73,Positive,Anxiety,1,,Patient reports high stress due to workload.
+90,Sofia Ramirez,60,Entrepreneur,Active,S249,2023-07-14,Burnout Prevention,25,Anxious,Relief,2,Burnout,Signs of fatigue with positive engagement.
+110,Laura Perez,49,Entrepreneur,Active,S250,2023-04-09,Stress Management,84,Positive,Ambition | Anxiety,0,,Patient reports high stress due to workload.
+191,Sofia Ramirez,53,Graphic Designer,Active,S251,2023-09-18,Leadership Development,29,Anxious,Motivation,2,Chronic Anxiety,Patient shows improvement after behavioral changes.
+234,Carlos Mendoza,39,Teacher,Active,S252,2023-08-13,Stress Management,44,Anxious,Anxiety | Overwhelm,0,,Patient reports high stress due to workload.
+142,Pedro Castillo,42,Sales Manager,Active,S253,2023-04-24,Leadership Development,51,Neutral,Ambition | Fatigue,0,,Discussion about leadership challenges.
+111,Pedro Castillo,62,Teacher,Active,S254,2023-06-09,Stress Management,64,Neutral,Ambition | Stress,2,,Discussion about leadership challenges.
+175,Laura Perez,56,Graphic Designer,Active,S255,2023-09-02,Leadership Development,66,Neutral,Doubt,0,,Patient shows improvement after behavioral changes.
+102,Maria Lopez,46,Sales Manager,Active,S256,2023-04-22,Executive Coaching,61,Neutral,Relief | Doubt,0,,Patient reports high stress due to workload.
+229,Carlos Mendoza,58,Teacher,Active,S257,2023-10-14,Emotional Regulation,46,Neutral,Anxiety,1,Mild Depression,Patient reports high stress due to workload.
+77,Juan Rodriguez,36,Psychologist,Active,S258,2023-07-30,Executive Coaching,42,Anxious,Motivation | Ambition,1,Mild Depression,Session focused on emotional regulation strategies.
+155,Laura Perez,38,Teacher,Active,S259,2023-09-25,Leadership Development,56,Neutral,Fatigue,1,Mild Depression,Patient shows improvement after behavioral changes.
+232,Juan Rodriguez,44,Data Analyst,Active,S260,2023-09-08,Emotional Regulation,33,Anxious,Relief,0,,Patient shows improvement after behavioral changes.
+12,Pedro Castillo,41,Engineer,Active,S261,2023-10-14,Burnout Prevention,70,Positive,Relief | Fatigue,1,Burnout,Patient shows improvement after behavioral changes.
+248,Carlos Mendoza,25,Psychologist,Active,S262,2023-04-22,Leadership Development,81,Positive,Anxiety | Fatigue,0,,Patient reports high stress due to workload.
+51,Carlos Mendoza,49,Teacher,Active,S263,2023-03-29,Stress Management,28,Anxious,Doubt | Overwhelm,1,Chronic Anxiety,Session focused on emotional regulation strategies.
+29,Sofia Ramirez,60,Entrepreneur,Active,S264,2023-05-07,Leadership Development,83,Positive,Overwhelm | Stress,1,,Signs of fatigue with positive engagement.
+14,Andres Torres,63,Entrepreneur,Active,S265,2023-10-29,Leadership Development,63,Neutral,Fatigue,2,,Discussion about leadership challenges.
+95,Laura Perez,56,Graphic Designer,Active,S266,2023-11-21,Executive Coaching,41,Anxious,Fatigue | Stress,1,Mild Depression,Session focused on emotional regulation strategies.
+75,Carlos Mendoza,36,Teacher,Active,S267,2023-08-15,Leadership Development,31,Anxious,Relief | Doubt,1,,Patient shows improvement after behavioral changes.
+142,Carlos Mendoza,35,Data Analyst,Active,S268,2023-09-01,Stress Management,82,Positive,Stress,0,,Patient reports high stress due to workload.
+142,Ana Garcia,33,Entrepreneur,Active,S269,2023-12-07,Burnout Prevention,34,Anxious,Doubt,0,,Session focused on emotional regulation strategies.
+30,Juan Rodriguez,62,Sales Manager,Active,S270,2023-11-22,Burnout Prevention,60,Neutral,Motivation,0,,Discussion about leadership challenges.
+58,Sofia Ramirez,35,Sales Manager,Active,S271,2023-08-31,Burnout Prevention,34,Anxious,Anxiety,2,,Session focused on emotional regulation strategies.
+101,Sofia Ramirez,45,Teacher,Active,S272,2023-04-06,Burnout Prevention,72,Positive,Ambition | Stress,1,Mild Depression,Signs of fatigue with positive engagement.
+97,Ana Garcia,36,Engineer,Active,S273,2023-02-26,Emotional Regulation,81,Positive,Anxiety | Relief,0,,Signs of fatigue with positive engagement.
+103,Pedro Castillo,58,Entrepreneur,Active,S274,2023-05-04,Burnout Prevention,66,Neutral,Ambition | Overwhelm,0,,Signs of fatigue with positive engagement.
+169,Andres Torres,56,Graphic Designer,Active,S275,2023-10-08,Leadership Development,88,Positive,Fatigue | Relief,2,Burnout,Signs of fatigue with positive engagement.
+3,Sofia Ramirez,30,Entrepreneur,Active,S276,2023-05-16,Emotional Regulation,42,Anxious,Overwhelm | Motivation,1,,Discussion about leadership challenges.
+30,Sofia Ramirez,32,Engineer,Active,S277,2023-02-09,Emotional Regulation,44,Anxious,Motivation,0,,Discussion about leadership challenges.
+157,Laura Perez,34,Engineer,Active,S278,2023-11-17,Executive Coaching,60,Neutral,Stress,0,,Session focused on emotional regulation strategies.
+12,Juan Rodriguez,45,Graphic Designer,Active,S279,2023-01-09,Stress Management,73,Positive,Overwhelm | Relief,1,Mild Depression,Patient reports high stress due to workload.
+34,Andres Torres,46,Sales Manager,Active,S280,2023-10-19,Stress Management,84,Positive,Relief,1,Burnout,Patient reports high stress due to workload.
+152,Pedro Castillo,26,Teacher,Active,S281,2023-05-27,Leadership Development,40,Anxious,Relief,1,Burnout,Session focused on emotional regulation strategies.
+202,Carlos Mendoza,45,Engineer,Active,S282,2023-03-16,Stress Management,38,Anxious,Ambition,0,,Discussion about leadership challenges.
+61,Pedro Castillo,58,Data Analyst,Active,S283,2023-01-10,Emotional Regulation,38,Anxious,Overwhelm | Doubt,1,Chronic Anxiety,Signs of fatigue with positive engagement.
+115,Sofia Ramirez,28,Graphic Designer,Active,S284,2023-05-22,Leadership Development,53,Neutral,Ambition | Motivation,0,,Discussion about leadership challenges.
+214,Carlos Mendoza,42,Graphic Designer,Active,S285,2023-12-04,Emotional Regulation,69,Neutral,Ambition | Doubt,0,,Session focused on emotional regulation strategies.
+21,Ana Garcia,62,Entrepreneur,Active,S286,2023-05-04,Leadership Development,87,Positive,Doubt,0,,Session focused on emotional regulation strategies.
+233,Pedro Castillo,55,Psychologist,Active,S287,2023-09-10,Emotional Regulation,21,Anxious,Ambition,0,,Discussion about leadership challenges.
+167,Sofia Ramirez,61,Data Analyst,Active,S288,2023-03-24,Emotional Regulation,25,Anxious,Motivation,2,Chronic Anxiety,Session focused on emotional regulation strategies.
+30,Carlos Mendoza,34,Teacher,Active,S289,2023-02-05,Burnout Prevention,48,Neutral,Relief | Overwhelm,1,Chronic Anxiety,Signs of fatigue with positive engagement.
+112,Carlos Mendoza,42,Engineer,Active,S290,2023-12-08,Emotional Regulation,52,Neutral,Relief,2,Burnout,Discussion about leadership challenges.
+30,Carlos Mendoza,55,Graphic Designer,Active,S291,2023-02-04,Stress Management,88,Positive,Ambition | Relief,0,,Session focused on emotional regulation strategies.
+221,Sofia Ramirez,44,Data Analyst,Active,S292,2023-10-19,Stress Management,85,Positive,Motivation | Fatigue,0,,Patient shows improvement after behavioral changes.
+142,Maria Lopez,51,Teacher,Active,S293,2023-03-18,Emotional Regulation,71,Positive,Motivation | Fatigue,1,,Signs of fatigue with positive engagement.
+177,Juan Rodriguez,40,Engineer,Active,S294,2023-04-29,Leadership Development,59,Neutral,Anxiety,0,,Patient reports high stress due to workload.
+233,Carlos Mendoza,65,Data Analyst,Active,S295,2023-12-23,Leadership Development,21,Anxious,Stress | Fatigue,2,Chronic Anxiety,Session focused on emotional regulation strategies.
+90,Sofia Ramirez,27,Teacher,Active,S296,2023-04-19,Burnout Prevention,49,Neutral,Motivation,0,,Signs of fatigue with positive engagement.
+186,Juan Rodriguez,48,Sales Manager,Active,S297,2023-03-09,Executive Coaching,81,Positive,Stress,2,,Discussion about leadership challenges.
+38,Ana Garcia,33,Teacher,Active,S298,2023-10-30,Burnout Prevention,27,Anxious,Relief,1,,Patient shows improvement after behavioral changes.
+92,Ana Garcia,63,Engineer,Active,S299,2023-08-20,Stress Management,47,Neutral,Stress,2,,Patient shows improvement after behavioral changes.
+246,Laura Perez,33,Engineer,Active,S300,2023-07-20,Leadership Development,35,Anxious,Ambition,0,,Discussion about leadership challenges.
+89,Laura Perez,48,Graphic Designer,Active,S301,2023-05-26,Stress Management,89,Positive,Anxiety | Motivation,2,Chronic Anxiety,Discussion about leadership challenges.
+61,Pedro Castillo,32,Sales Manager,Active,S302,2023-08-05,Burnout Prevention,21,Anxious,Doubt,1,Chronic Anxiety,Patient shows improvement after behavioral changes.
+123,Laura Perez,30,Teacher,Active,S303,2023-04-24,Stress Management,51,Neutral,Anxiety,0,,Signs of fatigue with positive engagement.
+213,Laura Perez,23,Engineer,Active,S304,2023-08-28,Emotional Regulation,88,Positive,Motivation | Fatigue,0,,Signs of fatigue with positive engagement.
+232,Laura Perez,38,Data Analyst,Active,S305,2023-12-10,Executive Coaching,45,Neutral,Anxiety | Overwhelm,2,Mild Depression,Discussion about leadership challenges.
+183,Andres Torres,22,Engineer,Active,S306,2023-06-06,Stress Management,70,Positive,Doubt,1,Mild Depression,Signs of fatigue with positive engagement.
+21,Maria Lopez,43,Data Analyst,Active,S307,2023-11-12,Stress Management,29,Anxious,Fatigue | Overwhelm,2,,Patient shows improvement after behavioral changes.
+106,Juan Rodriguez,35,Data Analyst,Active,S308,2023-09-12,Leadership Development,68,Neutral,Ambition | Overwhelm,0,,Patient reports high stress due to workload.
+233,Sofia Ramirez,49,Sales Manager,Active,S309,2023-01-23,Stress Management,55,Neutral,Stress | Overwhelm,2,,Signs of fatigue with positive engagement.
+239,Laura Perez,27,Sales Manager,Active,S310,2023-08-17,Burnout Prevention,64,Neutral,Overwhelm,2,,Patient shows improvement after behavioral changes.
+122,Carlos Mendoza,30,Graphic Designer,Active,S311,2023-11-10,Emotional Regulation,41,Anxious,Stress,2,Mild Depression,Discussion about leadership challenges.
+228,Juan Rodriguez,26,Data Analyst,Active,S312,2023-02-16,Emotional Regulation,47,Neutral,Relief,0,,Patient reports high stress due to workload.
+91,Laura Perez,29,Entrepreneur,Active,S313,2023-04-16,Stress Management,57,Neutral,Overwhelm,1,,Discussion about leadership challenges.
+125,Pedro Castillo,57,Engineer,Active,S314,2023-04-06,Stress Management,80,Positive,Doubt | Anxiety,1,,Signs of fatigue with positive engagement.
+92,Laura Perez,26,Teacher,Active,S315,2023-03-23,Executive Coaching,71,Positive,Motivation | Anxiety,0,,Signs of fatigue with positive engagement.
+26,Laura Perez,26,Entrepreneur,Active,S316,2023-03-08,Emotional Regulation,23,Anxious,Relief,2,Mild Depression,Session focused on emotional regulation strategies.
+47,Carlos Mendoza,52,Teacher,Active,S317,2023-03-19,Leadership Development,88,Positive,Anxiety,1,Mild Depression,Signs of fatigue with positive engagement.
+208,Pedro Castillo,27,Graphic Designer,Active,S318,2023-12-28,Stress Management,47,Neutral,Overwhelm,1,Chronic Anxiety,Patient reports high stress due to workload.
+206,Carlos Mendoza,32,Teacher,Active,S319,2023-12-08,Stress Management,54,Neutral,Fatigue | Ambition,2,Burnout,Discussion about leadership challenges.
+185,Juan Rodriguez,62,Entrepreneur,Active,S320,2023-05-20,Leadership Development,56,Neutral,Relief,2,,Session focused on emotional regulation strategies.
+94,Ana Garcia,30,Teacher,Active,S321,2023-10-26,Leadership Development,54,Neutral,Fatigue | Relief,2,Chronic Anxiety,Patient reports high stress due to workload.
+178,Maria Lopez,55,Teacher,Active,S322,2023-12-19,Emotional Regulation,26,Anxious,Stress | Anxiety,2,,Patient reports high stress due to workload.
+237,Ana Garcia,27,Psychologist,Active,S323,2023-02-19,Burnout Prevention,45,Neutral,Stress | Relief,1,Burnout,Session focused on emotional regulation strategies.
+166,Andres Torres,36,Sales Manager,Active,S324,2023-09-06,Emotional Regulation,80,Positive,Anxiety | Overwhelm,0,,Discussion about leadership challenges.
+47,Laura Perez,44,Engineer,Active,S325,2023-12-24,Executive Coaching,38,Anxious,Ambition | Stress,0,,Session focused on emotional regulation strategies.
+41,Pedro Castillo,49,Engineer,Active,S326,2023-11-20,Stress Management,39,Anxious,Stress,2,Burnout,Patient shows improvement after behavioral changes.
+7,Maria Lopez,39,Graphic Designer,Active,S327,2023-12-07,Executive Coaching,71,Positive,Ambition | Doubt,2,Mild Depression,Signs of fatigue with positive engagement.
+23,Juan Rodriguez,64,Entrepreneur,Active,S328,2023-07-14,Stress Management,70,Positive,Motivation,1,Burnout,Signs of fatigue with positive engagement.
+138,Pedro Castillo,37,Sales Manager,Active,S329,2023-03-27,Burnout Prevention,40,Anxious,Ambition,1,Mild Depression,Patient reports high stress due to workload.
+172,Ana Garcia,50,Sales Manager,Active,S330,2023-11-03,Burnout Prevention,76,Positive,Stress,0,,Patient shows improvement after behavioral changes.
+219,Maria Lopez,24,Teacher,Active,S331,2023-12-17,Leadership Development,53,Neutral,Anxiety | Fatigue,2,Mild Depression,Discussion about leadership challenges.
+57,Maria Lopez,27,Engineer,Active,S332,2023-01-29,Stress Management,23,Anxious,Stress,0,,Discussion about leadership challenges.
+49,Pedro Castillo,58,Teacher,Active,S333,2023-12-27,Burnout Prevention,60,Neutral,Anxiety | Relief,2,,Patient reports high stress due to workload.
+174,Ana Garcia,65,Graphic Designer,Active,S334,2023-11-19,Leadership Development,67,Neutral,Ambition | Anxiety,1,Mild Depression,Signs of fatigue with positive engagement.
+159,Sofia Ramirez,46,Psychologist,Active,S335,2023-07-22,Emotional Regulation,24,Anxious,Stress,1,Burnout,Patient shows improvement after behavioral changes.
+60,Andres Torres,29,Data Analyst,Active,S336,2023-10-26,Leadership Development,63,Neutral,Ambition,2,,Patient shows improvement after behavioral changes.
+222,Juan Rodriguez,52,Psychologist,Active,S337,2023-03-08,Emotional Regulation,40,Anxious,Overwhelm,0,,Signs of fatigue with positive engagement.
+45,Maria Lopez,63,Engineer,Active,S338,2023-06-20,Executive Coaching,49,Neutral,Doubt,1,,Discussion about leadership challenges.
+149,Juan Rodriguez,38,Entrepreneur,Active,S339,2023-04-01,Emotional Regulation,48,Neutral,Motivation | Ambition,0,,Discussion about leadership challenges.
+218,Ana Garcia,53,Sales Manager,Active,S340,2023-03-30,Executive Coaching,53,Neutral,Ambition | Overwhelm,2,Mild Depression,Discussion about leadership challenges.
+24,Maria Lopez,56,Sales Manager,Active,S341,2023-01-27,Stress Management,29,Anxious,Fatigue | Doubt,1,Chronic Anxiety,Patient shows improvement after behavioral changes.
+209,Pedro Castillo,38,Graphic Designer,Active,S342,2023-05-17,Burnout Prevention,26,Anxious,Doubt | Relief,0,,Signs of fatigue with positive engagement.
+48,Maria Lopez,34,Sales Manager,Active,S343,2023-09-08,Stress Management,37,Anxious,Ambition,2,Mild Depression,Signs of fatigue with positive engagement.
+48,Ana Garcia,24,Teacher,Active,S344,2023-09-04,Emotional Regulation,36,Anxious,Stress,2,Chronic Anxiety,Patient shows improvement after behavioral changes.
+184,Carlos Mendoza,61,Psychologist,Active,S345,2023-12-14,Emotional Regulation,40,Anxious,Relief,1,Chronic Anxiety,Patient reports high stress due to workload.
+63,Juan Rodriguez,29,Engineer,Active,S346,2023-07-06,Executive Coaching,31,Anxious,Stress,0,,Signs of fatigue with positive engagement.
+127,Pedro Castillo,45,Teacher,Active,S347,2023-06-22,Stress Management,37,Anxious,Overwhelm | Motivation,0,,Patient reports high stress due to workload.
+4,Ana Garcia,49,Psychologist,Active,S348,2023-11-25,Executive Coaching,52,Neutral,Stress | Fatigue,0,,Signs of fatigue with positive engagement.
+161,Carlos Mendoza,22,Engineer,Active,S349,2023-05-24,Stress Management,48,Neutral,Stress | Anxiety,2,Burnout,Patient reports high stress due to workload.
+19,Maria Lopez,35,Graphic Designer,Active,S350,2023-12-17,Burnout Prevention,89,Positive,Anxiety | Motivation,2,Chronic Anxiety,Discussion about leadership challenges.
+26,Juan Rodriguez,45,Sales Manager,Active,S351,2023-10-16,Executive Coaching,67,Neutral,Doubt | Stress,0,,Session focused on emotional regulation strategies.
+108,Laura Perez,52,Teacher,Active,S352,2023-12-26,Executive Coaching,64,Neutral,Overwhelm,0,,Patient shows improvement after behavioral changes.
+161,Juan Rodriguez,52,Data Analyst,Active,S353,2023-01-29,Burnout Prevention,33,Anxious,Motivation | Anxiety,0,,Signs of fatigue with positive engagement.
+225,Andres Torres,43,Psychologist,Active,S354,2023-09-17,Stress Management,68,Neutral,Overwhelm,1,Burnout,Session focused on emotional regulation strategies.
+81,Andres Torres,23,Engineer,Active,S355,2023-12-24,Emotional Regulation,77,Positive,Motivation | Overwhelm,2,,Patient shows improvement after behavioral changes.
+205,Pedro Castillo,59,Psychologist,Active,S356,2023-08-10,Leadership Development,30,Anxious,Stress,0,,Signs of fatigue with positive engagement.
+62,Sofia Ramirez,51,Data Analyst,Active,S357,2023-06-22,Emotional Regulation,73,Positive,Anxiety,1,Burnout,Patient reports high stress due to workload.
+216,Ana Garcia,34,Entrepreneur,Active,S358,2023-03-19,Stress Management,46,Neutral,Anxiety | Fatigue,0,,Patient shows improvement after behavioral changes.
+192,Pedro Castillo,23,Data Analyst,Active,S359,2023-01-12,Emotional Regulation,69,Neutral,Ambition | Fatigue,1,Chronic Anxiety,Discussion about leadership challenges.
+15,Sofia Ramirez,39,Entrepreneur,Active,S360,2023-12-13,Leadership Development,41,Anxious,Motivation,1,Chronic Anxiety,Signs of fatigue with positive engagement.
+230,Carlos Mendoza,37,Teacher,Active,S361,2023-01-25,Executive Coaching,31,Anxious,Stress,1,,Discussion about leadership challenges.
+66,Laura Perez,32,Teacher,Active,S362,2023-05-11,Executive Coaching,42,Anxious,Overwhelm,0,,Discussion about leadership challenges.
+213,Andres Torres,34,Data Analyst,Active,S363,2023-05-27,Burnout Prevention,82,Positive,Doubt,1,Mild Depression,Signs of fatigue with positive engagement.
+216,Ana Garcia,39,Data Analyst,Active,S364,2023-08-30,Stress Management,54,Neutral,Overwhelm | Stress,0,,Discussion about leadership challenges.
+42,Pedro Castillo,45,Teacher,Active,S365,2023-02-25,Executive Coaching,87,Positive,Ambition,1,,Patient shows improvement after behavioral changes.
+217,Maria Lopez,29,Teacher,Active,S366,2023-05-22,Executive Coaching,62,Neutral,Relief,1,Mild Depression,Signs of fatigue with positive engagement.
+15,Juan Rodriguez,32,Data Analyst,Active,S367,2023-03-22,Executive Coaching,73,Positive,Doubt | Motivation,1,Chronic Anxiety,Signs of fatigue with positive engagement.
+130,Ana Garcia,24,Entrepreneur,Active,S368,2023-04-22,Leadership Development,76,Positive,Fatigue,1,Mild Depression,Discussion about leadership challenges.
+199,Pedro Castillo,23,Teacher,Active,S369,2023-04-04,Stress Management,21,Anxious,Anxiety,0,,Signs of fatigue with positive engagement.
+170,Laura Perez,24,Graphic Designer,Active,S370,2023-12-29,Stress Management,46,Neutral,Overwhelm | Fatigue,1,Mild Depression,Discussion about leadership challenges.
+95,Juan Rodriguez,54,Engineer,Active,S371,2023-12-26,Emotional Regulation,49,Neutral,Relief,2,Burnout,Signs of fatigue with positive engagement.
+29,Ana Garcia,48,Graphic Designer,Active,S372,2023-09-05,Burnout Prevention,82,Positive,Motivation,0,,Patient reports high stress due to workload.
+5,Maria Lopez,50,Data Analyst,Active,S373,2023-02-28,Stress Management,65,Neutral,Motivation,2,,Discussion about leadership challenges.
+27,Pedro Castillo,57,Engineer,Active,S374,2023-12-22,Executive Coaching,77,Positive,Fatigue,2,,Discussion about leadership challenges.
+33,Laura Perez,25,Teacher,Active,S375,2023-05-09,Stress Management,23,Anxious,Fatigue | Doubt,1,Mild Depression,Patient shows improvement after behavioral changes.
+223,Laura Perez,39,Teacher,Active,S376,2023-04-07,Burnout Prevention,72,Positive,Anxiety | Overwhelm,0,,Patient reports high stress due to workload.
+115,Laura Perez,37,Data Analyst,Active,S377,2023-09-15,Burnout Prevention,60,Neutral,Doubt,1,Mild Depression,Patient shows improvement after behavioral changes.
+25,Sofia Ramirez,22,Graphic Designer,Active,S378,2023-07-07,Emotional Regulation,53,Neutral,Relief,1,Burnout,Discussion about leadership challenges.
+108,Pedro Castillo,52,Psychologist,Active,S379,2023-12-31,Burnout Prevention,70,Positive,Ambition | Overwhelm,1,Chronic Anxiety,Discussion about leadership challenges.
+51,Sofia Ramirez,42,Engineer,Active,S380,2023-08-27,Stress Management,66,Neutral,Relief | Ambition,0,,Signs of fatigue with positive engagement.
+76,Pedro Castillo,64,Psychologist,Active,S381,2023-07-20,Executive Coaching,80,Positive,Motivation,0,,Patient reports high stress due to workload.
+138,Juan Rodriguez,46,Data Analyst,Active,S382,2023-10-12,Stress Management,48,Neutral,Doubt | Ambition,1,Burnout,Session focused on emotional regulation strategies.
+23,Juan Rodriguez,22,Data Analyst,Active,S383,2023-07-03,Stress Management,50,Neutral,Anxiety,1,Mild Depression,Discussion about leadership challenges.
+11,Pedro Castillo,32,Psychologist,Active,S384,2023-05-03,Executive Coaching,35,Anxious,Doubt,2,Burnout,Session focused on emotional regulation strategies.
+210,Maria Lopez,30,Engineer,Active,S385,2023-07-19,Executive Coaching,51,Neutral,Anxiety,1,Burnout,Discussion about leadership challenges.
+213,Ana Garcia,30,Graphic Designer,Active,S386,2023-05-28,Burnout Prevention,65,Neutral,Fatigue,1,Chronic Anxiety,Patient shows improvement after behavioral changes.
+193,Carlos Mendoza,51,Psychologist,Active,S387,2023-05-07,Stress Management,87,Positive,Stress,0,,Session focused on emotional regulation strategies.
+129,Andres Torres,31,Graphic Designer,Active,S388,2023-12-13,Executive Coaching,38,Anxious,Stress,0,,Patient shows improvement after behavioral changes.
+156,Carlos Mendoza,63,Engineer,Active,S389,2023-09-16,Executive Coaching,52,Neutral,Relief,2,Mild Depression,Session focused on emotional regulation strategies.
+118,Sofia Ramirez,40,Psychologist,Active,S390,2023-12-18,Executive Coaching,41,Anxious,Anxiety,2,Mild Depression,Patient reports high stress due to workload.
+172,Sofia Ramirez,41,Psychologist,Active,S391,2023-09-02,Executive Coaching,37,Anxious,Stress,2,Mild Depression,Patient shows improvement after behavioral changes.
+87,Carlos Mendoza,45,Sales Manager,Active,S392,2023-04-19,Leadership Development,23,Anxious,Anxiety,1,Chronic Anxiety,Session focused on emotional regulation strategies.
+160,Andres Torres,65,Graphic Designer,Active,S393,2023-11-21,Burnout Prevention,43,Anxious,Ambition,2,,Session focused on emotional regulation strategies.
+64,Maria Lopez,32,Psychologist,Active,S394,2023-08-02,Executive Coaching,83,Positive,Motivation,1,Chronic Anxiety,Session focused on emotional regulation strategies.
+82,Ana Garcia,62,Sales Manager,Active,S395,2023-11-18,Leadership Development,78,Positive,Overwhelm | Anxiety,2,,Signs of fatigue with positive engagement.
+161,Ana Garcia,24,Entrepreneur,Active,S396,2023-08-28,Executive Coaching,43,Anxious,Doubt | Ambition,2,Burnout,Patient shows improvement after behavioral changes.
+28,Laura Perez,60,Data Analyst,Active,S397,2023-07-02,Emotional Regulation,33,Anxious,Stress | Fatigue,2,Burnout,Patient shows improvement after behavioral changes.
+173,Carlos Mendoza,55,Sales Manager,Active,S398,2023-04-08,Stress Management,52,Neutral,Anxiety | Fatigue,2,,Discussion about leadership challenges.
+218,Maria Lopez,47,Psychologist,Active,S399,2023-06-16,Burnout Prevention,87,Positive,Ambition,0,,Discussion about leadership challenges.
+220,Ana Garcia,46,Teacher,Active,S400,2023-04-04,Emotional Regulation,40,Anxious,Motivation,1,Burnout,Patient reports high stress due to workload.
+196,Pedro Castillo,52,Engineer,Active,S401,2023-12-22,Burnout Prevention,26,Anxious,Stress,2,Burnout,Patient shows improvement after behavioral changes.
+73,Pedro Castillo,41,Entrepreneur,Active,S402,2023-05-05,Leadership Development,30,Anxious,Fatigue | Overwhelm,1,,Patient shows improvement after behavioral changes.
+227,Juan Rodriguez,38,Psychologist,Active,S403,2023-11-03,Burnout Prevention,42,Anxious,Motivation,1,Chronic Anxiety,Discussion about leadership challenges.
+112,Carlos Mendoza,42,Graphic Designer,Active,S404,2023-08-15,Stress Management,35,Anxious,Anxiety,1,Mild Depression,Signs of fatigue with positive engagement.
+97,Sofia Ramirez,25,Engineer,Active,S405,2023-11-29,Executive Coaching,81,Positive,Fatigue | Ambition,1,Mild Depression,Patient reports high stress due to workload.
+79,Sofia Ramirez,62,Sales Manager,Active,S406,2023-09-05,Executive Coaching,34,Anxious,Motivation | Doubt,2,Burnout,Patient reports high stress due to workload.
+162,Maria Lopez,42,Psychologist,Active,S407,2023-08-24,Emotional Regulation,50,Neutral,Overwhelm | Relief,2,,Signs of fatigue with positive engagement.
+210,Pedro Castillo,42,Psychologist,Active,S408,2023-08-01,Leadership Development,22,Anxious,Fatigue | Stress,2,,Patient reports high stress due to workload.
+32,Carlos Mendoza,33,Psychologist,Active,S409,2023-03-11,Executive Coaching,67,Neutral,Relief,1,Mild Depression,Session focused on emotional regulation strategies.
+207,Ana Garcia,30,Psychologist,Active,S410,2023-06-25,Burnout Prevention,69,Neutral,Relief | Stress,0,,Signs of fatigue with positive engagement.
+105,Laura Perez,24,Graphic Designer,Active,S411,2023-07-01,Executive Coaching,63,Neutral,Doubt | Overwhelm,2,,Patient reports high stress due to workload.
+18,Carlos Mendoza,51,Entrepreneur,Active,S412,2023-01-23,Stress Management,51,Neutral,Ambition | Relief,0,,Discussion about leadership challenges.
+185,Ana Garcia,65,Psychologist,Active,S413,2023-10-26,Emotional Regulation,38,Anxious,Stress | Overwhelm,2,,Session focused on emotional regulation strategies.
+53,Sofia Ramirez,36,Data Analyst,Active,S414,2023-11-04,Executive Coaching,34,Anxious,Doubt | Ambition,2,Mild Depression,Discussion about leadership challenges.
+142,Sofia Ramirez,53,Engineer,Active,S415,2023-06-26,Leadership Development,69,Neutral,Overwhelm,1,Chronic Anxiety,Patient reports high stress due to workload.
+233,Ana Garcia,35,Teacher,Active,S416,2023-11-14,Executive Coaching,37,Anxious,Overwhelm,1,Chronic Anxiety,Patient reports high stress due to workload.
+118,Laura Perez,40,Sales Manager,Active,S417,2023-01-21,Stress Management,67,Neutral,Ambition | Stress,1,Chronic Anxiety,Patient shows improvement after behavioral changes.
+194,Carlos Mendoza,24,Entrepreneur,Active,S418,2023-02-08,Stress Management,36,Anxious,Relief | Anxiety,2,,Patient reports high stress due to workload.
+14,Andres Torres,33,Entrepreneur,Active,S419,2023-02-08,Leadership Development,52,Neutral,Doubt,1,Chronic Anxiety,Signs of fatigue with positive engagement.
+125,Carlos Mendoza,56,Graphic Designer,Active,S420,2023-05-25,Leadership Development,72,Positive,Fatigue | Ambition,2,Chronic Anxiety,Patient reports high stress due to workload.
+247,Maria Lopez,49,Psychologist,Active,S421,2023-07-11,Executive Coaching,90,Positive,Relief,2,Chronic Anxiety,Session focused on emotional regulation strategies.
+249,Laura Perez,22,Entrepreneur,Active,S422,2023-09-04,Emotional Regulation,57,Neutral,Doubt | Ambition,2,Mild Depression,Patient reports high stress due to workload.
+211,Pedro Castillo,44,Psychologist,Active,S423,2023-01-06,Executive Coaching,47,Neutral,Relief | Motivation,1,Burnout,Signs of fatigue with positive engagement.
+38,Juan Rodriguez,60,Engineer,Active,S424,2023-07-14,Emotional Regulation,54,Neutral,Relief,1,Chronic Anxiety,Session focused on emotional regulation strategies.
+130,Pedro Castillo,61,Graphic Designer,Active,S425,2023-11-25,Executive Coaching,77,Positive,Doubt | Relief,0,,Patient shows improvement after behavioral changes.
+33,Laura Perez,57,Graphic Designer,Active,S426,2023-05-24,Executive Coaching,52,Neutral,Anxiety,0,,Session focused on emotional regulation strategies.
+138,Carlos Mendoza,61,Engineer,Active,S427,2023-06-27,Emotional Regulation,75,Positive,Fatigue,1,Mild Depression,Signs of fatigue with positive engagement.
+203,Carlos Mendoza,50,Entrepreneur,Active,S428,2023-09-10,Stress Management,78,Positive,Motivation,1,Chronic Anxiety,Patient reports high stress due to workload.
+217,Laura Perez,35,Graphic Designer,Active,S429,2023-02-17,Executive Coaching,53,Neutral,Ambition | Overwhelm,2,Burnout,Patient reports high stress due to workload.
+227,Maria Lopez,30,Entrepreneur,Active,S430,2023-06-24,Burnout Prevention,41,Anxious,Motivation | Fatigue,1,Burnout,Patient shows improvement after behavioral changes.
+26,Sofia Ramirez,41,Entrepreneur,Active,S431,2023-06-02,Stress Management,43,Anxious,Motivation,0,,Discussion about leadership challenges.
+178,Carlos Mendoza,47,Psychologist,Active,S432,2023-01-20,Stress Management,88,Positive,Ambition,1,Chronic Anxiety,Discussion about leadership challenges.
+171,Pedro Castillo,22,Engineer,Active,S433,2023-01-18,Stress Management,22,Anxious,Fatigue | Anxiety,1,Mild Depression,Discussion about leadership challenges.
+162,Juan Rodriguez,52,Entrepreneur,Active,S434,2023-03-15,Stress Management,89,Positive,Relief | Ambition,0,,Signs of fatigue with positive engagement.
+28,Carlos Mendoza,23,Engineer,Active,S435,2023-11-29,Burnout Prevention,89,Positive,Ambition | Motivation,2,Mild Depression,Discussion about leadership challenges.
+201,Maria Lopez,60,Data Analyst,Active,S436,2023-04-26,Executive Coaching,33,Anxious,Anxiety,0,,Patient shows improvement after behavioral changes.
+51,Ana Garcia,34,Engineer,Active,S437,2023-03-06,Emotional Regulation,84,Positive,Ambition | Relief,2,Mild Depression,Discussion about leadership challenges.
+174,Laura Perez,35,Graphic Designer,Active,S438,2023-07-23,Burnout Prevention,78,Positive,Anxiety | Fatigue,1,Burnout,Session focused on emotional regulation strategies.
+81,Andres Torres,46,Graphic Designer,Active,S439,2023-11-23,Leadership Development,42,Anxious,Stress,0,,Discussion about leadership challenges.
+148,Maria Lopez,60,Teacher,Active,S440,2023-05-05,Executive Coaching,81,Positive,Stress,0,,Signs of fatigue with positive engagement.
+128,Maria Lopez,65,Entrepreneur,Active,S441,2023-04-12,Stress Management,71,Positive,Doubt | Stress,0,,Patient reports high stress due to workload.
+98,Carlos Mendoza,29,Sales Manager,Active,S442,2023-02-07,Leadership Development,37,Anxious,Doubt | Stress,0,,Signs of fatigue with positive engagement.
+149,Maria Lopez,64,Graphic Designer,Active,S443,2023-09-07,Burnout Prevention,55,Neutral,Anxiety,2,Mild Depression,Discussion about leadership challenges.
+213,Carlos Mendoza,47,Teacher,Active,S444,2023-01-22,Leadership Development,87,Positive,Stress,0,,Patient reports high stress due to workload.
+137,Sofia Ramirez,26,Data Analyst,Active,S445,2023-01-23,Executive Coaching,57,Neutral,Stress,2,Burnout,Signs of fatigue with positive engagement.
+19,Maria Lopez,31,Entrepreneur,Active,S446,2023-06-06,Emotional Regulation,48,Neutral,Motivation | Ambition,2,Burnout,Session focused on emotional regulation strategies.
+122,Laura Perez,61,Teacher,Active,S447,2023-11-12,Emotional Regulation,84,Positive,Overwhelm | Stress,2,Chronic Anxiety,Session focused on emotional regulation strategies.
+98,Andres Torres,24,Data Analyst,Active,S448,2023-06-05,Stress Management,39,Anxious,Relief | Motivation,0,,Session focused on emotional regulation strategies.
+10,Andres Torres,63,Engineer,Active,S449,2023-05-20,Leadership Development,70,Positive,Anxiety | Relief,0,,Patient shows improvement after behavioral changes.
+222,Carlos Mendoza,25,Sales Manager,Active,S450,2023-04-09,Stress Management,82,Positive,Fatigue,1,Burnout,Signs of fatigue with positive engagement.
+121,Carlos Mendoza,39,Graphic Designer,Active,S451,2023-05-24,Stress Management,54,Neutral,Fatigue | Motivation,1,,Signs of fatigue with positive engagement.
+26,Laura Perez,49,Teacher,Active,S452,2023-08-07,Executive Coaching,74,Positive,Motivation | Fatigue,0,,Session focused on emotional regulation strategies.
+3,Sofia Ramirez,63,Psychologist,Active,S453,2023-07-09,Emotional Regulation,54,Neutral,Anxiety | Relief,1,Chronic Anxiety,Patient reports high stress due to workload.
+116,Andres Torres,63,Entrepreneur,Active,S454,2023-05-27,Leadership Development,31,Anxious,Doubt | Overwhelm,0,,Patient shows improvement after behavioral changes.
+129,Carlos Mendoza,34,Engineer,Active,S455,2023-10-19,Stress Management,61,Neutral,Relief | Motivation,0,,Patient shows improvement after behavioral changes.
+107,Sofia Ramirez,64,Data Analyst,Active,S456,2023-05-12,Executive Coaching,58,Neutral,Fatigue,2,,Patient reports high stress due to workload.
+213,Pedro Castillo,32,Graphic Designer,Active,S457,2023-08-12,Emotional Regulation,32,Anxious,Fatigue | Relief,1,Mild Depression,Session focused on emotional regulation strategies.
+1,Juan Rodriguez,59,Sales Manager,Active,S458,2023-07-05,Emotional Regulation,26,Anxious,Fatigue | Relief,0,,Patient reports high stress due to workload.
+43,Carlos Mendoza,41,Graphic Designer,Active,S459,2023-06-17,Executive Coaching,74,Positive,Relief | Anxiety,0,,Patient shows improvement after behavioral changes.
+37,Ana Garcia,25,Teacher,Active,S460,2023-11-02,Stress Management,57,Neutral,Doubt | Overwhelm,2,Burnout,Signs of fatigue with positive engagement.
+221,Carlos Mendoza,41,Graphic Designer,Active,S461,2023-10-27,Emotional Regulation,45,Neutral,Anxiety,0,,Session focused on emotional regulation strategies.
+101,Juan Rodriguez,24,Entrepreneur,Active,S462,2023-09-20,Leadership Development,72,Positive,Relief,0,,Session focused on emotional regulation strategies.
+154,Ana Garcia,22,Entrepreneur,Active,S463,2023-04-18,Leadership Development,84,Positive,Stress,0,,Patient shows improvement after behavioral changes.
+184,Maria Lopez,44,Entrepreneur,Active,S464,2023-05-11,Leadership Development,27,Anxious,Overwhelm | Anxiety,1,Mild Depression,Signs of fatigue with positive engagement.
+31,Carlos Mendoza,40,Teacher,Active,S465,2023-12-06,Stress Management,46,Neutral,Fatigue | Motivation,0,,Session focused on emotional regulation strategies.
+209,Sofia Ramirez,53,Psychologist,Active,S466,2023-12-14,Emotional Regulation,83,Positive,Motivation | Anxiety,1,Chronic Anxiety,Discussion about leadership challenges.
+139,Sofia Ramirez,58,Entrepreneur,Active,S467,2023-02-14,Emotional Regulation,26,Anxious,Fatigue | Motivation,2,Mild Depression,Patient reports high stress due to workload.
+191,Maria Lopez,59,Sales Manager,Active,S468,2023-04-02,Burnout Prevention,66,Neutral,Fatigue | Ambition,0,,Signs of fatigue with positive engagement.
+194,Sofia Ramirez,57,Engineer,Active,S469,2023-03-13,Executive Coaching,54,Neutral,Ambition,0,,Session focused on emotional regulation strategies.
+112,Ana Garcia,38,Entrepreneur,Active,S470,2023-08-12,Stress Management,60,Neutral,Relief | Overwhelm,0,,Discussion about leadership challenges.
+80,Andres Torres,63,Engineer,Active,S471,2023-03-09,Stress Management,24,Anxious,Stress,0,,Discussion about leadership challenges.
+8,Maria Lopez,23,Psychologist,Active,S472,2023-10-04,Stress Management,81,Positive,Stress | Overwhelm,0,,Signs of fatigue with positive engagement.
+137,Laura Perez,53,Psychologist,Active,S473,2023-01-24,Burnout Prevention,54,Neutral,Anxiety,1,,Patient reports high stress due to workload.
+227,Maria Lopez,34,Psychologist,Active,S474,2023-10-31,Emotional Regulation,38,Anxious,Stress | Motivation,2,,Discussion about leadership challenges.
+76,Sofia Ramirez,26,Teacher,Active,S475,2023-08-14,Stress Management,87,Positive,Doubt,2,Chronic Anxiety,Discussion about leadership challenges.
+107,Pedro Castillo,33,Psychologist,Active,S476,2023-02-20,Emotional Regulation,68,Neutral,Anxiety | Relief,2,,Patient reports high stress due to workload.
+69,Maria Lopez,37,Psychologist,Active,S477,2023-12-11,Emotional Regulation,42,Anxious,Ambition,2,Chronic Anxiety,Patient reports high stress due to workload.
+13,Sofia Ramirez,51,Sales Manager,Active,S478,2023-07-01,Burnout Prevention,65,Neutral,Anxiety | Relief,1,Burnout,Session focused on emotional regulation strategies.
+164,Andres Torres,61,Graphic Designer,Active,S479,2023-01-20,Burnout Prevention,63,Neutral,Anxiety | Fatigue,2,Mild Depression,Session focused on emotional regulation strategies.
+39,Maria Lopez,38,Engineer,Active,S480,2023-07-26,Burnout Prevention,76,Positive,Fatigue | Anxiety,2,Chronic Anxiety,Patient shows improvement after behavioral changes.
+30,Pedro Castillo,25,Entrepreneur,Active,S481,2023-05-24,Burnout Prevention,34,Anxious,Ambition | Motivation,2,Chronic Anxiety,Patient shows improvement after behavioral changes.
+20,Andres Torres,55,Entrepreneur,Active,S482,2023-03-12,Emotional Regulation,52,Neutral,Relief,2,Mild Depression,Patient reports high stress due to workload.
+116,Andres Torres,41,Psychologist,Active,S483,2023-08-16,Leadership Development,32,Anxious,Overwhelm | Ambition,0,,Signs of fatigue with positive engagement.
+97,Juan Rodriguez,45,Engineer,Active,S484,2023-09-03,Emotional Regulation,46,Neutral,Fatigue,1,,Signs of fatigue with positive engagement.
+224,Laura Perez,23,Graphic Designer,Active,S485,2023-07-28,Executive Coaching,22,Anxious,Stress,1,Burnout,Session focused on emotional regulation strategies.
+118,Maria Lopez,59,Engineer,Active,S486,2023-02-01,Leadership Development,25,Anxious,Fatigue | Stress,1,Chronic Anxiety,Session focused on emotional regulation strategies.
+183,Ana Garcia,32,Teacher,Active,S487,2023-11-29,Burnout Prevention,81,Positive,Doubt | Fatigue,2,Burnout,Patient reports high stress due to workload.
+182,Laura Perez,31,Psychologist,Active,S488,2023-02-10,Executive Coaching,30,Anxious,Overwhelm | Fatigue,0,,Patient shows improvement after behavioral changes.
+215,Carlos Mendoza,29,Sales Manager,Active,S489,2023-01-13,Stress Management,81,Positive,Stress | Motivation,2,Mild Depression,Signs of fatigue with positive engagement.
+35,Laura Perez,54,Entrepreneur,Active,S490,2023-04-28,Burnout Prevention,69,Neutral,Anxiety,2,Burnout,Session focused on emotional regulation strategies.
+109,Carlos Mendoza,62,Entrepreneur,Active,S491,2023-06-19,Leadership Development,49,Neutral,Overwhelm | Motivation,2,Mild Depression,Signs of fatigue with positive engagement.
+161,Juan Rodriguez,36,Engineer,Active,S492,2023-10-16,Burnout Prevention,44,Anxious,Overwhelm | Ambition,0,,Signs of fatigue with positive engagement.
+226,Juan Rodriguez,32,Entrepreneur,Active,S493,2023-04-12,Emotional Regulation,37,Anxious,Ambition | Relief,1,Chronic Anxiety,Session focused on emotional regulation strategies.
+229,Sofia Ramirez,56,Psychologist,Active,S494,2023-01-16,Leadership Development,59,Neutral,Relief,2,Mild Depression,Patient shows improvement after behavioral changes.
+199,Ana Garcia,36,Psychologist,Active,S495,2023-04-30,Burnout Prevention,62,Neutral,Stress,2,,Discussion about leadership challenges.
+152,Sofia Ramirez,50,Engineer,Active,S496,2023-06-05,Burnout Prevention,66,Neutral,Ambition | Relief,0,,Session focused on emotional regulation strategies.
+173,Andres Torres,45,Engineer,Active,S497,2023-06-21,Executive Coaching,79,Positive,Fatigue,2,Chronic Anxiety,Patient shows improvement after behavioral changes.
+122,Ana Garcia,53,Psychologist,Active,S498,2023-02-22,Emotional Regulation,84,Positive,Doubt,1,Mild Depression,Patient shows improvement after behavioral changes.
+105,Laura Perez,35,Entrepreneur,Active,S499,2023-01-09,Burnout Prevention,76,Positive,Anxiety,0,,Patient reports high stress due to workload.
+123,Ana Garcia,56,Graphic Designer,Active,S500,2023-01-01,Burnout Prevention,77,Positive,Doubt,0,,Session focused on emotional regulation strategies.
+229,Pedro Castillo,50,Entrepreneur,Active,S501,2023-04-04,Leadership Development,25,Anxious,Ambition | Relief,0,,Signs of fatigue with positive engagement.
+115,Juan Rodriguez,41,Graphic Designer,Active,S502,2023-02-28,Emotional Regulation,70,Positive,Overwhelm,1,Burnout,Patient reports high stress due to workload.
+207,Andres Torres,53,Psychologist,Active,S503,2023-09-10,Emotional Regulation,29,Anxious,Fatigue | Ambition,0,,Discussion about leadership challenges.
+177,Carlos Mendoza,63,Sales Manager,Active,S504,2023-05-12,Executive Coaching,72,Positive,Ambition,2,Burnout,Discussion about leadership challenges.
+210,Pedro Castillo,58,Sales Manager,Active,S505,2023-10-09,Burnout Prevention,85,Positive,Ambition | Stress,2,Burnout,Session focused on emotional regulation strategies.
+228,Pedro Castillo,39,Psychologist,Active,S506,2023-04-21,Emotional Regulation,58,Neutral,Stress,0,,Session focused on emotional regulation strategies.
+121,Laura Perez,29,Psychologist,Active,S507,2023-11-16,Leadership Development,60,Neutral,Relief | Fatigue,2,Mild Depression,Session focused on emotional regulation strategies.
+69,Maria Lopez,43,Data Analyst,Active,S508,2023-06-03,Executive Coaching,24,Anxious,Fatigue,0,,Session focused on emotional regulation strategies.
+180,Andres Torres,39,Teacher,Active,S509,2023-07-15,Stress Management,71,Positive,Relief | Stress,2,Burnout,Discussion about leadership challenges.
+159,Maria Lopez,23,Data Analyst,Active,S510,2023-11-21,Burnout Prevention,61,Neutral,Overwhelm | Stress,2,Burnout,Patient reports high stress due to workload.
+41,Ana Garcia,37,Sales Manager,Active,S511,2023-08-21,Executive Coaching,55,Neutral,Anxiety | Doubt,0,,Discussion about leadership challenges.
+239,Maria Lopez,33,Psychologist,Active,S512,2023-04-09,Executive Coaching,46,Neutral,Fatigue,1,Chronic Anxiety,Patient reports high stress due to workload.
+178,Ana Garcia,35,Graphic Designer,Active,S513,2023-01-12,Burnout Prevention,87,Positive,Anxiety,0,,Patient reports high stress due to workload.
+161,Sofia Ramirez,56,Data Analyst,Active,S514,2023-09-18,Burnout Prevention,39,Anxious,Relief,2,Burnout,Signs of fatigue with positive engagement.
+209,Juan Rodriguez,43,Engineer,Active,S515,2023-05-23,Emotional Regulation,38,Anxious,Motivation | Stress,1,Chronic Anxiety,Signs of fatigue with positive engagement.
+166,Laura Perez,29,Sales Manager,Active,S516,2023-04-19,Stress Management,77,Positive,Anxiety | Overwhelm,0,,Patient shows improvement after behavioral changes.
+15,Carlos Mendoza,52,Graphic Designer,Active,S517,2023-10-09,Leadership Development,67,Neutral,Motivation | Overwhelm,2,Burnout,Discussion about leadership challenges.
+176,Maria Lopez,43,Engineer,Active,S518,2023-07-14,Leadership Development,89,Positive,Fatigue | Relief,2,,Signs of fatigue with positive engagement.
+85,Juan Rodriguez,49,Graphic Designer,Active,S519,2023-01-22,Stress Management,46,Neutral,Doubt,1,Mild Depression,Patient shows improvement after behavioral changes.
+123,Juan Rodriguez,35,Data Analyst,Active,S520,2023-10-11,Burnout Prevention,52,Neutral,Fatigue,1,Chronic Anxiety,Patient reports high stress due to workload.
+241,Ana Garcia,23,Data Analyst,Active,S521,2023-03-05,Emotional Regulation,52,Neutral,Relief,1,Chronic Anxiety,Signs of fatigue with positive engagement.
+80,Laura Perez,28,Data Analyst,Active,S522,2023-11-06,Burnout Prevention,38,Anxious,Fatigue,0,,Signs of fatigue with positive engagement.
+176,Ana Garcia,65,Psychologist,Active,S523,2023-09-09,Executive Coaching,50,Neutral,Stress | Anxiety,1,,Discussion about leadership challenges.
+95,Ana Garcia,41,Data Analyst,Active,S524,2023-09-13,Executive Coaching,75,Positive,Motivation | Stress,1,,Patient reports high stress due to workload.
+177,Pedro Castillo,44,Psychologist,Active,S525,2023-04-12,Burnout Prevention,77,Positive,Stress | Fatigue,0,,Session focused on emotional regulation strategies.
+219,Sofia Ramirez,48,Entrepreneur,Active,S526,2023-05-14,Executive Coaching,48,Neutral,Overwhelm,2,Burnout,Patient shows improvement after behavioral changes.
+204,Andres Torres,58,Engineer,Active,S527,2023-07-02,Emotional Regulation,47,Neutral,Motivation | Ambition,2,Burnout,Session focused on emotional regulation strategies.
+55,Andres Torres,54,Graphic Designer,Active,S528,2023-11-07,Leadership Development,22,Anxious,Relief | Motivation,1,,Patient reports high stress due to workload.
+38,Juan Rodriguez,46,Sales Manager,Active,S529,2023-01-26,Stress Management,85,Positive,Doubt | Relief,2,Burnout,Session focused on emotional regulation strategies.
+11,Sofia Ramirez,37,Graphic Designer,Active,S530,2023-03-21,Leadership Development,48,Neutral,Fatigue,1,Mild Depression,Patient reports high stress due to workload.
+237,Sofia Ramirez,43,Data Analyst,Active,S531,2023-12-26,Leadership Development,44,Anxious,Relief,1,,Discussion about leadership challenges.
+151,Maria Lopez,41,Teacher,Active,S532,2023-12-03,Leadership Development,38,Anxious,Ambition,1,Burnout,Signs of fatigue with positive engagement.
+62,Andres Torres,63,Entrepreneur,Active,S533,2023-04-04,Burnout Prevention,68,Neutral,Fatigue,1,Burnout,Patient reports high stress due to workload.
+110,Pedro Castillo,29,Sales Manager,Active,S534,2023-08-11,Emotional Regulation,89,Positive,Ambition,2,Chronic Anxiety,Discussion about leadership challenges.
+5,Sofia Ramirez,23,Psychologist,Active,S535,2023-09-29,Leadership Development,34,Anxious,Ambition | Motivation,0,,Patient shows improvement after behavioral changes.
+84,Sofia Ramirez,40,Entrepreneur,Active,S536,2023-04-11,Burnout Prevention,56,Neutral,Anxiety,0,,Signs of fatigue with positive engagement.
+68,Maria Lopez,41,Teacher,Active,S537,2023-06-07,Burnout Prevention,50,Neutral,Doubt,2,Mild Depression,Discussion about leadership challenges.
+48,Maria Lopez,46,Graphic Designer,Active,S538,2023-11-07,Emotional Regulation,60,Neutral,Overwhelm,1,Chronic Anxiety,Patient reports high stress due to workload.
+191,Carlos Mendoza,57,Engineer,Active,S539,2023-12-08,Leadership Development,79,Positive,Stress,0,,Patient reports high stress due to workload.
+192,Sofia Ramirez,61,Sales Manager,Active,S540,2023-09-15,Leadership Development,20,Anxious,Fatigue,0,,Patient reports high stress due to workload.
+185,Juan Rodriguez,43,Teacher,Active,S541,2023-09-20,Stress Management,38,Anxious,Doubt | Anxiety,2,Mild Depression,Signs of fatigue with positive engagement.
+95,Laura Perez,59,Sales Manager,Active,S542,2023-07-29,Emotional Regulation,46,Neutral,Anxiety,1,Burnout,Patient reports high stress due to workload.
+203,Juan Rodriguez,42,Graphic Designer,Active,S543,2023-04-16,Emotional Regulation,43,Anxious,Fatigue,0,,Patient reports high stress due to workload.
+87,Sofia Ramirez,50,Data Analyst,Active,S544,2023-09-11,Burnout Prevention,45,Neutral,Ambition,1,Burnout,Patient reports high stress due to workload.
+14,Carlos Mendoza,38,Engineer,Active,S545,2023-11-28,Leadership Development,75,Positive,Doubt,0,,Patient reports high stress due to workload.
+15,Laura Perez,56,Data Analyst,Active,S546,2023-05-27,Burnout Prevention,68,Neutral,Doubt,0,,Patient reports high stress due to workload.
+185,Maria Lopez,31,Graphic Designer,Active,S547,2023-09-28,Executive Coaching,79,Positive,Overwhelm,0,,Patient reports high stress due to workload.
+154,Juan Rodriguez,23,Sales Manager,Active,S548,2023-12-17,Leadership Development,56,Neutral,Doubt,1,Burnout,Patient reports high stress due to workload.
+203,Andres Torres,35,Entrepreneur,Active,S549,2023-05-17,Emotional Regulation,41,Anxious,Overwhelm,1,Chronic Anxiety,Signs of fatigue with positive engagement.
+97,Carlos Mendoza,55,Data Analyst,Active,S550,2023-01-26,Stress Management,49,Neutral,Stress | Relief,2,Chronic Anxiety,Patient reports high stress due to workload.
+102,Pedro Castillo,31,Engineer,Active,S551,2023-11-04,Emotional Regulation,73,Positive,Ambition,1,Mild Depression,Discussion about leadership challenges.
+93,Pedro Castillo,34,Sales Manager,Active,S552,2023-10-08,Executive Coaching,41,Anxious,Relief | Anxiety,1,Chronic Anxiety,Session focused on emotional regulation strategies.
+133,Ana Garcia,30,Graphic Designer,Active,S553,2023-08-08,Executive Coaching,28,Anxious,Fatigue | Relief,0,,Session focused on emotional regulation strategies.
+183,Laura Perez,28,Sales Manager,Active,S554,2023-07-20,Burnout Prevention,77,Positive,Ambition | Anxiety,2,Mild Depression,Session focused on emotional regulation strategies.
+122,Laura Perez,25,Data Analyst,Active,S555,2023-09-27,Stress Management,27,Anxious,Relief,1,Burnout,Signs of fatigue with positive engagement.
+163,Ana Garcia,36,Data Analyst,Active,S556,2023-10-13,Executive Coaching,27,Anxious,Ambition | Doubt,0,,Patient reports high stress due to workload.
+241,Carlos Mendoza,52,Graphic Designer,Active,S557,2023-12-24,Executive Coaching,85,Positive,Overwhelm,0,,Patient reports high stress due to workload.
+105,Juan Rodriguez,34,Psychologist,Active,S558,2023-10-23,Stress Management,42,Anxious,Overwhelm,1,,Session focused on emotional regulation strategies.
+62,Sofia Ramirez,50,Teacher,Active,S559,2023-09-22,Burnout Prevention,59,Neutral,Relief,1,Chronic Anxiety,Discussion about leadership challenges.
+147,Maria Lopez,55,Entrepreneur,Active,S560,2023-09-29,Leadership Development,78,Positive,Doubt | Fatigue,2,Chronic Anxiety,Patient reports high stress due to workload.
+153,Carlos Mendoza,22,Data Analyst,Active,S561,2023-11-19,Emotional Regulation,25,Anxious,Relief | Doubt,2,Mild Depression,Session focused on emotional regulation strategies.
+54,Ana Garcia,24,Graphic Designer,Active,S562,2023-05-11,Emotional Regulation,35,Anxious,Stress,1,Mild Depression,Discussion about leadership challenges.
+226,Sofia Ramirez,43,Graphic Designer,Active,S563,2023-05-28,Emotional Regulation,59,Neutral,Anxiety | Ambition,0,,Signs of fatigue with positive engagement.
+198,Maria Lopez,41,Psychologist,Active,S564,2023-07-21,Burnout Prevention,84,Positive,Relief | Overwhelm,2,,Patient reports high stress due to workload.
+150,Maria Lopez,62,Entrepreneur,Active,S565,2023-08-01,Leadership Development,56,Neutral,Ambition,1,Chronic Anxiety,Patient shows improvement after behavioral changes.
+102,Pedro Castillo,62,Entrepreneur,Active,S566,2023-05-29,Burnout Prevention,22,Anxious,Relief,1,,Session focused on emotional regulation strategies.
+169,Andres Torres,38,Sales Manager,Active,S567,2023-11-01,Executive Coaching,58,Neutral,Fatigue | Ambition,0,,Patient shows improvement after behavioral changes.
+119,Laura Perez,58,Engineer,Active,S568,2023-11-20,Executive Coaching,73,Positive,Fatigue,0,,Patient shows improvement after behavioral changes.
+185,Sofia Ramirez,43,Data Analyst,Active,S569,2023-08-18,Executive Coaching,56,Neutral,Fatigue,1,Chronic Anxiety,Session focused on emotional regulation strategies.
+64,Juan Rodriguez,44,Engineer,Active,S570,2023-03-16,Burnout Prevention,46,Neutral,Stress | Ambition,2,Chronic Anxiety,Signs of fatigue with positive engagement.
+4,Pedro Castillo,44,Data Analyst,Active,S571,2023-01-19,Emotional Regulation,83,Positive,Overwhelm,0,,Session focused on emotional regulation strategies.
+226,Laura Perez,48,Psychologist,Active,S572,2023-07-09,Executive Coaching,24,Anxious,Anxiety,0,,Discussion about leadership challenges.
+48,Ana Garcia,34,Psychologist,Active,S573,2023-02-05,Burnout Prevention,24,Anxious,Doubt,2,,Signs of fatigue with positive engagement.
+58,Sofia Ramirez,35,Psychologist,Active,S574,2023-04-22,Stress Management,39,Anxious,Anxiety | Overwhelm,1,Burnout,Session focused on emotional regulation strategies.
+156,Laura Perez,49,Data Analyst,Active,S575,2023-11-04,Leadership Development,28,Anxious,Stress | Relief,0,,Discussion about leadership challenges.
+20,Carlos Mendoza,56,Engineer,Active,S576,2023-04-30,Executive Coaching,73,Positive,Stress,2,Chronic Anxiety,Session focused on emotional regulation strategies.
+115,Ana Garcia,45,Sales Manager,Active,S577,2023-10-10,Stress Management,30,Anxious,Overwhelm,1,Mild Depression,Patient shows improvement after behavioral changes.
+48,Andres Torres,33,Entrepreneur,Active,S578,2023-06-13,Executive Coaching,81,Positive,Stress,0,,Session focused on emotional regulation strategies.
+188,Andres Torres,35,Entrepreneur,Active,S579,2023-09-16,Stress Management,64,Neutral,Fatigue | Overwhelm,1,Burnout,Patient shows improvement after behavioral changes.
+117,Pedro Castillo,44,Psychologist,Active,S580,2023-04-14,Leadership Development,85,Positive,Doubt,0,,Session focused on emotional regulation strategies.
+245,Maria Lopez,45,Psychologist,Active,S581,2023-04-29,Emotional Regulation,40,Anxious,Anxiety,1,Mild Depression,Signs of fatigue with positive engagement.
+120,Sofia Ramirez,53,Graphic Designer,Active,S582,2023-01-20,Stress Management,74,Positive,Anxiety | Doubt,0,,Session focused on emotional regulation strategies.
+249,Carlos Mendoza,25,Sales Manager,Active,S583,2023-01-31,Emotional Regulation,55,Neutral,Stress | Motivation,0,,Signs of fatigue with positive engagement.
+25,Sofia Ramirez,57,Engineer,Active,S584,2023-12-14,Emotional Regulation,84,Positive,Motivation,0,,Patient reports high stress due to workload.
+147,Andres Torres,22,Graphic Designer,Active,S585,2023-12-20,Leadership Development,23,Anxious,Doubt,1,,Patient reports high stress due to workload.
+84,Andres Torres,40,Psychologist,Active,S586,2023-09-15,Emotional Regulation,41,Anxious,Relief,2,Burnout,Patient shows improvement after behavioral changes.
+27,Andres Torres,46,Psychologist,Active,S587,2023-10-21,Executive Coaching,82,Positive,Anxiety | Ambition,2,Mild Depression,Signs of fatigue with positive engagement.
+171,Maria Lopez,26,Sales Manager,Active,S588,2023-12-23,Stress Management,51,Neutral,Doubt | Relief,2,Chronic Anxiety,Session focused on emotional regulation strategies.
+56,Ana Garcia,41,Psychologist,Active,S589,2023-05-11,Executive Coaching,41,Anxious,Doubt,2,Mild Depression,Patient shows improvement after behavioral changes.
+36,Maria Lopez,61,Graphic Designer,Active,S590,2023-03-29,Executive Coaching,49,Neutral,Doubt | Anxiety,1,Burnout,Patient shows improvement after behavioral changes.
+66,Sofia Ramirez,49,Graphic Designer,Active,S591,2023-10-22,Leadership Development,70,Positive,Overwhelm | Anxiety,1,Mild Depression,Patient reports high stress due to workload.
+7,Ana Garcia,51,Psychologist,Active,S592,2023-02-22,Emotional Regulation,47,Neutral,Relief,2,,Discussion about leadership challenges.
+187,Andres Torres,44,Sales Manager,Active,S593,2023-12-15,Stress Management,23,Anxious,Relief,0,,Session focused on emotional regulation strategies.
+122,Maria Lopez,47,Teacher,Active,S594,2023-08-03,Stress Management,78,Positive,Stress | Doubt,1,,Patient reports high stress due to workload.
+122,Pedro Castillo,52,Data Analyst,Active,S595,2023-08-28,Executive Coaching,79,Positive,Motivation,0,,Patient reports high stress due to workload.
+124,Maria Lopez,37,Data Analyst,Active,S596,2023-12-23,Burnout Prevention,46,Neutral,Relief,2,,Signs of fatigue with positive engagement.
+2,Ana Garcia,47,Sales Manager,Active,S597,2023-03-15,Stress Management,39,Anxious,Fatigue | Doubt,2,Burnout,Discussion about leadership challenges.
+195,Sofia Ramirez,44,Graphic Designer,Active,S598,2023-12-19,Executive Coaching,45,Neutral,Ambition | Fatigue,0,,Discussion about leadership challenges.
+146,Ana Garcia,44,Teacher,Active,S599,2023-12-07,Executive Coaching,61,Neutral,Stress | Fatigue,1,Mild Depression,Patient shows improvement after behavioral changes.
+164,Carlos Mendoza,37,Psychologist,Active,S600,2023-09-13,Stress Management,25,Anxious,Fatigue | Anxiety,2,Burnout,Patient reports high stress due to workload.
+169,Carlos Mendoza,38,Entrepreneur,Active,S601,2023-06-20,Emotional Regulation,74,Positive,Doubt,1,Chronic Anxiety,Patient reports high stress due to workload.
+24,Pedro Castillo,50,Entrepreneur,Active,S602,2023-11-22,Emotional Regulation,78,Positive,Overwhelm | Fatigue,0,,Signs of fatigue with positive engagement.
+163,Maria Lopez,64,Psychologist,Active,S603,2023-03-29,Executive Coaching,28,Anxious,Relief | Fatigue,2,Chronic Anxiety,Patient reports high stress due to workload.
+202,Juan Rodriguez,49,Teacher,Active,S604,2023-01-12,Executive Coaching,41,Anxious,Fatigue | Ambition,0,,Discussion about leadership challenges.
+197,Pedro Castillo,63,Engineer,Active,S605,2023-09-28,Emotional Regulation,50,Neutral,Motivation | Ambition,2,Mild Depression,Patient shows improvement after behavioral changes.
+22,Ana Garcia,62,Teacher,Active,S606,2023-03-28,Leadership Development,89,Positive,Stress,1,Mild Depression,Patient reports high stress due to workload.
+51,Laura Perez,31,Graphic Designer,Active,S607,2023-02-11,Burnout Prevention,51,Neutral,Stress | Motivation,0,,Patient shows improvement after behavioral changes.
+87,Maria Lopez,36,Data Analyst,Active,S608,2023-02-20,Leadership Development,81,Positive,Doubt | Motivation,0,,Patient shows improvement after behavioral changes.
+199,Maria Lopez,25,Entrepreneur,Active,S609,2023-05-20,Executive Coaching,56,Neutral,Motivation,1,Mild Depression,Signs of fatigue with positive engagement.
+156,Carlos Mendoza,25,Engineer,Active,S610,2023-07-23,Emotional Regulation,32,Anxious,Stress | Ambition,0,,Session focused on emotional regulation strategies.
+238,Carlos Mendoza,65,Entrepreneur,Active,S611,2023-08-09,Leadership Development,64,Neutral,Overwhelm,0,,Patient reports high stress due to workload.
+106,Laura Perez,27,Entrepreneur,Active,S612,2023-07-21,Stress Management,60,Neutral,Relief | Fatigue,1,Chronic Anxiety,Session focused on emotional regulation strategies.
+150,Sofia Ramirez,52,Engineer,Active,S613,2023-02-08,Leadership Development,71,Positive,Ambition,1,,Session focused on emotional regulation strategies.
+42,Pedro Castillo,33,Data Analyst,Active,S614,2023-05-23,Leadership Development,22,Anxious,Relief | Motivation,2,Mild Depression,Session focused on emotional regulation strategies.
+169,Juan Rodriguez,65,Entrepreneur,Active,S615,2023-01-03,Burnout Prevention,30,Anxious,Relief | Stress,2,,Session focused on emotional regulation strategies.
+166,Pedro Castillo,31,Teacher,Active,S616,2023-11-23,Emotional Regulation,72,Positive,Overwhelm | Ambition,1,Mild Depression,Session focused on emotional regulation strategies.
+65,Laura Perez,42,Sales Manager,Active,S617,2023-08-31,Executive Coaching,77,Positive,Ambition,1,,Signs of fatigue with positive engagement.
+131,Carlos Mendoza,55,Psychologist,Active,S618,2023-06-17,Burnout Prevention,57,Neutral,Anxiety | Overwhelm,2,Chronic Anxiety,Patient reports high stress due to workload.
+160,Carlos Mendoza,37,Psychologist,Active,S619,2023-09-04,Burnout Prevention,44,Anxious,Relief | Doubt,0,,Patient reports high stress due to workload.
+115,Sofia Ramirez,40,Teacher,Active,S620,2023-03-28,Stress Management,27,Anxious,Motivation,1,,Signs of fatigue with positive engagement.
+245,Ana Garcia,50,Engineer,Active,S621,2023-01-19,Stress Management,38,Anxious,Motivation,1,Burnout,Patient reports high stress due to workload.
+172,Andres Torres,59,Data Analyst,Active,S622,2023-10-26,Executive Coaching,89,Positive,Ambition | Anxiety,2,Burnout,Patient reports high stress due to workload.
+79,Andres Torres,29,Sales Manager,Active,S623,2023-10-30,Stress Management,43,Anxious,Overwhelm,1,Burnout,Patient reports high stress due to workload.
+186,Carlos Mendoza,54,Sales Manager,Active,S624,2023-08-01,Leadership Development,68,Neutral,Motivation | Ambition,0,,Discussion about leadership challenges.
+65,Maria Lopez,49,Data Analyst,Active,S625,2023-07-13,Stress Management,51,Neutral,Fatigue,2,Chronic Anxiety,Patient shows improvement after behavioral changes.
+222,Sofia Ramirez,28,Sales Manager,Active,S626,2023-05-22,Executive Coaching,21,Anxious,Overwhelm | Doubt,2,,Signs of fatigue with positive engagement.
+144,Carlos Mendoza,25,Graphic Designer,Active,S627,2023-10-10,Burnout Prevention,87,Positive,Ambition,2,Mild Depression,Signs of fatigue with positive engagement.
+248,Laura Perez,54,Sales Manager,Active,S628,2023-07-23,Executive Coaching,81,Positive,Doubt,1,Chronic Anxiety,Session focused on emotional regulation strategies.
+190,Juan Rodriguez,36,Data Analyst,Active,S629,2023-02-21,Stress Management,80,Positive,Anxiety | Motivation,0,,Session focused on emotional regulation strategies.
+180,Juan Rodriguez,56,Teacher,Active,S630,2023-09-09,Stress Management,24,Anxious,Relief,1,Chronic Anxiety,Discussion about leadership challenges.
+66,Carlos Mendoza,61,Entrepreneur,Active,S631,2023-03-15,Leadership Development,73,Positive,Overwhelm,1,Mild Depression,Patient shows improvement after behavioral changes.
+69,Sofia Ramirez,65,Psychologist,Active,S632,2023-06-10,Leadership Development,29,Anxious,Anxiety | Stress,1,,Patient shows improvement after behavioral changes.
+80,Sofia Ramirez,61,Sales Manager,Active,S633,2023-11-09,Leadership Development,34,Anxious,Stress,1,,Patient reports high stress due to workload.
+206,Ana Garcia,45,Psychologist,Active,S634,2023-08-01,Leadership Development,56,Neutral,Anxiety | Fatigue,0,,Patient reports high stress due to workload.
+177,Sofia Ramirez,60,Data Analyst,Active,S635,2023-07-23,Stress Management,21,Anxious,Ambition,0,,Patient shows improvement after behavioral changes.
+193,Andres Torres,27,Engineer,Active,S636,2023-08-20,Stress Management,83,Positive,Fatigue,0,,Session focused on emotional regulation strategies.
+118,Juan Rodriguez,29,Entrepreneur,Active,S637,2023-01-26,Executive Coaching,58,Neutral,Fatigue | Ambition,0,,Patient reports high stress due to workload.
+121,Andres Torres,33,Psychologist,Active,S638,2023-12-30,Executive Coaching,67,Neutral,Overwhelm,0,,Discussion about leadership challenges.
+86,Andres Torres,53,Teacher,Active,S639,2023-01-22,Executive Coaching,88,Positive,Stress,1,Burnout,Session focused on emotional regulation strategies.
+48,Carlos Mendoza,27,Sales Manager,Active,S640,2023-07-08,Executive Coaching,80,Positive,Motivation | Doubt,0,,Patient reports high stress due to workload.
+215,Maria Lopez,49,Engineer,Active,S641,2023-10-15,Leadership Development,23,Anxious,Motivation | Doubt,0,,Signs of fatigue with positive engagement.
+178,Andres Torres,55,Entrepreneur,Active,S642,2023-10-07,Stress Management,44,Anxious,Doubt | Ambition,1,Chronic Anxiety,Patient reports high stress due to workload.
+168,Sofia Ramirez,42,Data Analyst,Active,S643,2023-04-06,Stress Management,26,Anxious,Stress | Fatigue,1,Chronic Anxiety,Patient shows improvement after behavioral changes.
+79,Sofia Ramirez,37,Sales Manager,Active,S644,2023-03-08,Executive Coaching,67,Neutral,Fatigue | Motivation,2,Burnout,Signs of fatigue with positive engagement.
+105,Ana Garcia,23,Engineer,Active,S645,2023-04-28,Leadership Development,44,Anxious,Anxiety,2,,Patient shows improvement after behavioral changes.
+56,Ana Garcia,29,Entrepreneur,Active,S646,2023-05-03,Executive Coaching,42,Anxious,Motivation | Anxiety,2,Chronic Anxiety,Patient shows improvement after behavioral changes.
+149,Juan Rodriguez,61,Graphic Designer,Active,S647,2023-04-26,Leadership Development,77,Positive,Overwhelm,2,,Session focused on emotional regulation strategies.
+211,Laura Perez,23,Sales Manager,Active,S648,2023-11-25,Executive Coaching,71,Positive,Overwhelm,1,,Patient reports high stress due to workload.
+186,Pedro Castillo,43,Graphic Designer,Active,S649,2023-08-20,Leadership Development,51,Neutral,Overwhelm,0,,Signs of fatigue with positive engagement.
+157,Pedro Castillo,33,Entrepreneur,Active,S650,2023-04-10,Emotional Regulation,77,Positive,Relief | Fatigue,0,,Signs of fatigue with positive engagement.
+206,Sofia Ramirez,22,Psychologist,Active,S651,2023-06-20,Leadership Development,82,Positive,Motivation | Relief,2,Mild Depression,Signs of fatigue with positive engagement.
+81,Maria Lopez,41,Psychologist,Active,S652,2023-07-23,Leadership Development,48,Neutral,Stress | Anxiety,1,,Discussion about leadership challenges.
+159,Laura Perez,58,Sales Manager,Active,S653,2023-06-12,Burnout Prevention,46,Neutral,Anxiety | Overwhelm,1,,Session focused on emotional regulation strategies.
+3,Andres Torres,42,Psychologist,Active,S654,2023-05-11,Emotional Regulation,79,Positive,Ambition,2,Burnout,Patient reports high stress due to workload.
+136,Carlos Mendoza,38,Engineer,Active,S655,2023-02-27,Stress Management,83,Positive,Anxiety | Fatigue,2,,Session focused on emotional regulation strategies.
+128,Sofia Ramirez,62,Graphic Designer,Active,S656,2023-05-05,Leadership Development,83,Positive,Overwhelm,0,,Patient reports high stress due to workload.
+85,Carlos Mendoza,54,Psychologist,Active,S657,2023-03-06,Emotional Regulation,68,Neutral,Doubt | Fatigue,0,,Patient shows improvement after behavioral changes.
+152,Juan Rodriguez,51,Sales Manager,Active,S658,2023-07-30,Executive Coaching,29,Anxious,Overwhelm,2,Mild Depression,Signs of fatigue with positive engagement.
+155,Carlos Mendoza,47,Data Analyst,Active,S659,2023-07-07,Leadership Development,80,Positive,Relief,0,,Patient reports high stress due to workload.
+6,Sofia Ramirez,24,Engineer,Active,S660,2023-11-10,Stress Management,36,Anxious,Anxiety | Ambition,1,,Discussion about leadership challenges.
+197,Juan Rodriguez,27,Psychologist,Active,S661,2024-01-01,Leadership Development,24,Anxious,Ambition | Overwhelm,0,,Discussion about leadership challenges.
+52,Ana Garcia,31,Graphic Designer,Active,S662,2023-06-04,Stress Management,71,Positive,Ambition,0,,Signs of fatigue with positive engagement.
+58,Laura Perez,59,Teacher,Active,S663,2023-10-07,Emotional Regulation,90,Positive,Doubt,2,Chronic Anxiety,Session focused on emotional regulation strategies.
+12,Pedro Castillo,35,Sales Manager,Active,S664,2023-04-21,Emotional Regulation,82,Positive,Stress,0,,Signs of fatigue with positive engagement.
+78,Laura Perez,57,Entrepreneur,Active,S665,2023-11-26,Stress Management,35,Anxious,Stress,1,Chronic Anxiety,Discussion about leadership challenges.
+242,Pedro Castillo,43,Data Analyst,Active,S666,2023-01-06,Burnout Prevention,29,Anxious,Doubt,0,,Discussion about leadership challenges.
+229,Carlos Mendoza,48,Sales Manager,Active,S667,2023-12-19,Stress Management,62,Neutral,Doubt | Overwhelm,2,Burnout,Discussion about leadership challenges.
+9,Andres Torres,54,Sales Manager,Active,S668,2023-10-15,Emotional Regulation,32,Anxious,Overwhelm | Anxiety,0,,Patient reports high stress due to workload.
+120,Maria Lopez,43,Entrepreneur,Active,S669,2023-02-03,Emotional Regulation,64,Neutral,Relief,1,Mild Depression,Session focused on emotional regulation strategies.
+108,Laura Perez,27,Teacher,Active,S670,2023-05-25,Emotional Regulation,55,Neutral,Doubt,2,Burnout,Patient shows improvement after behavioral changes.
+27,Sofia Ramirez,23,Sales Manager,Active,S671,2023-12-21,Leadership Development,26,Anxious,Anxiety | Ambition,2,Chronic Anxiety,Signs of fatigue with positive engagement.
+230,Ana Garcia,36,Psychologist,Active,S672,2023-01-02,Burnout Prevention,47,Neutral,Overwhelm | Anxiety,0,,Patient shows improvement after behavioral changes.
+198,Juan Rodriguez,64,Data Analyst,Active,S673,2023-10-14,Burnout Prevention,45,Neutral,Stress,0,,Patient shows improvement after behavioral changes.
+173,Ana Garcia,55,Engineer,Active,S674,2023-06-25,Leadership Development,60,Neutral,Fatigue | Ambition,2,Mild Depression,Patient reports high stress due to workload.
+3,Juan Rodriguez,38,Teacher,Active,S675,2023-12-09,Burnout Prevention,63,Neutral,Doubt | Fatigue,0,,Session focused on emotional regulation strategies.
+83,Carlos Mendoza,53,Data Analyst,Active,S676,2023-07-22,Emotional Regulation,85,Positive,Fatigue,2,Mild Depression,Session focused on emotional regulation strategies.
+157,Pedro Castillo,24,Psychologist,Active,S677,2023-01-12,Leadership Development,52,Neutral,Ambition | Fatigue,2,Burnout,Discussion about leadership challenges.
+34,Andres Torres,53,Psychologist,Active,S678,2023-01-10,Leadership Development,55,Neutral,Stress | Anxiety,2,Mild Depression,Patient shows improvement after behavioral changes.
+59,Maria Lopez,58,Entrepreneur,Active,S679,2023-05-12,Burnout Prevention,60,Neutral,Stress | Fatigue,1,Mild Depression,Patient reports high stress due to workload.
+28,Andres Torres,41,Graphic Designer,Active,S680,2023-10-15,Executive Coaching,47,Neutral,Stress,0,,Patient reports high stress due to workload.
+106,Ana Garcia,64,Psychologist,Active,S681,2023-08-14,Emotional Regulation,62,Neutral,Doubt | Ambition,1,Mild Depression,Patient reports high stress due to workload.
+202,Maria Lopez,62,Entrepreneur,Active,S682,2023-11-30,Leadership Development,38,Anxious,Anxiety | Relief,0,,Patient reports high stress due to workload.
+35,Maria Lopez,24,Sales Manager,Active,S683,2023-08-01,Leadership Development,90,Positive,Doubt | Overwhelm,1,Burnout,Signs of fatigue with positive engagement.
+23,Andres Torres,35,Engineer,Active,S684,2023-04-17,Stress Management,75,Positive,Anxiety,1,Burnout,Session focused on emotional regulation strategies.
+142,Maria Lopez,59,Psychologist,Active,S685,2023-08-07,Burnout Prevention,56,Neutral,Stress | Fatigue,0,,Patient shows improvement after behavioral changes.
+224,Pedro Castillo,65,Entrepreneur,Active,S686,2023-05-15,Burnout Prevention,38,Anxious,Motivation,1,,Patient reports high stress due to workload.
+177,Laura Perez,65,Data Analyst,Active,S687,2023-02-12,Emotional Regulation,81,Positive,Anxiety | Stress,0,,Patient reports high stress due to workload.
+162,Maria Lopez,39,Teacher,Active,S688,2023-05-11,Leadership Development,34,Anxious,Relief | Doubt,0,,Session focused on emotional regulation strategies.
+223,Laura Perez,27,Data Analyst,Active,S689,2023-08-12,Stress Management,58,Neutral,Fatigue,1,Burnout,Patient shows improvement after behavioral changes.
+109,Juan Rodriguez,58,Sales Manager,Active,S690,2023-06-01,Leadership Development,25,Anxious,Anxiety | Overwhelm,2,,Discussion about leadership challenges.
+217,Laura Perez,51,Engineer,Active,S691,2023-11-29,Executive Coaching,81,Positive,Fatigue,1,,Patient reports high stress due to workload.
+179,Laura Perez,47,Sales Manager,Active,S692,2023-02-13,Leadership Development,57,Neutral,Motivation,0,,Patient reports high stress due to workload.
+32,Ana Garcia,37,Entrepreneur,Active,S693,2023-04-12,Burnout Prevention,69,Neutral,Doubt | Overwhelm,2,,Patient reports high stress due to workload.
+219,Juan Rodriguez,53,Sales Manager,Active,S694,2023-06-26,Leadership Development,36,Anxious,Stress | Anxiety,0,,Session focused on emotional regulation strategies.
+191,Andres Torres,27,Entrepreneur,Active,S695,2023-10-20,Stress Management,27,Anxious,Stress,1,,Patient reports high stress due to workload.
+4,Juan Rodriguez,27,Sales Manager,Active,S696,2023-12-09,Emotional Regulation,33,Anxious,Stress,2,Mild Depression,Session focused on emotional regulation strategies.
+184,Carlos Mendoza,34,Entrepreneur,Active,S697,2023-08-23,Emotional Regulation,44,Anxious,Anxiety | Doubt,2,Chronic Anxiety,Session focused on emotional regulation strategies.
+128,Maria Lopez,38,Graphic Designer,Active,S698,2023-09-16,Burnout Prevention,24,Anxious,Stress | Relief,0,,Patient shows improvement after behavioral changes.
+52,Juan Rodriguez,33,Psychologist,Active,S699,2023-01-20,Emotional Regulation,61,Neutral,Anxiety,1,Burnout,Patient reports high stress due to workload.
+50,Andres Torres,28,Sales Manager,Active,S700,2023-11-08,Emotional Regulation,61,Neutral,Overwhelm,1,Burnout,Session focused on emotional regulation strategies.
+218,Ana Garcia,59,Graphic Designer,Active,S701,2023-03-29,Emotional Regulation,72,Positive,Doubt | Stress,0,,Discussion about leadership challenges.
+72,Ana Garcia,39,Sales Manager,Active,S702,2023-11-17,Burnout Prevention,62,Neutral,Anxiety,1,Chronic Anxiety,Discussion about leadership challenges.
+66,Sofia Ramirez,27,Data Analyst,Active,S703,2023-05-29,Stress Management,60,Neutral,Ambition | Stress,0,,Signs of fatigue with positive engagement.
+232,Juan Rodriguez,62,Entrepreneur,Active,S704,2023-02-07,Leadership Development,37,Anxious,Motivation | Stress,1,Chronic Anxiety,Patient shows improvement after behavioral changes.
+21,Carlos Mendoza,30,Teacher,Active,S705,2023-10-31,Stress Management,22,Anxious,Anxiety | Overwhelm,1,,Session focused on emotional regulation strategies.
+75,Laura Perez,22,Entrepreneur,Active,S706,2023-05-08,Emotional Regulation,74,Positive,Anxiety | Doubt,0,,Session focused on emotional regulation strategies.
+27,Carlos Mendoza,44,Graphic Designer,Active,S707,2023-04-28,Burnout Prevention,63,Neutral,Anxiety,1,,Discussion about leadership challenges.
+196,Sofia Ramirez,54,Teacher,Active,S708,2023-08-18,Emotional Regulation,77,Positive,Ambition | Motivation,0,,Discussion about leadership challenges.
+78,Sofia Ramirez,44,Data Analyst,Active,S709,2023-09-11,Emotional Regulation,39,Anxious,Relief | Ambition,1,,Signs of fatigue with positive engagement.
+133,Laura Perez,34,Teacher,Active,S710,2023-05-16,Stress Management,56,Neutral,Fatigue | Ambition,1,Chronic Anxiety,Session focused on emotional regulation strategies.
+222,Laura Perez,61,Graphic Designer,Active,S711,2023-06-05,Burnout Prevention,88,Positive,Fatigue,0,,Signs of fatigue with positive engagement.
+62,Juan Rodriguez,63,Graphic Designer,Active,S712,2023-06-30,Stress Management,75,Positive,Fatigue,2,,Patient shows improvement after behavioral changes.
+225,Andres Torres,49,Entrepreneur,Active,S713,2023-01-10,Executive Coaching,61,Neutral,Fatigue,0,,Discussion about leadership challenges.
+92,Juan Rodriguez,54,Sales Manager,Active,S714,2023-04-28,Stress Management,65,Neutral,Doubt | Overwhelm,2,Mild Depression,Discussion about leadership challenges.
+193,Pedro Castillo,53,Engineer,Active,S715,2023-07-09,Emotional Regulation,84,Positive,Relief,2,Chronic Anxiety,Signs of fatigue with positive engagement.
+58,Pedro Castillo,35,Teacher,Active,S716,2023-11-13,Burnout Prevention,40,Anxious,Anxiety,0,,Signs of fatigue with positive engagement.
+246,Juan Rodriguez,27,Graphic Designer,Active,S717,2023-02-18,Stress Management,69,Neutral,Motivation | Fatigue,2,Burnout,Patient reports high stress due to workload.
+179,Maria Lopez,42,Graphic Designer,Active,S718,2023-03-12,Leadership Development,22,Anxious,Doubt,0,,Patient shows improvement after behavioral changes.
+158,Pedro Castillo,62,Entrepreneur,Active,S719,2023-03-29,Executive Coaching,48,Neutral,Anxiety | Motivation,2,Mild Depression,Patient reports high stress due to workload.
+233,Ana Garcia,45,Graphic Designer,Active,S720,2023-07-14,Stress Management,70,Positive,Anxiety | Overwhelm,0,,Patient shows improvement after behavioral changes.
+174,Juan Rodriguez,56,Sales Manager,Active,S721,2023-10-28,Emotional Regulation,60,Neutral,Doubt | Stress,1,Burnout,Patient shows improvement after behavioral changes.
+48,Andres Torres,51,Entrepreneur,Active,S722,2023-01-07,Leadership Development,20,Anxious,Anxiety,0,,Discussion about leadership challenges.
+21,Maria Lopez,27,Sales Manager,Active,S723,2023-05-26,Burnout Prevention,77,Positive,Overwhelm,2,Chronic Anxiety,Session focused on emotional regulation strategies.
+8,Carlos Mendoza,27,Sales Manager,Active,S724,2023-08-03,Stress Management,78,Positive,Stress | Fatigue,1,Mild Depression,Session focused on emotional regulation strategies.
+220,Maria Lopez,52,Graphic Designer,Active,S725,2023-04-27,Emotional Regulation,79,Positive,Overwhelm,1,Mild Depression,Patient reports high stress due to workload.
+29,Juan Rodriguez,55,Sales Manager,Active,S726,2023-02-14,Stress Management,34,Anxious,Ambition | Stress,0,,Signs of fatigue with positive engagement.
+107,Andres Torres,37,Engineer,Active,S727,2023-10-02,Stress Management,65,Neutral,Doubt | Overwhelm,1,Mild Depression,Patient shows improvement after behavioral changes.
+214,Juan Rodriguez,36,Psychologist,Active,S728,2023-11-20,Stress Management,74,Positive,Ambition,1,Chronic Anxiety,Patient shows improvement after behavioral changes.
+150,Pedro Castillo,62,Engineer,Active,S729,2023-10-05,Executive Coaching,76,Positive,Fatigue | Anxiety,0,,Discussion about leadership challenges.
+184,Andres Torres,57,Entrepreneur,Active,S730,2023-11-04,Emotional Regulation,71,Positive,Doubt | Overwhelm,0,,Patient reports high stress due to workload.
+143,Laura Perez,27,Graphic Designer,Active,S731,2023-03-02,Stress Management,27,Anxious,Overwhelm,1,,Patient reports high stress due to workload.
+36,Ana Garcia,43,Psychologist,Active,S732,2023-03-15,Leadership Development,35,Anxious,Anxiety,2,Chronic Anxiety,Signs of fatigue with positive engagement.
+216,Juan Rodriguez,23,Data Analyst,Active,S733,2023-10-23,Executive Coaching,85,Positive,Doubt | Fatigue,0,,Patient reports high stress due to workload.
+214,Laura Perez,36,Sales Manager,Active,S734,2023-02-25,Burnout Prevention,88,Positive,Overwhelm | Stress,2,Chronic Anxiety,Patient reports high stress due to workload.
+201,Pedro Castillo,23,Graphic Designer,Active,S735,2023-04-05,Burnout Prevention,61,Neutral,Motivation | Doubt,0,,Patient reports high stress due to workload.
+18,Sofia Ramirez,61,Entrepreneur,Active,S736,2023-09-28,Burnout Prevention,30,Anxious,Motivation | Ambition,1,Chronic Anxiety,Patient reports high stress due to workload.
+36,Laura Perez,29,Psychologist,Active,S737,2023-07-18,Stress Management,81,Positive,Motivation | Relief,0,,Patient shows improvement after behavioral changes.
+176,Juan Rodriguez,22,Graphic Designer,Active,S738,2023-08-18,Stress Management,82,Positive,Fatigue | Anxiety,2,Burnout,Signs of fatigue with positive engagement.
+11,Andres Torres,27,Psychologist,Active,S739,2023-12-30,Leadership Development,28,Anxious,Ambition,0,,Session focused on emotional regulation strategies.
+103,Laura Perez,28,Entrepreneur,Active,S740,2023-05-30,Executive Coaching,23,Anxious,Anxiety,0,,Signs of fatigue with positive engagement.
+207,Carlos Mendoza,59,Entrepreneur,Active,S741,2023-02-17,Stress Management,26,Anxious,Overwhelm | Stress,2,Mild Depression,Session focused on emotional regulation strategies.
+231,Sofia Ramirez,44,Teacher,Active,S742,2023-06-12,Leadership Development,46,Neutral,Motivation | Fatigue,1,Mild Depression,Patient reports high stress due to workload.
+164,Sofia Ramirez,39,Psychologist,Active,S743,2023-09-02,Executive Coaching,20,Anxious,Fatigue,0,,Discussion about leadership challenges.
+128,Ana Garcia,41,Sales Manager,Active,S744,2023-07-22,Stress Management,40,Anxious,Ambition,0,,Session focused on emotional regulation strategies.
+192,Carlos Mendoza,36,Teacher,Active,S745,2023-01-05,Stress Management,80,Positive,Stress,0,,Patient reports high stress due to workload.
+78,Andres Torres,46,Entrepreneur,Active,S746,2023-03-29,Stress Management,53,Neutral,Relief,1,,Signs of fatigue with positive engagement.
+62,Ana Garcia,59,Teacher,Active,S747,2023-10-08,Leadership Development,24,Anxious,Overwhelm | Doubt,1,Burnout,Signs of fatigue with positive engagement.
+196,Juan Rodriguez,43,Data Analyst,Active,S748,2023-03-11,Stress Management,84,Positive,Fatigue,0,,Session focused on emotional regulation strategies.
+131,Pedro Castillo,64,Engineer,Active,S749,2023-03-27,Executive Coaching,77,Positive,Overwhelm,2,Chronic Anxiety,Patient reports high stress due to workload.
+232,Carlos Mendoza,22,Engineer,Active,S750,2023-12-26,Burnout Prevention,45,Neutral,Motivation,0,,Patient reports high stress due to workload.
+32,Sofia Ramirez,61,Graphic Designer,Active,S751,2023-10-15,Leadership Development,89,Positive,Ambition | Relief,2,,Signs of fatigue with positive engagement.
+108,Laura Perez,46,Sales Manager,Active,S752,2023-09-23,Executive Coaching,65,Neutral,Relief,1,Mild Depression,Patient shows improvement after behavioral changes.
+62,Andres Torres,57,Engineer,Active,S753,2023-12-17,Leadership Development,76,Positive,Ambition | Overwhelm,0,,Session focused on emotional regulation strategies.
+72,Pedro Castillo,54,Data Analyst,Active,S754,2023-10-20,Burnout Prevention,34,Anxious,Doubt,0,,Patient reports high stress due to workload.
+151,Carlos Mendoza,22,Data Analyst,Active,S755,2023-12-06,Stress Management,77,Positive,Ambition | Motivation,1,,Discussion about leadership challenges.
+32,Carlos Mendoza,40,Sales Manager,Active,S756,2023-05-01,Executive Coaching,76,Positive,Overwhelm,1,Chronic Anxiety,Patient shows improvement after behavioral changes.
+204,Sofia Ramirez,52,Sales Manager,Active,S757,2023-07-22,Executive Coaching,46,Neutral,Stress,2,Burnout,Signs of fatigue with positive engagement.
+155,Juan Rodriguez,28,Teacher,Active,S758,2023-04-11,Burnout Prevention,28,Anxious,Ambition,0,,Session focused on emotional regulation strategies.
+244,Laura Perez,63,Entrepreneur,Active,S759,2023-02-01,Leadership Development,60,Neutral,Anxiety,0,,Signs of fatigue with positive engagement.
+64,Pedro Castillo,51,Psychologist,Active,S760,2023-09-12,Leadership Development,78,Positive,Relief,2,Mild Depression,Session focused on emotional regulation strategies.
+163,Maria Lopez,48,Engineer,Active,S761,2023-08-22,Stress Management,82,Positive,Relief,1,Mild Depression,Session focused on emotional regulation strategies.
+23,Andres Torres,38,Engineer,Active,S762,2023-05-27,Burnout Prevention,62,Neutral,Relief | Motivation,1,Chronic Anxiety,Patient shows improvement after behavioral changes.
+113,Sofia Ramirez,43,Entrepreneur,Active,S763,2023-09-22,Leadership Development,71,Positive,Ambition | Overwhelm,1,Chronic Anxiety,Signs of fatigue with positive engagement.
+51,Andres Torres,32,Teacher,Active,S764,2023-04-04,Burnout Prevention,29,Anxious,Stress | Anxiety,2,Mild Depression,Session focused on emotional regulation strategies.
+86,Sofia Ramirez,46,Entrepreneur,Active,S765,2023-09-10,Emotional Regulation,62,Neutral,Doubt | Anxiety,2,Chronic Anxiety,Patient reports high stress due to workload.
+133,Andres Torres,34,Engineer,Active,S766,2023-09-03,Burnout Prevention,49,Neutral,Doubt | Ambition,1,Mild Depression,Signs of fatigue with positive engagement.
+4,Andres Torres,43,Data Analyst,Active,S767,2023-04-03,Stress Management,26,Anxious,Doubt,2,Burnout,Patient shows improvement after behavioral changes.
+45,Ana Garcia,24,Teacher,Active,S768,2023-10-03,Emotional Regulation,85,Positive,Anxiety,1,,Signs of fatigue with positive engagement.
+180,Carlos Mendoza,43,Psychologist,Active,S769,2023-02-17,Burnout Prevention,46,Neutral,Stress,0,,Session focused on emotional regulation strategies.
+227,Ana Garcia,58,Data Analyst,Active,S770,2023-10-21,Leadership Development,80,Positive,Relief,1,Chronic Anxiety,Patient shows improvement after behavioral changes.
+148,Ana Garcia,57,Sales Manager,Active,S771,2023-11-21,Leadership Development,51,Neutral,Relief,2,Mild Depression,Patient reports high stress due to workload.
+48,Pedro Castillo,32,Engineer,Active,S772,2023-10-20,Executive Coaching,64,Neutral,Relief,0,,Patient shows improvement after behavioral changes.
+52,Carlos Mendoza,61,Engineer,Active,S773,2023-08-06,Burnout Prevention,66,Neutral,Overwhelm,1,Mild Depression,Signs of fatigue with positive engagement.
+250,Pedro Castillo,36,Sales Manager,Active,S774,2023-04-06,Executive Coaching,47,Neutral,Motivation | Doubt,0,,Signs of fatigue with positive engagement.
+159,Carlos Mendoza,26,Engineer,Active,S775,2023-11-13,Executive Coaching,52,Neutral,Motivation,2,Chronic Anxiety,Session focused on emotional regulation strategies.
+136,Laura Perez,32,Data Analyst,Active,S776,2023-06-01,Executive Coaching,72,Positive,Ambition,1,Chronic Anxiety,Signs of fatigue with positive engagement.
+241,Andres Torres,30,Psychologist,Active,S777,2023-02-18,Stress Management,81,Positive,Anxiety,0,,Patient shows improvement after behavioral changes.
+194,Pedro Castillo,49,Entrepreneur,Active,S778,2023-11-24,Leadership Development,63,Neutral,Anxiety,1,Chronic Anxiety,Signs of fatigue with positive engagement.
+203,Laura Perez,47,Sales Manager,Active,S779,2023-02-17,Stress Management,35,Anxious,Overwhelm | Anxiety,2,Mild Depression,Discussion about leadership challenges.
+151,Laura Perez,56,Data Analyst,Active,S780,2023-03-10,Stress Management,45,Neutral,Stress,2,Mild Depression,Patient shows improvement after behavioral changes.
+199,Juan Rodriguez,55,Teacher,Active,S781,2023-09-12,Stress Management,68,Neutral,Stress,0,,Signs of fatigue with positive engagement.
+243,Sofia Ramirez,27,Teacher,Active,S782,2023-11-08,Burnout Prevention,80,Positive,Ambition | Anxiety,1,Burnout,Patient reports high stress due to workload.
+155,Sofia Ramirez,59,Data Analyst,Active,S783,2023-06-11,Executive Coaching,37,Anxious,Doubt | Anxiety,0,,Patient shows improvement after behavioral changes.
+4,Andres Torres,44,Data Analyst,Active,S784,2023-03-31,Emotional Regulation,49,Neutral,Relief,0,,Discussion about leadership challenges.
+90,Pedro Castillo,58,Psychologist,Active,S785,2023-12-31,Stress Management,28,Anxious,Doubt | Relief,1,Chronic Anxiety,Patient reports high stress due to workload.
+162,Ana Garcia,22,Psychologist,Active,S786,2023-06-28,Emotional Regulation,74,Positive,Anxiety,1,Chronic Anxiety,Patient reports high stress due to workload.
+60,Laura Perez,42,Data Analyst,Active,S787,2023-02-06,Executive Coaching,62,Neutral,Doubt | Ambition,2,Mild Depression,Discussion about leadership challenges.
+141,Laura Perez,37,Sales Manager,Active,S788,2023-04-16,Stress Management,80,Positive,Doubt,0,,Discussion about leadership challenges.
+189,Maria Lopez,51,Graphic Designer,Active,S789,2023-12-01,Burnout Prevention,48,Neutral,Overwhelm | Anxiety,1,Chronic Anxiety,Signs of fatigue with positive engagement.
+166,Juan Rodriguez,31,Sales Manager,Active,S790,2023-03-14,Emotional Regulation,45,Neutral,Stress,2,Burnout,Patient reports high stress due to workload.
+29,Sofia Ramirez,42,Data Analyst,Active,S791,2023-10-12,Emotional Regulation,21,Anxious,Stress | Relief,1,Burnout,Patient shows improvement after behavioral changes.
+88,Andres Torres,62,Data Analyst,Active,S792,2023-09-22,Leadership Development,62,Neutral,Fatigue | Ambition,0,,Discussion about leadership challenges.
+122,Carlos Mendoza,22,Teacher,Active,S793,2023-09-03,Leadership Development,56,Neutral,Relief,0,,Discussion about leadership challenges.
+242,Sofia Ramirez,52,Graphic Designer,Active,S794,2023-10-29,Executive Coaching,48,Neutral,Relief,1,Burnout,Patient shows improvement after behavioral changes.
+179,Pedro Castillo,32,Engineer,Active,S795,2023-12-12,Executive Coaching,88,Positive,Doubt,0,,Session focused on emotional regulation strategies.
+50,Carlos Mendoza,64,Graphic Designer,Active,S796,2023-08-29,Stress Management,31,Anxious,Relief | Stress,2,Mild Depression,Signs of fatigue with positive engagement.
+165,Pedro Castillo,23,Psychologist,Active,S797,2023-08-01,Stress Management,37,Anxious,Ambition | Motivation,2,Chronic Anxiety,Patient shows improvement after behavioral changes.
+142,Maria Lopez,34,Data Analyst,Active,S798,2023-01-02,Stress Management,80,Positive,Anxiety | Doubt,0,,Signs of fatigue with positive engagement.
+223,Laura Perez,37,Graphic Designer,Active,S799,2023-08-14,Emotional Regulation,48,Neutral,Motivation,0,,Discussion about leadership challenges.
+189,Pedro Castillo,64,Sales Manager,Active,S800,2023-06-15,Stress Management,87,Positive,Doubt | Motivation,0,,Patient reports high stress due to workload.
+165,Ana Garcia,36,Data Analyst,Active,S801,2023-10-04,Burnout Prevention,34,Anxious,Overwhelm,1,Mild Depression,Patient reports high stress due to workload.
+25,Pedro Castillo,55,Psychologist,Active,S802,2023-01-10,Burnout Prevention,81,Positive,Anxiety,0,,Discussion about leadership challenges.
+74,Juan Rodriguez,37,Graphic Designer,Active,S803,2023-12-01,Emotional Regulation,26,Anxious,Stress,2,Mild Depression,Session focused on emotional regulation strategies.
+124,Sofia Ramirez,65,Engineer,Active,S804,2023-05-27,Burnout Prevention,51,Neutral,Relief | Ambition,0,,Discussion about leadership challenges.
+22,Andres Torres,51,Sales Manager,Active,S805,2023-10-04,Burnout Prevention,43,Anxious,Overwhelm,0,,Session focused on emotional regulation strategies.
+92,Sofia Ramirez,46,Psychologist,Active,S806,2023-10-11,Emotional Regulation,53,Neutral,Anxiety,0,,Discussion about leadership challenges.
+180,Pedro Castillo,44,Entrepreneur,Active,S807,2023-05-15,Executive Coaching,41,Anxious,Ambition,1,,Patient reports high stress due to workload.
+47,Sofia Ramirez,27,Engineer,Active,S808,2023-03-20,Executive Coaching,56,Neutral,Fatigue,1,Mild Depression,Patient shows improvement after behavioral changes.
+154,Sofia Ramirez,23,Entrepreneur,Active,S809,2023-04-22,Burnout Prevention,78,Positive,Stress | Fatigue,2,Chronic Anxiety,Patient shows improvement after behavioral changes.
+33,Carlos Mendoza,26,Data Analyst,Active,S810,2023-04-10,Burnout Prevention,80,Positive,Overwhelm,1,Chronic Anxiety,Patient shows improvement after behavioral changes.
+80,Laura Perez,33,Graphic Designer,Active,S811,2023-05-18,Leadership Development,55,Neutral,Fatigue,2,Mild Depression,Patient reports high stress due to workload.
+144,Maria Lopez,36,Data Analyst,Active,S812,2023-03-22,Leadership Development,72,Positive,Overwhelm | Fatigue,0,,Session focused on emotional regulation strategies.
+235,Pedro Castillo,22,Entrepreneur,Active,S813,2023-02-15,Burnout Prevention,41,Anxious,Ambition,2,Burnout,Session focused on emotional regulation strategies.
+173,Sofia Ramirez,41,Sales Manager,Active,S814,2023-05-21,Executive Coaching,34,Anxious,Fatigue | Overwhelm,1,Mild Depression,Discussion about leadership challenges.
+225,Ana Garcia,49,Entrepreneur,Active,S815,2023-03-16,Stress Management,87,Positive,Ambition | Motivation,2,Mild Depression,Patient shows improvement after behavioral changes.
+212,Andres Torres,46,Graphic Designer,Active,S816,2023-01-24,Emotional Regulation,64,Neutral,Relief | Anxiety,0,,Session focused on emotional regulation strategies.
+245,Laura Perez,55,Data Analyst,Active,S817,2023-03-13,Stress Management,42,Anxious,Doubt,0,,Patient shows improvement after behavioral changes.
+145,Ana Garcia,52,Psychologist,Active,S818,2023-03-10,Leadership Development,82,Positive,Fatigue | Stress,0,,Patient shows improvement after behavioral changes.
+235,Pedro Castillo,24,Sales Manager,Active,S819,2023-10-31,Burnout Prevention,76,Positive,Anxiety,2,Burnout,Session focused on emotional regulation strategies.
+98,Juan Rodriguez,49,Entrepreneur,Active,S820,2023-06-26,Emotional Regulation,50,Neutral,Doubt | Motivation,1,Chronic Anxiety,Patient shows improvement after behavioral changes.
+17,Carlos Mendoza,44,Psychologist,Active,S821,2023-03-13,Emotional Regulation,48,Neutral,Fatigue | Overwhelm,0,,Discussion about leadership challenges.
+184,Laura Perez,45,Psychologist,Active,S822,2023-06-07,Executive Coaching,29,Anxious,Stress | Overwhelm,0,,Patient shows improvement after behavioral changes.
+48,Maria Lopez,31,Entrepreneur,Active,S823,2023-09-24,Emotional Regulation,24,Anxious,Stress,0,,Patient reports high stress due to workload.
+208,Pedro Castillo,29,Teacher,Active,S824,2023-02-15,Executive Coaching,75,Positive,Stress,2,Burnout,Patient shows improvement after behavioral changes.
+193,Juan Rodriguez,50,Entrepreneur,Active,S825,2023-03-06,Leadership Development,57,Neutral,Doubt | Anxiety,1,Burnout,Patient reports high stress due to workload.
+30,Pedro Castillo,34,Entrepreneur,Active,S826,2023-03-26,Burnout Prevention,59,Neutral,Relief,0,,Patient reports high stress due to workload.
+171,Laura Perez,60,Graphic Designer,Active,S827,2023-06-21,Burnout Prevention,73,Positive,Stress | Motivation,2,Chronic Anxiety,Discussion about leadership challenges.
+171,Juan Rodriguez,34,Data Analyst,Active,S828,2023-02-11,Leadership Development,87,Positive,Relief | Overwhelm,2,Burnout,Patient reports high stress due to workload.
+62,Andres Torres,63,Teacher,Active,S829,2023-09-17,Emotional Regulation,55,Neutral,Overwhelm,2,,Discussion about leadership challenges.
+183,Ana Garcia,25,Sales Manager,Active,S830,2023-12-17,Emotional Regulation,87,Positive,Fatigue | Stress,2,,Session focused on emotional regulation strategies.
+147,Andres Torres,24,Entrepreneur,Active,S831,2023-04-22,Emotional Regulation,87,Positive,Doubt,1,Burnout,Signs of fatigue with positive engagement.
+111,Carlos Mendoza,33,Psychologist,Active,S832,2023-04-16,Executive Coaching,24,Anxious,Stress,0,,Patient reports high stress due to workload.
+39,Sofia Ramirez,50,Engineer,Active,S833,2023-09-02,Stress Management,21,Anxious,Motivation | Anxiety,0,,Discussion about leadership challenges.
+13,Carlos Mendoza,31,Graphic Designer,Active,S834,2023-03-04,Leadership Development,73,Positive,Relief | Stress,1,,Signs of fatigue with positive engagement.
+5,Andres Torres,35,Sales Manager,Active,S835,2023-05-11,Executive Coaching,26,Anxious,Relief,1,Chronic Anxiety,Patient shows improvement after behavioral changes.
+177,Juan Rodriguez,23,Psychologist,Active,S836,2023-11-04,Executive Coaching,63,Neutral,Motivation,0,,Discussion about leadership challenges.
+4,Pedro Castillo,46,Entrepreneur,Active,S837,2023-06-28,Burnout Prevention,58,Neutral,Overwhelm | Anxiety,1,,Signs of fatigue with positive engagement.
+32,Andres Torres,58,Teacher,Active,S838,2023-01-12,Burnout Prevention,39,Anxious,Overwhelm | Relief,0,,Patient reports high stress due to workload.
+73,Laura Perez,29,Entrepreneur,Active,S839,2023-08-09,Emotional Regulation,75,Positive,Stress,1,Chronic Anxiety,Patient shows improvement after behavioral changes.
+70,Ana Garcia,54,Graphic Designer,Active,S840,2023-04-08,Stress Management,30,Anxious,Stress,2,Chronic Anxiety,Discussion about leadership challenges.
+60,Ana Garcia,51,Sales Manager,Active,S841,2023-06-18,Emotional Regulation,77,Positive,Motivation,1,,Session focused on emotional regulation strategies.
+44,Sofia Ramirez,45,Teacher,Active,S842,2023-06-03,Executive Coaching,20,Anxious,Doubt | Stress,1,Burnout,Patient reports high stress due to workload.
+138,Pedro Castillo,57,Teacher,Active,S843,2023-10-19,Executive Coaching,56,Neutral,Doubt | Anxiety,1,Burnout,Patient shows improvement after behavioral changes.
+3,Pedro Castillo,60,Engineer,Active,S844,2023-09-24,Burnout Prevention,78,Positive,Overwhelm | Relief,2,,Discussion about leadership challenges.
+47,Maria Lopez,59,Teacher,Active,S845,2023-02-08,Executive Coaching,60,Neutral,Fatigue,2,Burnout,Patient shows improvement after behavioral changes.
+168,Juan Rodriguez,45,Graphic Designer,Active,S846,2023-12-09,Emotional Regulation,20,Anxious,Relief,2,Chronic Anxiety,Discussion about leadership challenges.
+240,Ana Garcia,63,Teacher,Active,S847,2023-02-08,Leadership Development,63,Neutral,Fatigue | Anxiety,1,Mild Depression,Signs of fatigue with positive engagement.
+40,Sofia Ramirez,53,Sales Manager,Active,S848,2023-01-23,Emotional Regulation,52,Neutral,Anxiety,0,,Discussion about leadership challenges.
+82,Andres Torres,32,Sales Manager,Active,S849,2023-03-27,Stress Management,43,Anxious,Overwhelm | Ambition,1,Chronic Anxiety,Patient reports high stress due to workload.
+104,Carlos Mendoza,31,Data Analyst,Active,S850,2023-10-17,Executive Coaching,65,Neutral,Anxiety | Ambition,1,Mild Depression,Patient shows improvement after behavioral changes.
+96,Ana Garcia,35,Data Analyst,Active,S851,2023-03-15,Stress Management,32,Anxious,Doubt,1,Burnout,Signs of fatigue with positive engagement.
+244,Sofia Ramirez,43,Psychologist,Active,S852,2023-07-04,Leadership Development,32,Anxious,Overwhelm | Motivation,1,Chronic Anxiety,Patient reports high stress due to workload.
+167,Pedro Castillo,25,Graphic Designer,Active,S853,2023-12-30,Executive Coaching,21,Anxious,Doubt | Anxiety,0,,Patient reports high stress due to workload.
+218,Sofia Ramirez,39,Engineer,Active,S854,2023-08-22,Leadership Development,40,Anxious,Ambition,1,,Patient shows improvement after behavioral changes.
+157,Carlos Mendoza,37,Entrepreneur,Active,S855,2023-07-27,Emotional Regulation,86,Positive,Ambition | Doubt,0,,Session focused on emotional regulation strategies.
+21,Laura Perez,32,Teacher,Active,S856,2023-04-21,Burnout Prevention,58,Neutral,Doubt,0,,Session focused on emotional regulation strategies.
+129,Juan Rodriguez,45,Psychologist,Active,S857,2023-02-18,Stress Management,32,Anxious,Anxiety,0,,Patient reports high stress due to workload.
+246,Sofia Ramirez,34,Sales Manager,Active,S858,2023-09-05,Leadership Development,28,Anxious,Anxiety | Ambition,1,,Session focused on emotional regulation strategies.
+54,Juan Rodriguez,54,Sales Manager,Active,S859,2023-07-13,Stress Management,31,Anxious,Overwhelm | Ambition,1,,Patient shows improvement after behavioral changes.
+71,Carlos Mendoza,59,Engineer,Active,S860,2023-10-04,Emotional Regulation,21,Anxious,Overwhelm | Doubt,1,Chronic Anxiety,Discussion about leadership challenges.
+236,Juan Rodriguez,37,Psychologist,Active,S861,2023-08-13,Emotional Regulation,83,Positive,Anxiety | Stress,1,,Patient shows improvement after behavioral changes.
+4,Pedro Castillo,27,Teacher,Active,S862,2023-07-09,Emotional Regulation,72,Positive,Ambition | Fatigue,0,,Patient shows improvement after behavioral changes.
+7,Sofia Ramirez,25,Graphic Designer,Active,S863,2023-09-14,Burnout Prevention,85,Positive,Ambition | Doubt,2,Burnout,Session focused on emotional regulation strategies.
+131,Juan Rodriguez,32,Sales Manager,Active,S864,2023-02-22,Emotional Regulation,72,Positive,Doubt | Anxiety,2,Chronic Anxiety,Discussion about leadership challenges.
+210,Pedro Castillo,47,Teacher,Active,S865,2023-11-17,Burnout Prevention,40,Anxious,Anxiety | Motivation,1,Chronic Anxiety,Session focused on emotional regulation strategies.
+109,Sofia Ramirez,28,Psychologist,Active,S866,2023-04-03,Executive Coaching,61,Neutral,Ambition,2,,Signs of fatigue with positive engagement.
+96,Juan Rodriguez,37,Psychologist,Active,S867,2023-03-08,Burnout Prevention,68,Neutral,Doubt | Anxiety,1,,Patient shows improvement after behavioral changes.
+55,Sofia Ramirez,50,Psychologist,Active,S868,2023-07-01,Stress Management,49,Neutral,Relief | Doubt,0,,Session focused on emotional regulation strategies.
+86,Andres Torres,31,Teacher,Active,S869,2023-11-19,Executive Coaching,76,Positive,Ambition | Motivation,2,Chronic Anxiety,Signs of fatigue with positive engagement.
+10,Sofia Ramirez,22,Data Analyst,Active,S870,2023-09-24,Stress Management,52,Neutral,Fatigue | Anxiety,0,,Patient reports high stress due to workload.
+177,Carlos Mendoza,45,Graphic Designer,Active,S871,2023-11-03,Leadership Development,35,Anxious,Motivation | Overwhelm,1,Chronic Anxiety,Session focused on emotional regulation strategies.
+49,Ana Garcia,32,Teacher,Active,S872,2023-05-16,Burnout Prevention,47,Neutral,Anxiety,1,Chronic Anxiety,Patient reports high stress due to workload.
+57,Juan Rodriguez,35,Graphic Designer,Active,S873,2023-12-07,Executive Coaching,29,Anxious,Stress | Relief,0,,Session focused on emotional regulation strategies.
+203,Ana Garcia,45,Teacher,Active,S874,2023-08-05,Executive Coaching,24,Anxious,Ambition,2,,Session focused on emotional regulation strategies.
+235,Juan Rodriguez,35,Teacher,Active,S875,2023-02-06,Burnout Prevention,67,Neutral,Fatigue | Motivation,2,Mild Depression,Patient reports high stress due to workload.
+89,Laura Perez,29,Psychologist,Active,S876,2023-04-24,Emotional Regulation,26,Anxious,Anxiety,2,Mild Depression,Session focused on emotional regulation strategies.
+197,Laura Perez,49,Sales Manager,Active,S877,2023-08-03,Burnout Prevention,45,Neutral,Ambition,0,,Patient shows improvement after behavioral changes.
+5,Ana Garcia,26,Graphic Designer,Active,S878,2023-04-11,Executive Coaching,45,Neutral,Stress | Anxiety,2,Mild Depression,Session focused on emotional regulation strategies.
+162,Ana Garcia,25,Graphic Designer,Active,S879,2023-06-16,Executive Coaching,24,Anxious,Motivation,2,Chronic Anxiety,Patient shows improvement after behavioral changes.
+148,Andres Torres,49,Data Analyst,Active,S880,2023-09-01,Leadership Development,22,Anxious,Ambition | Motivation,2,Chronic Anxiety,Session focused on emotional regulation strategies.
+134,Ana Garcia,49,Psychologist,Active,S881,2023-12-24,Stress Management,29,Anxious,Fatigue,0,,Patient shows improvement after behavioral changes.
+2,Andres Torres,39,Graphic Designer,Active,S882,2023-09-10,Leadership Development,35,Anxious,Anxiety | Stress,1,,Session focused on emotional regulation strategies.
+68,Sofia Ramirez,48,Teacher,Active,S883,2023-07-25,Emotional Regulation,71,Positive,Fatigue,2,,Patient shows improvement after behavioral changes.
+98,Pedro Castillo,40,Teacher,Active,S884,2023-07-16,Stress Management,68,Neutral,Motivation | Ambition,2,,Session focused on emotional regulation strategies.
+51,Ana Garcia,25,Entrepreneur,Active,S885,2023-07-11,Executive Coaching,78,Positive,Anxiety | Fatigue,2,Chronic Anxiety,Session focused on emotional regulation strategies.
+14,Ana Garcia,57,Teacher,Active,S886,2023-06-29,Leadership Development,22,Anxious,Anxiety,1,Chronic Anxiety,Session focused on emotional regulation strategies.
+101,Sofia Ramirez,61,Sales Manager,Active,S887,2023-03-17,Leadership Development,60,Neutral,Motivation,0,,Session focused on emotional regulation strategies.
+158,Juan Rodriguez,41,Teacher,Active,S888,2023-04-22,Leadership Development,55,Neutral,Fatigue | Stress,1,Chronic Anxiety,Patient reports high stress due to workload.
+155,Ana Garcia,30,Entrepreneur,Active,S889,2023-01-25,Emotional Regulation,38,Anxious,Motivation,1,Burnout,Discussion about leadership challenges.
+29,Juan Rodriguez,40,Engineer,Active,S890,2023-11-20,Burnout Prevention,68,Neutral,Overwhelm | Anxiety,0,,Patient reports high stress due to workload.
+27,Andres Torres,25,Psychologist,Active,S891,2023-09-26,Emotional Regulation,78,Positive,Anxiety | Motivation,2,Mild Depression,Session focused on emotional regulation strategies.
+32,Maria Lopez,59,Engineer,Active,S892,2023-09-30,Leadership Development,89,Positive,Fatigue | Motivation,0,,Session focused on emotional regulation strategies.
+154,Andres Torres,40,Graphic Designer,Active,S893,2023-12-26,Stress Management,87,Positive,Ambition | Doubt,1,Burnout,Session focused on emotional regulation strategies.
+74,Carlos Mendoza,62,Sales Manager,Active,S894,2023-09-29,Leadership Development,50,Neutral,Stress,0,,Session focused on emotional regulation strategies.
+63,Sofia Ramirez,26,Data Analyst,Active,S895,2023-11-22,Leadership Development,77,Positive,Overwhelm | Motivation,1,Chronic Anxiety,Signs of fatigue with positive engagement.
+202,Ana Garcia,22,Sales Manager,Active,S896,2023-06-22,Stress Management,76,Positive,Anxiety,1,Mild Depression,Discussion about leadership challenges.
+100,Carlos Mendoza,31,Data Analyst,Active,S897,2023-09-30,Burnout Prevention,76,Positive,Relief | Ambition,1,Mild Depression,Signs of fatigue with positive engagement.
+190,Carlos Mendoza,23,Sales Manager,Active,S898,2023-08-07,Burnout Prevention,85,Positive,Fatigue | Doubt,2,Chronic Anxiety,Discussion about leadership challenges.
+208,Juan Rodriguez,56,Teacher,Active,S899,2023-01-25,Executive Coaching,86,Positive,Relief | Overwhelm,2,Chronic Anxiety,Signs of fatigue with positive engagement.
+55,Pedro Castillo,24,Data Analyst,Active,S900,2023-10-05,Leadership Development,68,Neutral,Ambition,0,,Patient reports high stress due to workload.
+203,Juan Rodriguez,62,Engineer,Active,S901,2023-03-07,Burnout Prevention,88,Positive,Stress | Ambition,2,Chronic Anxiety,Patient shows improvement after behavioral changes.
+16,Pedro Castillo,55,Graphic Designer,Active,S902,2023-02-03,Burnout Prevention,35,Anxious,Anxiety | Fatigue,0,,Discussion about leadership challenges.
+149,Andres Torres,39,Entrepreneur,Active,S903,2023-11-11,Leadership Development,66,Neutral,Doubt | Overwhelm,2,Mild Depression,Session focused on emotional regulation strategies.
+18,Juan Rodriguez,28,Data Analyst,Active,S904,2023-12-11,Leadership Development,83,Positive,Relief,2,Burnout,Patient shows improvement after behavioral changes.
+206,Ana Garcia,25,Engineer,Active,S905,2023-05-01,Emotional Regulation,74,Positive,Anxiety,0,,Discussion about leadership challenges.
+152,Maria Lopez,23,Teacher,Active,S906,2023-07-06,Emotional Regulation,41,Anxious,Stress | Doubt,2,Burnout,Session focused on emotional regulation strategies.
+136,Juan Rodriguez,43,Data Analyst,Active,S907,2023-09-19,Leadership Development,30,Anxious,Overwhelm,1,Chronic Anxiety,Patient shows improvement after behavioral changes.
+93,Laura Perez,47,Psychologist,Active,S908,2023-06-14,Burnout Prevention,80,Positive,Stress,0,,Patient reports high stress due to workload.
+116,Sofia Ramirez,39,Sales Manager,Active,S909,2023-12-07,Emotional Regulation,67,Neutral,Stress | Overwhelm,0,,Patient reports high stress due to workload.
+113,Andres Torres,27,Psychologist,Active,S910,2023-05-19,Executive Coaching,39,Anxious,Doubt,0,,Session focused on emotional regulation strategies.
+123,Juan Rodriguez,57,Graphic Designer,Active,S911,2023-05-20,Stress Management,47,Neutral,Fatigue | Anxiety,1,Mild Depression,Discussion about leadership challenges.
+33,Pedro Castillo,64,Graphic Designer,Active,S912,2023-06-15,Burnout Prevention,54,Neutral,Anxiety,1,Chronic Anxiety,Session focused on emotional regulation strategies.
+96,Maria Lopez,39,Psychologist,Active,S913,2023-08-01,Burnout Prevention,22,Anxious,Motivation | Stress,0,,Patient reports high stress due to workload.
+45,Laura Perez,51,Data Analyst,Active,S914,2023-08-18,Stress Management,83,Positive,Stress,0,,Session focused on emotional regulation strategies.
+14,Laura Perez,41,Teacher,Active,S915,2023-06-15,Burnout Prevention,32,Anxious,Relief,2,Burnout,Patient reports high stress due to workload.
+166,Ana Garcia,54,Psychologist,Active,S916,2023-04-16,Leadership Development,46,Neutral,Motivation | Relief,0,,Session focused on emotional regulation strategies.
+103,Laura Perez,42,Psychologist,Active,S917,2023-07-29,Burnout Prevention,47,Neutral,Relief | Doubt,1,,Signs of fatigue with positive engagement.
+111,Andres Torres,41,Entrepreneur,Active,S918,2023-01-06,Burnout Prevention,51,Neutral,Doubt,1,Mild Depression,Patient reports high stress due to workload.
+9,Ana Garcia,22,Data Analyst,Active,S919,2023-10-07,Burnout Prevention,76,Positive,Relief,2,,Discussion about leadership challenges.
+220,Pedro Castillo,41,Psychologist,Active,S920,2023-02-17,Leadership Development,43,Anxious,Ambition,0,,Signs of fatigue with positive engagement.
+214,Andres Torres,62,Sales Manager,Active,S921,2023-01-25,Leadership Development,68,Neutral,Fatigue,0,,Patient reports high stress due to workload.
+89,Laura Perez,45,Graphic Designer,Active,S922,2023-04-26,Burnout Prevention,80,Positive,Stress,0,,Signs of fatigue with positive engagement.
+6,Ana Garcia,38,Graphic Designer,Active,S923,2023-05-26,Executive Coaching,39,Anxious,Ambition | Fatigue,2,,Session focused on emotional regulation strategies.
+38,Carlos Mendoza,27,Psychologist,Active,S924,2023-04-16,Stress Management,22,Anxious,Motivation | Anxiety,2,Chronic Anxiety,Patient shows improvement after behavioral changes.
+223,Juan Rodriguez,62,Teacher,Active,S925,2023-09-02,Emotional Regulation,41,Anxious,Fatigue | Stress,0,,Signs of fatigue with positive engagement.
+216,Juan Rodriguez,47,Teacher,Active,S926,2023-04-07,Burnout Prevention,21,Anxious,Ambition,2,,Discussion about leadership challenges.
+164,Carlos Mendoza,58,Entrepreneur,Active,S927,2023-09-26,Burnout Prevention,49,Neutral,Motivation,1,Burnout,Signs of fatigue with positive engagement.
+120,Carlos Mendoza,58,Entrepreneur,Active,S928,2023-03-25,Burnout Prevention,24,Anxious,Ambition | Motivation,1,Burnout,Discussion about leadership challenges.
+92,Sofia Ramirez,48,Teacher,Active,S929,2023-06-14,Burnout Prevention,66,Neutral,Doubt,1,,Session focused on emotional regulation strategies.
+23,Ana Garcia,64,Sales Manager,Active,S930,2023-04-12,Leadership Development,43,Anxious,Overwhelm | Stress,1,,Signs of fatigue with positive engagement.
+227,Sofia Ramirez,22,Teacher,Active,S931,2023-12-07,Burnout Prevention,46,Neutral,Stress | Relief,1,,Patient shows improvement after behavioral changes.
+99,Carlos Mendoza,24,Data Analyst,Active,S932,2023-10-02,Executive Coaching,90,Positive,Stress | Motivation,1,Mild Depression,Discussion about leadership challenges.
+165,Ana Garcia,43,Entrepreneur,Active,S933,2023-09-11,Leadership Development,77,Positive,Relief,1,Mild Depression,Discussion about leadership challenges.
+44,Andres Torres,61,Data Analyst,Active,S934,2023-02-25,Executive Coaching,76,Positive,Fatigue,2,Mild Depression,Discussion about leadership challenges.
+38,Sofia Ramirez,30,Engineer,Active,S935,2023-12-07,Emotional Regulation,57,Neutral,Ambition,0,,Session focused on emotional regulation strategies.
+28,Sofia Ramirez,24,Teacher,Active,S936,2023-04-27,Stress Management,28,Anxious,Doubt | Motivation,2,,Patient reports high stress due to workload.
+5,Andres Torres,37,Entrepreneur,Active,S937,2023-04-25,Stress Management,39,Anxious,Overwhelm,1,Chronic Anxiety,Session focused on emotional regulation strategies.
+195,Maria Lopez,62,Entrepreneur,Active,S938,2023-09-27,Leadership Development,45,Neutral,Relief,0,,Patient reports high stress due to workload.
+131,Ana Garcia,46,Data Analyst,Active,S939,2023-02-21,Executive Coaching,34,Anxious,Ambition,1,Burnout,Signs of fatigue with positive engagement.
+142,Maria Lopez,56,Psychologist,Active,S940,2023-08-30,Burnout Prevention,54,Neutral,Doubt,2,,Patient shows improvement after behavioral changes.
+93,Ana Garcia,23,Entrepreneur,Active,S941,2023-10-06,Burnout Prevention,60,Neutral,Fatigue,2,,Session focused on emotional regulation strategies.
+33,Andres Torres,28,Engineer,Active,S942,2023-06-06,Stress Management,69,Neutral,Fatigue | Ambition,0,,Discussion about leadership challenges.
+108,Laura Perez,62,Entrepreneur,Active,S943,2023-12-25,Stress Management,41,Anxious,Motivation | Fatigue,2,,Session focused on emotional regulation strategies.
+180,Laura Perez,65,Sales Manager,Active,S944,2023-07-22,Executive Coaching,65,Neutral,Doubt | Ambition,1,,Patient shows improvement after behavioral changes.
+197,Pedro Castillo,62,Graphic Designer,Active,S945,2023-02-28,Leadership Development,29,Anxious,Stress | Anxiety,1,Burnout,Discussion about leadership challenges.
+7,Andres Torres,62,Entrepreneur,Active,S946,2023-09-04,Stress Management,47,Neutral,Motivation | Stress,0,,Session focused on emotional regulation strategies.
+114,Andres Torres,41,Sales Manager,Active,S947,2023-12-09,Leadership Development,58,Neutral,Relief,1,Chronic Anxiety,Session focused on emotional regulation strategies.
+16,Pedro Castillo,51,Data Analyst,Active,S948,2023-04-12,Stress Management,51,Neutral,Doubt,0,,Signs of fatigue with positive engagement.
+223,Laura Perez,43,Entrepreneur,Active,S949,2023-11-02,Stress Management,60,Neutral,Stress | Relief,2,Mild Depression,Patient shows improvement after behavioral changes.
+29,Pedro Castillo,53,Teacher,Active,S950,2023-12-21,Executive Coaching,73,Positive,Doubt | Ambition,1,Burnout,Patient reports high stress due to workload.
+118,Maria Lopez,62,Graphic Designer,Active,S951,2023-04-28,Executive Coaching,53,Neutral,Stress | Doubt,1,,Discussion about leadership challenges.
+77,Carlos Mendoza,23,Psychologist,Active,S952,2023-07-11,Executive Coaching,47,Neutral,Relief,0,,Signs of fatigue with positive engagement.
+227,Ana Garcia,60,Engineer,Active,S953,2023-01-31,Burnout Prevention,73,Positive,Anxiety | Ambition,1,,Session focused on emotional regulation strategies.
+219,Pedro Castillo,56,Data Analyst,Active,S954,2023-11-12,Burnout Prevention,84,Positive,Relief,2,,Patient shows improvement after behavioral changes.
+25,Sofia Ramirez,24,Sales Manager,Active,S955,2023-05-26,Burnout Prevention,47,Neutral,Fatigue | Stress,2,,Patient reports high stress due to workload.
+200,Andres Torres,25,Sales Manager,Active,S956,2023-10-29,Emotional Regulation,29,Anxious,Stress | Fatigue,1,Burnout,Discussion about leadership challenges.
+168,Andres Torres,43,Entrepreneur,Active,S957,2023-04-28,Emotional Regulation,73,Positive,Relief,1,Chronic Anxiety,Discussion about leadership challenges.
+181,Laura Perez,25,Engineer,Active,S958,2023-04-12,Leadership Development,39,Anxious,Anxiety,1,Chronic Anxiety,Signs of fatigue with positive engagement.
+26,Andres Torres,30,Psychologist,Active,S959,2023-10-18,Emotional Regulation,28,Anxious,Doubt,2,Mild Depression,Signs of fatigue with positive engagement.
+244,Carlos Mendoza,54,Psychologist,Active,S960,2023-03-31,Emotional Regulation,73,Positive,Relief,0,,Patient shows improvement after behavioral changes.
+83,Juan Rodriguez,61,Sales Manager,Active,S961,2023-10-09,Leadership Development,22,Anxious,Motivation | Fatigue,1,Chronic Anxiety,Session focused on emotional regulation strategies.
+31,Andres Torres,32,Teacher,Active,S962,2023-09-14,Executive Coaching,41,Anxious,Overwhelm | Fatigue,2,Chronic Anxiety,Signs of fatigue with positive engagement.
+241,Pedro Castillo,52,Entrepreneur,Active,S963,2023-06-20,Leadership Development,89,Positive,Doubt,0,,Patient shows improvement after behavioral changes.
+160,Ana Garcia,33,Data Analyst,Active,S964,2023-10-14,Emotional Regulation,42,Anxious,Doubt,2,Chronic Anxiety,Patient shows improvement after behavioral changes.
+127,Ana Garcia,57,Engineer,Active,S965,2023-08-16,Emotional Regulation,74,Positive,Relief,1,Chronic Anxiety,Signs of fatigue with positive engagement.
+143,Laura Perez,30,Teacher,Active,S966,2023-04-09,Leadership Development,56,Neutral,Fatigue,1,Chronic Anxiety,Signs of fatigue with positive engagement.
+104,Juan Rodriguez,61,Entrepreneur,Active,S967,2023-12-12,Executive Coaching,64,Neutral,Doubt | Relief,1,Mild Depression,Patient shows improvement after behavioral changes.
+192,Sofia Ramirez,56,Teacher,Active,S968,2023-01-08,Stress Management,29,Anxious,Motivation | Anxiety,2,Burnout,Discussion about leadership challenges.
+114,Andres Torres,24,Psychologist,Active,S969,2023-05-20,Burnout Prevention,56,Neutral,Stress | Anxiety,1,,Patient shows improvement after behavioral changes.
+176,Carlos Mendoza,49,Engineer,Active,S970,2023-12-26,Stress Management,63,Neutral,Motivation,0,,Patient reports high stress due to workload.
+60,Juan Rodriguez,41,Psychologist,Active,S971,2023-05-24,Stress Management,55,Neutral,Stress,1,Chronic Anxiety,Patient reports high stress due to workload.
+83,Juan Rodriguez,31,Teacher,Active,S972,2023-12-19,Emotional Regulation,22,Anxious,Relief | Doubt,1,Burnout,Patient reports high stress due to workload.
+156,Ana Garcia,36,Teacher,Active,S973,2023-04-20,Stress Management,66,Neutral,Anxiety | Motivation,1,Burnout,Session focused on emotional regulation strategies.
+113,Ana Garcia,24,Entrepreneur,Active,S974,2023-12-21,Emotional Regulation,61,Neutral,Stress,0,,Discussion about leadership challenges.
+38,Juan Rodriguez,31,Sales Manager,Active,S975,2023-11-19,Executive Coaching,83,Positive,Ambition | Stress,2,Mild Depression,Signs of fatigue with positive engagement.
+204,Juan Rodriguez,50,Engineer,Active,S976,2023-08-25,Emotional Regulation,71,Positive,Anxiety,0,,Patient shows improvement after behavioral changes.
+69,Andres Torres,25,Engineer,Active,S977,2023-10-08,Emotional Regulation,50,Neutral,Stress | Overwhelm,1,Chronic Anxiety,Session focused on emotional regulation strategies.
+22,Maria Lopez,53,Entrepreneur,Active,S978,2023-09-07,Leadership Development,47,Neutral,Doubt | Stress,2,Burnout,Patient shows improvement after behavioral changes.
+87,Pedro Castillo,46,Psychologist,Active,S979,2023-06-05,Burnout Prevention,53,Neutral,Overwhelm,2,Burnout,Patient shows improvement after behavioral changes.
+55,Carlos Mendoza,30,Teacher,Active,S980,2023-08-10,Burnout Prevention,52,Neutral,Stress | Overwhelm,2,Chronic Anxiety,Discussion about leadership challenges.
+56,Laura Perez,55,Entrepreneur,Active,S981,2023-09-22,Stress Management,50,Neutral,Fatigue,2,Burnout,Patient shows improvement after behavioral changes.
+178,Carlos Mendoza,62,Teacher,Active,S982,2023-08-02,Executive Coaching,76,Positive,Relief | Overwhelm,0,,Session focused on emotional regulation strategies.
+111,Juan Rodriguez,41,Data Analyst,Active,S983,2023-03-01,Stress Management,33,Anxious,Ambition,1,Burnout,Discussion about leadership challenges.
+199,Ana Garcia,30,Sales Manager,Active,S984,2023-01-06,Leadership Development,55,Neutral,Doubt | Ambition,0,,Patient shows improvement after behavioral changes.
+236,Andres Torres,34,Teacher,Active,S985,2023-10-19,Executive Coaching,54,Neutral,Overwhelm,0,,Session focused on emotional regulation strategies.
+94,Maria Lopez,60,Psychologist,Active,S986,2023-10-29,Stress Management,48,Neutral,Anxiety,1,Mild Depression,Patient shows improvement after behavioral changes.
+44,Ana Garcia,56,Teacher,Active,S987,2023-02-18,Executive Coaching,25,Anxious,Relief | Overwhelm,0,,Signs of fatigue with positive engagement.
+240,Pedro Castillo,31,Engineer,Active,S988,2023-09-05,Stress Management,28,Anxious,Overwhelm | Fatigue,0,,Patient reports high stress due to workload.
+186,Pedro Castillo,52,Engineer,Active,S989,2023-07-05,Executive Coaching,72,Positive,Ambition | Overwhelm,1,,Patient shows improvement after behavioral changes.
+11,Maria Lopez,33,Teacher,Active,S990,2023-09-09,Emotional Regulation,50,Neutral,Doubt,2,Burnout,Patient reports high stress due to workload.
+103,Laura Perez,58,Teacher,Active,S991,2023-04-17,Leadership Development,83,Positive,Doubt,2,Chronic Anxiety,Signs of fatigue with positive engagement.
+189,Juan Rodriguez,45,Entrepreneur,Active,S992,2023-09-13,Emotional Regulation,90,Positive,Fatigue | Anxiety,1,Mild Depression,Patient shows improvement after behavioral changes.
+2,Andres Torres,32,Sales Manager,Active,S993,2023-06-25,Executive Coaching,79,Positive,Stress | Overwhelm,2,,Patient reports high stress due to workload.
+106,Carlos Mendoza,65,Data Analyst,Active,S994,2023-02-26,Executive Coaching,28,Anxious,Overwhelm,2,Chronic Anxiety,Session focused on emotional regulation strategies.
+173,Sofia Ramirez,65,Engineer,Active,S995,2023-07-19,Burnout Prevention,86,Positive,Overwhelm,0,,Signs of fatigue with positive engagement.
+195,Maria Lopez,64,Engineer,Active,S996,2023-08-29,Executive Coaching,52,Neutral,Stress,1,Chronic Anxiety,Patient reports high stress due to workload.
+124,Ana Garcia,53,Graphic Designer,Active,S997,2023-12-02,Burnout Prevention,67,Neutral,Motivation,0,,Patient reports high stress due to workload.
+116,Maria Lopez,51,Psychologist,Active,S998,2023-10-28,Leadership Development,46,Neutral,Relief | Anxiety,1,Burnout,Patient reports high stress due to workload.
+3,Maria Lopez,48,Data Analyst,Active,S999,2023-09-19,Emotional Regulation,48,Neutral,Overwhelm | Fatigue,1,Mild Depression,Discussion about leadership challenges.
+159,Carlos Mendoza,36,Psychologist,Active,S1000,2023-07-27,Stress Management,40,Anxious,Overwhelm,1,Mild Depression,Session focused on emotional regulation strategies.
