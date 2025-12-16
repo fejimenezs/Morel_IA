@@ -50,9 +50,7 @@ export default function Dashboard() {
       <div className="d-flex justify-content-between align-items-center mb-5">
         <div>
           <h4 className="fw-bold mb-1">Main Dashboard</h4>
-          <span className="text-muted">
-            Welcome back
-          </span>
+          <span className="text-muted">Welcome back</span>
         </div>
 
         <span className="badge bg-light text-primary px-3 py-2">
@@ -98,9 +96,7 @@ export default function Dashboard() {
         <div className="col-lg-6">
           <div className="card shadow-sm h-100">
             <div className="card-body">
-              <h6 className="fw-bold mb-3">
-                Recent patients
-              </h6>
+              <h6 className="fw-bold mb-3">Recent patients</h6>
 
               {stats.latestPatients.length === 0 ? (
                 <p className="text-muted mb-0">
@@ -114,9 +110,7 @@ export default function Dashboard() {
                       className="list-group-item d-flex justify-content-between align-items-center px-0"
                     >
                       <div>
-                        <div className="fw-semibold">
-                          {p.fullName}
-                        </div>
+                        <div className="fw-semibold">{p.fullName}</div>
                         <small className="text-muted">
                           {new Date(p.createdAt).toLocaleDateString()}
                         </small>
@@ -142,17 +136,34 @@ export default function Dashboard() {
         {/* SUMMARY */}
         <div className="col-lg-6">
           <div className="card shadow-sm h-100">
-            <div className="card-body d-flex flex-column justify-content-center text-center">
-              <h6 className="fw-bold mb-2">
+            <div className="card-body">
+              <h6 className="fw-bold mb-3 text-center">
                 General Summary
               </h6>
 
-              <p className="text-muted mb-0">
-                All clinical and administrative information
-                is up to date and synchronized.
-              </p>
+              <ul className="list-group list-group-flush mb-4">
+                <li className="list-group-item d-flex justify-content-between px-0">
+                  <span className="text-muted">Total patients</span>
+                  <strong>{stats.patientsCount}</strong>
+                </li>
 
-              <div className="mt-4">
+                <li className="list-group-item d-flex justify-content-between px-0">
+                  <span className="text-muted">Total sessions</span>
+                  <strong>{stats.sessionsCount}</strong>
+                </li>
+
+                <li className="list-group-item d-flex justify-content-between px-0">
+                  <span className="text-muted">Hours saved</span>
+                  <strong>{stats.hoursSaved}h</strong>
+                </li>
+
+                <li className="list-group-item d-flex justify-content-between px-0">
+                  <span className="text-muted">System status</span>
+                  <span className="badge bg-success">Active</span>
+                </li>
+              </ul>
+
+              <div className="text-center">
                 <span className="badge bg-primary px-3 py-2">
                   Professional Mode
                 </span>
@@ -206,18 +217,12 @@ function StatCard({
               {icon}
             </div>
 
-            <div className="text-muted small">
-              {label}
-            </div>
+            <div className="text-muted small">{label}</div>
           </div>
 
-          <h3 className="fw-bold mb-1">
-            {value}
-          </h3>
+          <h3 className="fw-bold mb-1">{value}</h3>
 
-          <small className="text-muted">
-            {footer}
-          </small>
+          <small className="text-muted">{footer}</small>
         </div>
       </div>
     </div>
