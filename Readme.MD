@@ -130,6 +130,11 @@ En el mismo servidor que el backend, si se configura correctamente (ej. sirviend
 📂 Estructura de Directorios
 Una visión general de la organización del proyecto:
 
+## 🗺️ Estructura de Directorios
+
+La estructura principal del proyecto Full-Stack (`backend` en NestJS y `frontend` en React):
+
+```bash
 Morel_IA/
 ├── backend/
 │   ├── src/
@@ -154,4 +159,3 @@ Morel_IA/
     │   └── index.tsx             # Punto de entrada de React
     ├── package.json
     └── vite.config.ts
-
