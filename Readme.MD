@@ -55,10 +55,10 @@ Sigue estos pasos para poner en marcha el proyecto:
 
 ### 1. Clonar el Repositorio
 
-```bash
+
 git clone [https://github.com/fejimenezs/Morel_IA.git](https://github.com/fejimenezs/Morel_IA.git)
 2. Configuración del Backend
-Bash
+
 
 cd Morel_IA/backend
 npm install
@@ -154,3 +154,4 @@ Morel_IA/
     │   └── index.tsx             # Punto de entrada de React
     ├── package.json
     └── vite.config.ts
+
