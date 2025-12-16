@@ -44,6 +44,15 @@ export default function Dashboard() {
     return <div className="p-4 text-muted">Loading dashboard…</div>;
   }
 
+  /* --- datos simples para la gráfica (luego pueden venir del backend) --- */
+  const chartData = [
+    { label: "Mon", value: 5 },
+    { label: "Tue", value: 8 },
+    { label: "Wed", value: 6 },
+    { label: "Thu", value: 10 },
+    { label: "Fri", value: 7 },
+  ];
+
   return (
     <div className="container-fluid py-4">
       {/* HEADER */}
@@ -133,7 +142,7 @@ export default function Dashboard() {
           </div>
         </div>
 
-        {/* SUMMARY */}
+        {/* SUMMARY + CHART */}
         <div className="col-lg-6">
           <div className="card shadow-sm h-100">
             <div className="card-body">
@@ -141,7 +150,9 @@ export default function Dashboard() {
                 General Summary
               </h6>
 
-              <ul className="list-group list-group-flush mb-4">
+              <SimpleLineChart data={chartData} />
+
+              <ul className="list-group list-group-flush mt-4">
                 <li className="list-group-item d-flex justify-content-between px-0">
                   <span className="text-muted">Total patients</span>
                   <strong>{stats.patientsCount}</strong>
@@ -156,23 +167,104 @@ export default function Dashboard() {
                   <span className="text-muted">Hours saved</span>
                   <strong>{stats.hoursSaved}h</strong>
                 </li>
-
-                <li className="list-group-item d-flex justify-content-between px-0">
-                  <span className="text-muted">System status</span>
-                  <span className="badge bg-success">Active</span>
-                </li>
               </ul>
-
-              <div className="text-center">
-                <span className="badge bg-primary px-3 py-2">
-                  Professional Mode
-                </span>
-              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  );
+}
+
+/* =======================
+   SIMPLE SVG LINE CHART
+======================= */
+
+function SimpleLineChart({
+  data,
+}: {
+  data: { label: string; value: number }[];
+}) {
+  const width = 320;
+  const height = 160;
+  const padding = 30;
+
+  const maxValue = Math.max(...data.map((d) => d.value));
+
+  const points = data.map((d, i) => {
+    const x =
+      padding +
+      (i * (width - padding * 2)) / (data.length - 1);
+    const y =
+      height -
+      padding -
+      (d.value / maxValue) * (height - padding * 2);
+    return `${x},${y}`;
+  });
+
+  return (
+    <svg
+      viewBox={`0 0 ${width} ${height}`}
+      width="100%"
+      height="180"
+    >
+      {/* Axes */}
+      <line
+        x1={padding}
+        y1={padding}
+        x2={padding}
+        y2={height - padding}
+        stroke="#ccc"
+      />
+      <line
+        x1={padding}
+        y1={height - padding}
+        x2={width - padding}
+        y2={height - padding}
+        stroke="#ccc"
+      />
+
+      {/* Line */}
+      <polyline
+        fill="none"
+        stroke="#2563eb"
+        strokeWidth="2"
+        points={points.join(" ")}
+      />
+
+      {/* Points */}
+      {points.map((p, i) => {
+        const [x, y] = p.split(",").map(Number);
+        return (
+          <circle
+            key={i}
+            cx={x}
+            cy={y}
+            r={3}
+            fill="#2563eb"
+          />
+        );
+      })}
+
+      {/* Labels */}
+      {data.map((d, i) => {
+        const x =
+          padding +
+          (i * (width - padding * 2)) / (data.length - 1);
+        return (
+          <text
+            key={d.label}
+            x={x}
+            y={height - 10}
+            fontSize="10"
+            textAnchor="middle"
+            fill="#666"
+          >
+            {d.label}
+          </text>
+        );
+      })}
+    </svg>
   );
 }
 
